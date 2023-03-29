@@ -1,0 +1,7 @@
+C:\Users\stual\Documents\STAGE\photographes_soduco\3_key_search>java -jar C:\Sakey\sakey.jar  C:\Users\stual\Documents\STAGE\photographes_soduco\3_key_search\subset_photo_1856.nt 1
+1-non keys: [[http://data.soduco.fr/def/annuaire#numentry, http://data.soduco.fr/def/annuaire#directoryname, http://www.w3.org/2000/01/rdf-schema#label, http://data.soduco.fr/def/annuaire#activity], 
+[http://data.soduco.fr/def/annuaire#directoryname, http://data.soduco.fr/def/annuaire#address, http://data.soduco.fr/def/annuaire#activity], 
+[http://data.soduco.fr/def/annuaire#numentry, http://data.soduco.fr/def/annuaire#directoryname, http://data.soduco.fr/def/annuaire#address, http://www.w3.org/2000/01/rdf-schema#label]]
+
+0-almost keys:[[http://data.soduco.fr/def/annuaire#numentry, http://data.soduco.fr/def/annuaire#address, http://data.soduco.fr/def/annuaire#activity], 
+[http://data.soduco.fr/def/annuaire#address, http://www.w3.org/2000/01/rdf-schema#label, http://data.soduco.fr/def/annuaire#activity]]

@@ -1,0 +1,2575 @@
+<rdf:RDF xmlns:align="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#">
+      <Alignment>
+        <map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11106"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13912"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12459864s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14283"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15099"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/25045"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12760"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149750823#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12908"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/17014"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12273"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14977281s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13949"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13050159j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16070"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1061"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10123"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13050159j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1553"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1020"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14938"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11327"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18457"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10302"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13170"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18247"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/23032"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13282"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10054"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15743"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15146"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14496871f#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11869"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11386"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12491"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14057493c#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1289"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10714"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10273"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10166"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10178"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14775"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb15014020n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11708"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167655361#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10585"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15326"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12272"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12676"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13050159j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10830"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18927"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14638"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/20243"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14017"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167655361#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1271"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13050159j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14725"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/17954"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1964"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13384"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/21034"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18657"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10492"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15313"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13957"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/17365"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11667"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18636"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10306"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10654"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18456"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13913"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/20165"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14977281s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/20011"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14057493c#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13144"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb15014020n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11766"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12459864s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16087"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19685"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1560"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19690"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12321"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11668"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12125776d#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15960"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10655"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15312"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14496871f#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14565"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb15014020n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16195"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb15014020n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11895"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12572627x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11366"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14723"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167655361#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13658"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10769"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10461"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11277"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18993"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18656"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13358"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15591"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167655361#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15634"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11042"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14639"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13725"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/22275"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/24865"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12459864s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16088"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14057493c#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12112"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167655361#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15947"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15974"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10346"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10165"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb149767243#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10771"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb15014020n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11259"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12171"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15850"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/23113"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15027"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/17211"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18078"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14021067n#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13634"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12639"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10900"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14629"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1062"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14960"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15145"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119173388#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14959"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12125776d#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15528"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1564"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13086"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14057493c#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13082"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10713"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153424672#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10272"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12125776d#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14307"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14496871f#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11868"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12459864s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14845"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/17185"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19083"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb130092845#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11043"/>
+          <relation>=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map>
+        <map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12101"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11948432b#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10140"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10608"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10968"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12831"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119607001#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15943"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1658"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10212"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120108852#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12566"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb146736326#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14451"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10757"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10308"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19938"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18571"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12711"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15173"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10212"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10474"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10524"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12196865q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10014"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11904"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11750"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13013641r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10991"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14496871f#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14566"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1657"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10943"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13429"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119607001#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18240"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12105"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14525"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15296"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13757025v#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16367"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13130"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15735"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13430"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10416"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13758"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11662"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13176121w#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11481"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11227"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12541"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16367"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10903"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12957"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10754"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb146736326#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13784"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11938"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14559"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14010"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1658"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10773"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11637"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11215"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1657"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10217"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12723"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13686"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14092"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14917"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1659"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/20042"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14887"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120108852#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12494"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1244"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12252"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13056"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10297"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10221"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10969"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11937"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11751"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167542284#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10218"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11744"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13440"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10266"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19607"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10523"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12196865q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10013"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10902"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14559"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10096"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1137"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14680"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11510"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16162"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12443"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb111589943#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10017"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1021"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14886"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1362"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12891"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11219"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1635"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/121"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10464"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12416"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15734"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1135"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1657"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10267"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11278"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10459"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14680"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12727"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11688"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12664"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12605"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1468"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10551"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15810"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11215"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb162133661#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10885"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12054"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18866"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13026"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10222"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10298"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10734"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1326"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12710"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15794"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18209"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11652"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15173"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10992"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1659"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13441"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12572627x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16614"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1578"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/19606"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10177"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12196865q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10012"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13199"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14534"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16344"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13398"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1479"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11928"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14977281s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12705"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13480"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10901"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13948"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18136"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11712"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14496871f#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12487"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11816"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10044"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11940"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13013641r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11276"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13758"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10752"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11889340k#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10608"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18395"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14917"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14526"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167542284#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10219"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10290"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb146736326#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14449"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14861"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10074"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167527746#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15948"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14888"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11305"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15438"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15899"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16462"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15438"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11456"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11702"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1916"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11747"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1469"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16107"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15232"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12712"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14456"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11344"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11146"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1479"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb146736326#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14450"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16950"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11882"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14199"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb167542284#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1479"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1047"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14977281s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13665"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120108852#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13689"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb146736326#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12124"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14016"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14533"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14963"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1658"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11263"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10235"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13481"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14654"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11941"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12628"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11510"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14536"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14978010z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12956"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135281331#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11623"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13199"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10943"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13092"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/16183"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12640"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10693"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123260611#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15105"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13264"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb10368087r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12539"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb153426590#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11710"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1659"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13182901q#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10657"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13013641r#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14584"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10753"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14889"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120108852#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13254"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123774068#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11993"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120462577#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11264"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb121578596#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14862"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14058274s#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14939"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10113"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13686"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13757025v#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11219"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12401301j#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11939"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/15560"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12537530x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11778"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14519305h#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/12723"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb120108852#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11557"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1047"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/14456"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/10792"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18907"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb118925174#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/1118"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb14845081z#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/18906"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12572627x#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13101"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb141284308#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/13825"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map><map>
+        <Cell>
+          <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb150919682#about"/>
+          <entity2 rdf:resource="http://data.soduco.fr/id/entry/11928"/>
+          <relation>!=</relation>
+          <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+        </Cell>
+      </map>
+      </Alignment>
+    </rdf:RDF>

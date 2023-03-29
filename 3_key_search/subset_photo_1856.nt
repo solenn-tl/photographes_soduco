@@ -1,0 +1,1155 @@
+<http://data.soduco.fr/id/entry/832> <http://www.w3.org/2000/01/rdf-schema#label> "thiery"@fr .
+<http://data.soduco.fr/id/entry/832> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/832> <http://data.soduco.fr/def/annuaire#address> "faub.-st-antoine 7"@fr .
+<http://data.soduco.fr/id/entry/832> <http://data.soduco.fr/def/annuaire#numEntry> "554948"@fr .
+<http://data.soduco.fr/id/entry/832> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3743> <http://www.w3.org/2000/01/rdf-schema#label> "vaute (aug. )"@fr .
+<http://data.soduco.fr/id/entry/3743> <http://data.soduco.fr/def/annuaire#activity> "photographie, le- �ons, portraits sur papier et sur plaques, noirs et colori�s, vues, acad�mies, reproduction d'ob jets d'art"@fr .
+<http://data.soduco.fr/id/entry/3743> <http://data.soduco.fr/def/annuaire#address> "boul. montmartre 5"@fr .
+<http://data.soduco.fr/id/entry/3743> <http://data.soduco.fr/def/annuaire#numEntry> "1487017"@fr .
+<http://data.soduco.fr/id/entry/3743> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8253> <http://www.w3.org/2000/01/rdf-schema#label> "escalon (j.)"@fr .
+<http://data.soduco.fr/id/entry/8253> <http://data.soduco.fr/def/annuaire#activity> "fab. de cadres en tous genres � l'usage des doreurs (ovales, coins, ronds, bordures, etc.), sp�cialit� pour daguerr�o- type et photographie, commission et exporlation"@fr .
+<http://data.soduco.fr/id/entry/8253> <http://data.soduco.fr/def/annuaire#address> "nve-guillemin 13"@fr .
+<http://data.soduco.fr/id/entry/8253> <http://data.soduco.fr/def/annuaire#numEntry> "7274935"@fr .
+<http://data.soduco.fr/id/entry/8253> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1394> <http://www.w3.org/2000/01/rdf-schema#label> "lefman freres"@fr .
+<http://data.soduco.fr/id/entry/1394> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/1394> <http://data.soduco.fr/def/annuaire#address> "boul. de s�bas- topol 32"@fr .
+<http://data.soduco.fr/id/entry/1394> <http://data.soduco.fr/def/annuaire#numEntry> "2895913"@fr .
+<http://data.soduco.fr/id/entry/1394> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6238> <http://www.w3.org/2000/01/rdf-schema#label> "mulnier et numa-blanc"@fr .
+<http://data.soduco.fr/id/entry/6238> <http://data.soduco.fr/def/annuaire#activity> "artistes photographes"@fr .
+<http://data.soduco.fr/id/entry/6238> <http://data.soduco.fr/def/annuaire#address> "vivienne 41"@fr .
+<http://data.soduco.fr/id/entry/6238> <http://data.soduco.fr/def/annuaire#numEntry> "7398064"@fr .
+<http://data.soduco.fr/id/entry/6238> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9103> <http://www.w3.org/2000/01/rdf-schema#label> "moul�n"@fr .
+<http://data.soduco.fr/id/entry/9103> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9103> <http://data.soduco.fr/def/annuaire#address> "richer 23"@fr .
+<http://data.soduco.fr/id/entry/9103> <http://data.soduco.fr/def/annuaire#numEntry> "6088861"@fr .
+<http://data.soduco.fr/id/entry/9103> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/898> <http://www.w3.org/2000/01/rdf-schema#label> "fixon (e"@fr .
+<http://data.soduco.fr/id/entry/898> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/898> <http://data.soduco.fr/def/annuaire#address> "vivienne 33"@fr .
+<http://data.soduco.fr/id/entry/898> <http://data.soduco.fr/def/annuaire#numEntry> "7577057"@fr .
+<http://data.soduco.fr/id/entry/898> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1756> <http://www.w3.org/2000/01/rdf-schema#label> "leisse (a. )"@fr .
+<http://data.soduco.fr/id/entry/1756> <http://data.soduco.fr/def/annuaire#activity> "artiste-photogr"@fr .
+<http://data.soduco.fr/id/entry/1756> <http://data.soduco.fr/def/annuaire#address> "st-lazare 6"@fr .
+<http://data.soduco.fr/id/entry/1756> <http://data.soduco.fr/def/annuaire#numEntry> "4810305"@fr .
+<http://data.soduco.fr/id/entry/1756> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2147> <http://www.w3.org/2000/01/rdf-schema#label> "saugrin"@fr .
+<http://data.soduco.fr/id/entry/2147> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/2147> <http://data.soduco.fr/def/annuaire#address> "boul. montmartre 11"@fr .
+<http://data.soduco.fr/id/entry/2147> <http://data.soduco.fr/def/annuaire#numEntry> "2370779"@fr .
+<http://data.soduco.fr/id/entry/2147> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/258> <http://www.w3.org/2000/01/rdf-schema#label> "bouch�)"@fr .
+<http://data.soduco.fr/id/entry/258> <http://data.soduco.fr/def/annuaire#activity> "sp�cialit� pour la phar- macie, la chimie, la physique, pour la photographic, la galva- noplastic ; porcelaine pour ser- vice de table, confiscurs, �pi- ciers, papctiers, etc"@fr .
+<http://data.soduco.fr/id/entry/258> <http://data.soduco.fr/def/annuaire#address> "rue st"@fr .
+<http://data.soduco.fr/id/entry/258> <http://data.soduco.fr/def/annuaire#numEntry> "6431593"@fr .
+<http://data.soduco.fr/id/entry/258> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11994> <http://www.w3.org/2000/01/rdf-schema#label> "ramon"@fr .
+<http://data.soduco.fr/id/entry/11994> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/11994> <http://data.soduco.fr/def/annuaire#address> "st-antoine 123"@fr .
+<http://data.soduco.fr/id/entry/11994> <http://data.soduco.fr/def/annuaire#numEntry> "6766904"@fr .
+<http://data.soduco.fr/id/entry/11994> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5509> <http://www.w3.org/2000/01/rdf-schema#label> "bourgeois"@fr .
+<http://data.soduco.fr/id/entry/5509> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/5509> <http://data.soduco.fr/def/annuaire#address> "rivoli 59"@fr .
+<http://data.soduco.fr/id/entry/5509> <http://data.soduco.fr/def/annuaire#numEntry> "9141469"@fr .
+<http://data.soduco.fr/id/entry/5509> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7687> <http://www.w3.org/2000/01/rdf-schema#label> "harville et pont"@fr .
+<http://data.soduco.fr/id/entry/7687> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/7687> <http://data.soduco.fr/def/annuaire#address> "laffitte 34"@fr .
+<http://data.soduco.fr/id/entry/7687> <http://data.soduco.fr/def/annuaire#numEntry> "8820033"@fr .
+<http://data.soduco.fr/id/entry/7687> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4279> <http://www.w3.org/2000/01/rdf-schema#label> "marville"@fr .
+<http://data.soduco.fr/id/entry/4279> <http://data.soduco.fr/def/annuaire#activity> "artiste-photog"@fr .
+<http://data.soduco.fr/id/entry/4279> <http://data.soduco.fr/def/annuaire#address> "st-dominique 27"@fr .
+<http://data.soduco.fr/id/entry/4279> <http://data.soduco.fr/def/annuaire#numEntry> "7784521"@fr .
+<http://data.soduco.fr/id/entry/4279> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10778> <http://www.w3.org/2000/01/rdf-schema#label> "disd�ri et cie"@fr .
+<http://data.soduco.fr/id/entry/10778> <http://data.soduco.fr/def/annuaire#activity> "photographie artis- tique et industrielle, portraits en tous genres, st�r�oscopes, monu- ments, collodion et bains de fer, commission et exportation, m�- daille de 1re classe"@fr .
+<http://data.soduco.fr/id/entry/10778> <http://data.soduco.fr/def/annuaire#address> "boul. des ita- liens 8"@fr .
+<http://data.soduco.fr/id/entry/10778> <http://data.soduco.fr/def/annuaire#numEntry> "1486927"@fr .
+<http://data.soduco.fr/id/entry/10778> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3248> <http://www.w3.org/2000/01/rdf-schema#label> "millet"@fr .
+<http://data.soduco.fr/id/entry/3248> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/3248> <http://data.soduco.fr/def/annuaire#address> "buci 11"@fr .
+<http://data.soduco.fr/id/entry/3248> <http://data.soduco.fr/def/annuaire#numEntry> "3380158"@fr .
+<http://data.soduco.fr/id/entry/3248> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8750> <http://www.w3.org/2000/01/rdf-schema#label> "sourdot fils a�n�"@fr .
+<http://data.soduco.fr/id/entry/8750> <http://data.soduco.fr/def/annuaire#activity> "fab. cadres et passe-partout, appareils, plaques et produits chimiques, grand choix d'epreuves photographiques et st�- r�oscopiques"@fr .
+<http://data.soduco.fr/id/entry/8750> <http://data.soduco.fr/def/annuaire#address> "francs-bourgeois- * marais 10"@fr .
+<http://data.soduco.fr/id/entry/8750> <http://data.soduco.fr/def/annuaire#numEntry> "2296292"@fr .
+<http://data.soduco.fr/id/entry/8750> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2565> <http://www.w3.org/2000/01/rdf-schema#label> "escalon (j.)"@fr .
+<http://data.soduco.fr/id/entry/2565> <http://data.soduco.fr/def/annuaire#activity> "fab. de cadres en tous genres � l'usage des doreurs (ovales, coins, ronds, bordures, etc.), sp�cialit� pour daguerr�o- type et photographie, commission et exporlation"@fr .
+<http://data.soduco.fr/id/entry/2565> <http://data.soduco.fr/def/annuaire#address> "four-st-germain 51"@fr .
+<http://data.soduco.fr/id/entry/2565> <http://data.soduco.fr/def/annuaire#numEntry> "7274935"@fr .
+<http://data.soduco.fr/id/entry/2565> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2788> <http://www.w3.org/2000/01/rdf-schema#label> "bouch�)"@fr .
+<http://data.soduco.fr/id/entry/2788> <http://data.soduco.fr/def/annuaire#activity> "sp�cialit� pour la phar- macie, la chimie, la physique, pour la photographic, la galva- noplastic ; porcelaine pour ser- vice de table, confiscurs, �pi- ciers, papctiers, etc"@fr .
+<http://data.soduco.fr/id/entry/2788> <http://data.soduco.fr/def/annuaire#address> "denis"@fr .
+<http://data.soduco.fr/id/entry/2788> <http://data.soduco.fr/def/annuaire#numEntry> "6431593"@fr .
+<http://data.soduco.fr/id/entry/2788> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/676> <http://www.w3.org/2000/01/rdf-schema#label> "mayer et pierson"@fr .
+<http://data.soduco.fr/id/entry/676> <http://data.soduco.fr/def/annuaire#activity> "photographes de s. m. l'emp�reur"@fr .
+<http://data.soduco.fr/id/entry/676> <http://data.soduco.fr/def/annuaire#address> "boulev. des capucines 35"@fr .
+<http://data.soduco.fr/id/entry/676> <http://data.soduco.fr/def/annuaire#numEntry> "1486981"@fr .
+<http://data.soduco.fr/id/entry/676> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11210> <http://www.w3.org/2000/01/rdf-schema#label> "bertaud jeune"@fr .
+<http://data.soduco.fr/id/entry/11210> <http://data.soduco.fr/def/annuaire#activity> "oplicten fab., gar- nit tous les instruments � l'usage de l'astronomie, de la marine et du cadastre, sp?cialit� de pris- mes et cristaux pour exp�rien- ces scienti?iques, lunettes � pris- mes pour mesurer les distances, objectifs pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/11210> <http://data.soduco.fr/def/annuaire#address> "bretagne 32"@fr .
+<http://data.soduco.fr/id/entry/11210> <http://data.soduco.fr/def/annuaire#numEntry> "8028497"@fr .
+<http://data.soduco.fr/id/entry/11210> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7669> <http://www.w3.org/2000/01/rdf-schema#label> "andrieux"@fr .
+<http://data.soduco.fr/id/entry/7669> <http://data.soduco.fr/def/annuaire#activity> "peintre en miniature et photographe"@fr .
+<http://data.soduco.fr/id/entry/7669> <http://data.soduco.fr/def/annuaire#address> "rivoli 79"@fr .
+<http://data.soduco.fr/id/entry/7669> <http://data.soduco.fr/def/annuaire#numEntry> "288434"@fr .
+<http://data.soduco.fr/id/entry/7669> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8876> <http://www.w3.org/2000/01/rdf-schema#label> "foubert"@fr .
+<http://data.soduco.fr/id/entry/8876> <http://data.soduco.fr/def/annuaire#activity> "appareils photographiques"@fr .
+<http://data.soduco.fr/id/entry/8876> <http://data.soduco.fr/def/annuaire#address> "tire- chape 11"@fr .
+<http://data.soduco.fr/id/entry/8876> <http://data.soduco.fr/def/annuaire#numEntry> "6818295"@fr .
+<http://data.soduco.fr/id/entry/8876> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5110> <http://www.w3.org/2000/01/rdf-schema#label> "chardin"@fr .
+<http://data.soduco.fr/id/entry/5110> <http://data.soduco.fr/def/annuaire#activity> "mouteur � la g�latine, sujets religieux, mati�re plas- tique et vicil argent, et repro- ductions photographiques"@fr .
+<http://data.soduco.fr/id/entry/5110> <http://data.soduco.fr/def/annuaire#address> "st- saint-louis-marais 83"@fr .
+<http://data.soduco.fr/id/entry/5110> <http://data.soduco.fr/def/annuaire#numEntry> "9020549"@fr .
+<http://data.soduco.fr/id/entry/5110> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11521> <http://www.w3.org/2000/01/rdf-schema#label> "cl�ment (f.)"@fr .
+<http://data.soduco.fr/id/entry/11521> <http://data.soduco.fr/def/annuaire#activity> "plancur, ?ab. sp�- ciale de plaques pour photogra- phes"@fr .
+<http://data.soduco.fr/id/entry/11521> <http://data.soduco.fr/def/annuaire#address> "saintonge 26"@fr .
+<http://data.soduco.fr/id/entry/11521> <http://data.soduco.fr/def/annuaire#numEntry> "5746728"@fr .
+<http://data.soduco.fr/id/entry/11521> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3267> <http://www.w3.org/2000/01/rdf-schema#label> "thi�bault (g.)"@fr .
+<http://data.soduco.fr/id/entry/3267> <http://data.soduco.fr/def/annuaire#activity> "accessoires de photographie"@fr .
+<http://data.soduco.fr/id/entry/3267> <http://data.soduco.fr/def/annuaire#address> "tracy 5"@fr .
+<http://data.soduco.fr/id/entry/3267> <http://data.soduco.fr/def/annuaire#numEntry> "554830"@fr .
+<http://data.soduco.fr/id/entry/3267> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1970> <http://www.w3.org/2000/01/rdf-schema#label> "maujean"@fr .
+<http://data.soduco.fr/id/entry/1970> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/1970> <http://data.soduco.fr/def/annuaire#address> "faub.�st-honor� 28"@fr .
+<http://data.soduco.fr/id/entry/1970> <http://data.soduco.fr/def/annuaire#numEntry> "6429348"@fr .
+<http://data.soduco.fr/id/entry/1970> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6480> <http://www.w3.org/2000/01/rdf-schema#label> "dunot"@fr .
+<http://data.soduco.fr/id/entry/6480> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/6480> <http://data.soduco.fr/def/annuaire#address> "faub-st-honor� 23"@fr .
+<http://data.soduco.fr/id/entry/6480> <http://data.soduco.fr/def/annuaire#numEntry> "9339802"@fr .
+<http://data.soduco.fr/id/entry/6480> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5895> <http://www.w3.org/2000/01/rdf-schema#label> "l�aut� fr�res"@fr .
+<http://data.soduco.fr/id/entry/5895> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/5895> <http://data.soduco.fr/def/annuaire#address> "milieu-des-ur- sins 3"@fr .
+<http://data.soduco.fr/id/entry/5895> <http://data.soduco.fr/def/annuaire#numEntry> "5570021"@fr .
+<http://data.soduco.fr/id/entry/5895> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3842> <http://www.w3.org/2000/01/rdf-schema#label> "meyniers (g. )"@fr .
+<http://data.soduco.fr/id/entry/3842> <http://data.soduco.fr/def/annuaire#activity> "portraits en photo- graphie, en miniature, � l'huile et � l'aquarelle, reproduction d'objets anim�s et inanim�s"@fr .
+<http://data.soduco.fr/id/entry/3842> <http://data.soduco.fr/def/annuaire#address> "paix 3"@fr .
+<http://data.soduco.fr/id/entry/3842> <http://data.soduco.fr/def/annuaire#numEntry> "1486982"@fr .
+<http://data.soduco.fr/id/entry/3842> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/871> <http://www.w3.org/2000/01/rdf-schema#label> "mayer et pierson"@fr .
+<http://data.soduco.fr/id/entry/871> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/871> <http://data.soduco.fr/def/annuaire#address> "vivienne 48"@fr .
+<http://data.soduco.fr/id/entry/871> <http://data.soduco.fr/def/annuaire#numEntry> "9758025"@fr .
+<http://data.soduco.fr/id/entry/871> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1827> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/1827> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/1827> <http://data.soduco.fr/def/annuaire#address> "laffitte 34"@fr .
+<http://data.soduco.fr/id/entry/1827> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/1827> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7915> <http://www.w3.org/2000/01/rdf-schema#label> "plumier (vor"@fr .
+<http://data.soduco.fr/id/entry/7915> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/7915> <http://data.soduco.fr/def/annuaire#address> "vivienne 36"@fr .
+<http://data.soduco.fr/id/entry/7915> <http://data.soduco.fr/def/annuaire#numEntry> "9691745"@fr .
+<http://data.soduco.fr/id/entry/7915> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11443> <http://www.w3.org/2000/01/rdf-schema#label> "mulnier (f.)"@fr .
+<http://data.soduco.fr/id/entry/11443> <http://data.soduco.fr/def/annuaire#activity> "peintre et photogra- phe, portraits sur papier et sur plaque, reproductions, etc"@fr .
+<http://data.soduco.fr/id/entry/11443> <http://data.soduco.fr/def/annuaire#address> "boul. des italiens 25"@fr .
+<http://data.soduco.fr/id/entry/11443> <http://data.soduco.fr/def/annuaire#numEntry> "1486990"@fr .
+<http://data.soduco.fr/id/entry/11443> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8292> <http://www.w3.org/2000/01/rdf-schema#label> "delezenne (a. henri)"@fr .
+<http://data.soduco.fr/id/entry/8292> <http://data.soduco.fr/def/annuaire#activity> "planeur pour photo- graphie"@fr .
+<http://data.soduco.fr/id/entry/8292> <http://data.soduco.fr/def/annuaire#address> "amelot 70"@fr .
+<http://data.soduco.fr/id/entry/8292> <http://data.soduco.fr/def/annuaire#numEntry> "9307839"@fr .
+<http://data.soduco.fr/id/entry/8292> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11035> <http://www.w3.org/2000/01/rdf-schema#label> "disderi et cie"@fr .
+<http://data.soduco.fr/id/entry/11035> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/11035> <http://data.soduco.fr/def/annuaire#address> "boulev. des ita- liens 8"@fr .
+<http://data.soduco.fr/id/entry/11035> <http://data.soduco.fr/def/annuaire#numEntry> "8338416"@fr .
+<http://data.soduco.fr/id/entry/11035> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3736> <http://www.w3.org/2000/01/rdf-schema#label> "le gray"@fr .
+<http://data.soduco.fr/id/entry/3736> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/3736> <http://data.soduco.fr/def/annuaire#address> "chemin de ronde de la barri�re clichy 7"@fr .
+<http://data.soduco.fr/id/entry/3736> <http://data.soduco.fr/def/annuaire#numEntry> "5513550"@fr .
+<http://data.soduco.fr/id/entry/3736> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3365> <http://www.w3.org/2000/01/rdf-schema#label> "calvet"@fr .
+<http://data.soduco.fr/id/entry/3365> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/3365> <http://data.soduco.fr/def/annuaire#address> "m�nilmontant 5"@fr .
+<http://data.soduco.fr/id/entry/3365> <http://data.soduco.fr/def/annuaire#numEntry> "9736257"@fr .
+<http://data.soduco.fr/id/entry/3365> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1572> <http://www.w3.org/2000/01/rdf-schema#label> "bisson (p. )"@fr .
+<http://data.soduco.fr/id/entry/1572> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/1572> <http://data.soduco.fr/def/annuaire#address> "boul. montparnasse 66"@fr .
+<http://data.soduco.fr/id/entry/1572> <http://data.soduco.fr/def/annuaire#numEntry> "2186838"@fr .
+<http://data.soduco.fr/id/entry/1572> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4572> <http://www.w3.org/2000/01/rdf-schema#label> "lahausse"@fr .
+<http://data.soduco.fr/id/entry/4572> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/4572> <http://data.soduco.fr/def/annuaire#address> "pass. verdeau 13 bis"@fr .
+<http://data.soduco.fr/id/entry/4572> <http://data.soduco.fr/def/annuaire#numEntry> "1152103"@fr .
+<http://data.soduco.fr/id/entry/4572> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8877> <http://www.w3.org/2000/01/rdf-schema#label> "danguy"@fr .
+<http://data.soduco.fr/id/entry/8877> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/8877> <http://data.soduco.fr/def/annuaire#address> "poissonni�re 37"@fr .
+<http://data.soduco.fr/id/entry/8877> <http://data.soduco.fr/def/annuaire#numEntry> "8369026"@fr .
+<http://data.soduco.fr/id/entry/8877> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7299> <http://www.w3.org/2000/01/rdf-schema#label> "thierry"@fr .
+<http://data.soduco.fr/id/entry/7299> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/7299> <http://data.soduco.fr/def/annuaire#address> "st-claude-marais 1"@fr .
+<http://data.soduco.fr/id/entry/7299> <http://data.soduco.fr/def/annuaire#numEntry> "554911"@fr .
+<http://data.soduco.fr/id/entry/7299> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5111> <http://www.w3.org/2000/01/rdf-schema#label> "carr� (l.)"@fr .
+<http://data.soduco.fr/id/entry/5111> <http://data.soduco.fr/def/annuaire#activity> "tourneur -garnisseur, fab. de cadres pour miniature et photographie"@fr .
+<http://data.soduco.fr/id/entry/5111> <http://data.soduco.fr/def/annuaire#address> "beaubourg 33"@fr .
+<http://data.soduco.fr/id/entry/5111> <http://data.soduco.fr/def/annuaire#numEntry> "7274907"@fr .
+<http://data.soduco.fr/id/entry/5111> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6045> <http://www.w3.org/2000/01/rdf-schema#label> "belloche"@fr .
+<http://data.soduco.fr/id/entry/6045> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/6045> <http://data.soduco.fr/def/annuaire#address> "faub. -montmartre 9"@fr .
+<http://data.soduco.fr/id/entry/6045> <http://data.soduco.fr/def/annuaire#numEntry> "489101"@fr .
+<http://data.soduco.fr/id/entry/6045> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8830> <http://www.w3.org/2000/01/rdf-schema#label> "richebourg"@fr .
+<http://data.soduco.fr/id/entry/8830> <http://data.soduco.fr/def/annuaire#activity> "fail les portraits, sur plaques, pap. et verre, ainsi qu'au st�r�oscope, entrep. la reproduct. de tous les objels d'artet de perspect., � la ville ou � la campagne, donne des le�ons de pholographie sur plaques, papiers ou verre, suivant les nouveaux proc�d�s ; fabrique et fournit tous les ap- pareils ainsi que les accessoires, auteur du nouveau manvel de photographie sur collodion"@fr .
+<http://data.soduco.fr/id/entry/8830> <http://data.soduco.fr/def/annuaire#address> "de l"@fr .
+<http://data.soduco.fr/id/entry/8830> <http://data.soduco.fr/def/annuaire#numEntry> "1487005"@fr .
+<http://data.soduco.fr/id/entry/8830> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/932> <http://www.w3.org/2000/01/rdf-schema#label> "chopin"@fr .
+<http://data.soduco.fr/id/entry/932> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/932> <http://data.soduco.fr/def/annuaire#address> "st-honor� 22"@fr .
+<http://data.soduco.fr/id/entry/932> <http://data.soduco.fr/def/annuaire#numEntry> "6397654"@fr .
+<http://data.soduco.fr/id/entry/932> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5859> <http://www.w3.org/2000/01/rdf-schema#label> "chevalier (c.)"@fr .
+<http://data.soduco.fr/id/entry/5859> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/5859> <http://data.soduco.fr/def/annuaire#address> "boul. st-martin"@fr .
+<http://data.soduco.fr/id/entry/5859> <http://data.soduco.fr/def/annuaire#numEntry> "4645667"@fr .
+<http://data.soduco.fr/id/entry/5859> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/376> <http://www.w3.org/2000/01/rdf-schema#label> "reitlinger (f. s.)"@fr .
+<http://data.soduco.fr/id/entry/376> <http://data.soduco.fr/def/annuaire#activity> "fab. d'enca- drements en tous genres, fourni- tures et accessoires pour le da- guerr�otype et la photographie"@fr .
+<http://data.soduco.fr/id/entry/376> <http://data.soduco.fr/def/annuaire#address> "faub.-st-denis 67"@fr .
+<http://data.soduco.fr/id/entry/376> <http://data.soduco.fr/def/annuaire#numEntry> "2296284"@fr .
+<http://data.soduco.fr/id/entry/376> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/612> <http://www.w3.org/2000/01/rdf-schema#label> "breton fr�res"@fr .
+<http://data.soduco.fr/id/entry/612> <http://data.soduco.fr/def/annuaire#activity> "nouveaux daguer- r�otypes pour photographie sur papier"@fr .
+<http://data.soduco.fr/id/entry/612> <http://data.soduco.fr/def/annuaire#address> "dauphine 23"@fr .
+<http://data.soduco.fr/id/entry/612> <http://data.soduco.fr/def/annuaire#numEntry> "1487040"@fr .
+<http://data.soduco.fr/id/entry/612> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9523> <http://www.w3.org/2000/01/rdf-schema#label> "gueuvin"@fr .
+<http://data.soduco.fr/id/entry/9523> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9523> <http://data.soduco.fr/def/annuaire#address> "boul. des italiens ii"@fr .
+<http://data.soduco.fr/id/entry/9523> <http://data.soduco.fr/def/annuaire#numEntry> "6662194"@fr .
+<http://data.soduco.fr/id/entry/9523> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6115> <http://www.w3.org/2000/01/rdf-schema#label> "binant (a.)"@fr .
+<http://data.soduco.fr/id/entry/6115> <http://data.soduco.fr/def/annuaire#activity> "fournitures de bureaux, sp�cialit� pour les pa- piers � dessin blancs et de cou- leurs, pour la mise en carte � l'u- sage des dessinateurs, id.sp�ciaux fran�ais, anglaisiet allemands p.la photographie"@fr .
+<http://data.soduco.fr/id/entry/6115> <http://data.soduco.fr/def/annuaire#address> "cl�ry 7"@fr .
+<http://data.soduco.fr/id/entry/6115> <http://data.soduco.fr/def/annuaire#numEntry> "4410594"@fr .
+<http://data.soduco.fr/id/entry/6115> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11815> <http://www.w3.org/2000/01/rdf-schema#label> "glenisson"@fr .
+<http://data.soduco.fr/id/entry/11815> <http://data.soduco.fr/def/annuaire#activity> "imprimerie photogra- phique, maison fond�e"@fr .
+<http://data.soduco.fr/id/entry/11815> <http://data.soduco.fr/def/annuaire#address> "st-antoine 110"@fr .
+<http://data.soduco.fr/id/entry/11815> <http://data.soduco.fr/def/annuaire#numEntry> "2296252"@fr .
+<http://data.soduco.fr/id/entry/11815> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/12058> <http://www.w3.org/2000/01/rdf-schema#label> "bourquin"@fr .
+<http://data.soduco.fr/id/entry/12058> <http://data.soduco.fr/def/annuaire#activity> "accessoires de photographie"@fr .
+<http://data.soduco.fr/id/entry/12058> <http://data.soduco.fr/def/annuaire#address> "boul. de sebastopol 18"@fr .
+<http://data.soduco.fr/id/entry/12058> <http://data.soduco.fr/def/annuaire#numEntry> "5200556"@fr .
+<http://data.soduco.fr/id/entry/12058> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4796> <http://www.w3.org/2000/01/rdf-schema#label> "lebrun"@fr .
+<http://data.soduco.fr/id/entry/4796> <http://data.soduco.fr/def/annuaire#activity> "photographie"@fr .
+<http://data.soduco.fr/id/entry/4796> <http://data.soduco.fr/def/annuaire#address> "bac 65"@fr .
+<http://data.soduco.fr/id/entry/4796> <http://data.soduco.fr/def/annuaire#numEntry> "1417818"@fr .
+<http://data.soduco.fr/id/entry/4796> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2743> <http://www.w3.org/2000/01/rdf-schema#label> "cyrus (l )"@fr .
+<http://data.soduco.fr/id/entry/2743> <http://data.soduco.fr/def/annuaire#activity> "macaire et cie, mus�e central de la photographie"@fr .
+<http://data.soduco.fr/id/entry/2743> <http://data.soduco.fr/def/annuaire#address> "pass. jouffroy 16"@fr .
+<http://data.soduco.fr/id/entry/2743> <http://data.soduco.fr/def/annuaire#numEntry> "8848860"@fr .
+<http://data.soduco.fr/id/entry/2743> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6454> <http://www.w3.org/2000/01/rdf-schema#label> "aumaistre"@fr .
+<http://data.soduco.fr/id/entry/6454> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/6454> <http://data.soduco.fr/def/annuaire#address> "montmartre 159"@fr .
+<http://data.soduco.fr/id/entry/6454> <http://data.soduco.fr/def/annuaire#numEntry> "7316799"@fr .
+<http://data.soduco.fr/id/entry/6454> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5831> <http://www.w3.org/2000/01/rdf-schema#label> "napias"@fr .
+<http://data.soduco.fr/id/entry/5831> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/5831> <http://data.soduco.fr/def/annuaire#address> "rambuteau 43"@fr .
+<http://data.soduco.fr/id/entry/5831> <http://data.soduco.fr/def/annuaire#numEntry> "4514427"@fr .
+<http://data.soduco.fr/id/entry/5831> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/223> <http://www.w3.org/2000/01/rdf-schema#label> "vaillat (e.)"@fr .
+<http://data.soduco.fr/id/entry/223> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/223> <http://data.soduco.fr/def/annuaire#address> "palais- royal, galerie montpensier 44"@fr .
+<http://data.soduco.fr/id/entry/223> <http://data.soduco.fr/def/annuaire#numEntry> "7612236"@fr .
+<http://data.soduco.fr/id/entry/223> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4193> <http://www.w3.org/2000/01/rdf-schema#label> "chevalier (charles )"@fr .
+<http://data.soduco.fr/id/entry/4193> <http://data.soduco.fr/def/annuaire#activity> "inventeur du da- guerr�otype � verres combin�s. tout ce qui concerne la photograph"@fr .
+<http://data.soduco.fr/id/entry/4193> <http://data.soduco.fr/def/annuaire#address> "palais- royal, galerie de valois 158"@fr .
+<http://data.soduco.fr/id/entry/4193> <http://data.soduco.fr/def/annuaire#numEntry> "1486906"@fr .
+<http://data.soduco.fr/id/entry/4193> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4527> <http://www.w3.org/2000/01/rdf-schema#label> "ernst"@fr .
+<http://data.soduco.fr/id/entry/4527> <http://data.soduco.fr/def/annuaire#activity> "opticien et photographe"@fr .
+<http://data.soduco.fr/id/entry/4527> <http://data.soduco.fr/def/annuaire#address> "lille 11"@fr .
+<http://data.soduco.fr/id/entry/4527> <http://data.soduco.fr/def/annuaire#numEntry> "6385044"@fr .
+<http://data.soduco.fr/id/entry/4527> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/66> <http://www.w3.org/2000/01/rdf-schema#label> "braquehais"@fr .
+<http://data.soduco.fr/id/entry/66> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/66> <http://data.soduco.fr/def/annuaire#address> "louis-le-grand 37"@fr .
+<http://data.soduco.fr/id/entry/66> <http://data.soduco.fr/def/annuaire#numEntry> "9669015"@fr .
+<http://data.soduco.fr/id/entry/66> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5131> <http://www.w3.org/2000/01/rdf-schema#label> "laurent (f.) et casthelaz"@fr .
+<http://data.soduco.fr/id/entry/5131> <http://data.soduco.fr/def/annuaire#activity> "produits chimiques pour la pharmacie et la dro- guerie, sp�c. de prod. pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/5131> <http://data.soduco.fr/def/annuaire#address> "� le valtoi"@fr .
+<http://data.soduco.fr/id/entry/5131> <http://data.soduco.fr/def/annuaire#numEntry> "8925695"@fr .
+<http://data.soduco.fr/id/entry/5131> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6932> <http://www.w3.org/2000/01/rdf-schema#label> "richebourg"@fr .
+<http://data.soduco.fr/id/entry/6932> <http://data.soduco.fr/def/annuaire#activity> "fail les portraits, sur plaques, pap. et verre, ainsi qu'au st�r�oscope, entrep. la reproduct. de tous les objels d'artet de perspect., � la ville ou � la campagne, donne des le�ons de pholographie sur plaques, papiers ou verre, suivant les nouveaux proc�d�s ; fabrique et fournit tous les ap- pareils ainsi que les accessoires, auteur du nouveau manvel de photographie sur collodion"@fr .
+<http://data.soduco.fr/id/entry/6932> <http://data.soduco.fr/def/annuaire#address> "quai"@fr .
+<http://data.soduco.fr/id/entry/6932> <http://data.soduco.fr/def/annuaire#numEntry> "1487005"@fr .
+<http://data.soduco.fr/id/entry/6932> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1606> <http://www.w3.org/2000/01/rdf-schema#label> "morel"@fr .
+<http://data.soduco.fr/id/entry/1606> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/1606> <http://data.soduco.fr/def/annuaire#address> "dragon 44"@fr .
+<http://data.soduco.fr/id/entry/1606> <http://data.soduco.fr/def/annuaire#numEntry> "4612361"@fr .
+<http://data.soduco.fr/id/entry/1606> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4769> <http://www.w3.org/2000/01/rdf-schema#label> "wagner"@fr .
+<http://data.soduco.fr/id/entry/4769> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/4769> <http://data.soduco.fr/def/annuaire#address> "boul. montmartre 3"@fr .
+<http://data.soduco.fr/id/entry/4769> <http://data.soduco.fr/def/annuaire#numEntry> "8179713"@fr .
+<http://data.soduco.fr/id/entry/4769> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9204> <http://www.w3.org/2000/01/rdf-schema#label> "tig�"@fr .
+<http://data.soduco.fr/id/entry/9204> <http://data.soduco.fr/def/annuaire#activity> "artiste peintre et photographe"@fr .
+<http://data.soduco.fr/id/entry/9204> <http://data.soduco.fr/def/annuaire#address> "place du * louvre 20"@fr .
+<http://data.soduco.fr/id/entry/9204> <http://data.soduco.fr/def/annuaire#numEntry> "8187128"@fr .
+<http://data.soduco.fr/id/entry/9204> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4671> <http://www.w3.org/2000/01/rdf-schema#label> "chevalier"@fr .
+<http://data.soduco.fr/id/entry/4671> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/4671> <http://data.soduco.fr/def/annuaire#address> "boul. bonne-nouvel� le 9"@fr .
+<http://data.soduco.fr/id/entry/4671> <http://data.soduco.fr/def/annuaire#numEntry> "4645668"@fr .
+<http://data.soduco.fr/id/entry/4671> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7449> <http://www.w3.org/2000/01/rdf-schema#label> "beaud (hri)"@fr .
+<http://data.soduco.fr/id/entry/7449> <http://data.soduco.fr/def/annuaire#activity> "fab. d'�b�nisterie pour appareils de daguerr�o- type et photographie"@fr .
+<http://data.soduco.fr/id/entry/7449> <http://data.soduco.fr/def/annuaire#address> "cit� holz- bacher 7"@fr .
+<http://data.soduco.fr/id/entry/7449> <http://data.soduco.fr/def/annuaire#numEntry> "2352497"@fr .
+<http://data.soduco.fr/id/entry/7449> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2150> <http://www.w3.org/2000/01/rdf-schema#label> "rousseau fr�res"@fr .
+<http://data.soduco.fr/id/entry/2150> <http://data.soduco.fr/def/annuaire#activity> "fab. de produits chimiques pour les sciences ct sp�cialement pour la photogra- phic"@fr .
+<http://data.soduco.fr/id/entry/2150> <http://data.soduco.fr/def/annuaire#address> "ecole-de-m�decine 9"@fr .
+<http://data.soduco.fr/id/entry/2150> <http://data.soduco.fr/def/annuaire#numEntry> "8925752"@fr .
+<http://data.soduco.fr/id/entry/2150> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5248> <http://www.w3.org/2000/01/rdf-schema#label> "samson (louis)"@fr .
+<http://data.soduco.fr/id/entry/5248> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/5248> <http://data.soduco.fr/def/annuaire#address> "arbre-sec 46"@fr .
+<http://data.soduco.fr/id/entry/5248> <http://data.soduco.fr/def/annuaire#numEntry> "6905205"@fr .
+<http://data.soduco.fr/id/entry/5248> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2832> <http://www.w3.org/2000/01/rdf-schema#label> "durand"@fr .
+<http://data.soduco.fr/id/entry/2832> <http://data.soduco.fr/def/annuaire#activity> "accessoires pour photographie"@fr .
+<http://data.soduco.fr/id/entry/2832> <http://data.soduco.fr/def/annuaire#address> "quai des orf�vres 68"@fr .
+<http://data.soduco.fr/id/entry/2832> <http://data.soduco.fr/def/annuaire#numEntry> "4284682"@fr .
+<http://data.soduco.fr/id/entry/2832> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3854> <http://www.w3.org/2000/01/rdf-schema#label> "goislard"@fr .
+<http://data.soduco.fr/id/entry/3854> <http://data.soduco.fr/def/annuaire#activity> "artiste-photographe"@fr .
+<http://data.soduco.fr/id/entry/3854> <http://data.soduco.fr/def/annuaire#address> "palais-royal galerie de valois 137"@fr .
+<http://data.soduco.fr/id/entry/3854> <http://data.soduco.fr/def/annuaire#numEntry> "8051634"@fr .
+<http://data.soduco.fr/id/entry/3854> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/12509> <http://www.w3.org/2000/01/rdf-schema#label> "clouzard et souliez"@fr .
+<http://data.soduco.fr/id/entry/12509> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/12509> <http://data.soduco.fr/def/annuaire#address> "grands- augustins 28"@fr .
+<http://data.soduco.fr/id/entry/12509> <http://data.soduco.fr/def/annuaire#numEntry> "5131997"@fr .
+<http://data.soduco.fr/id/entry/12509> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9794> <http://www.w3.org/2000/01/rdf-schema#label> "brisson"@fr .
+<http://data.soduco.fr/id/entry/9794> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9794> <http://data.soduco.fr/def/annuaire#address> "nve-st-augustin 1"@fr .
+<http://data.soduco.fr/id/entry/9794> <http://data.soduco.fr/def/annuaire#numEntry> "5060625"@fr .
+<http://data.soduco.fr/id/entry/9794> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/809> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/809> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/809> <http://data.soduco.fr/def/annuaire#address> "� belle- vue"@fr .
+<http://data.soduco.fr/id/entry/809> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/809> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/934> <http://www.w3.org/2000/01/rdf-schema#label> "hapey"@fr .
+<http://data.soduco.fr/id/entry/934> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/934> <http://data.soduco.fr/def/annuaire#address> "faub.�st-denis 41"@fr .
+<http://data.soduco.fr/id/entry/934> <http://data.soduco.fr/def/annuaire#numEntry> "8819859"@fr .
+<http://data.soduco.fr/id/entry/934> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10150> <http://www.w3.org/2000/01/rdf-schema#label> "lapanne"@fr .
+<http://data.soduco.fr/id/entry/10150> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/10150> <http://data.soduco.fr/def/annuaire#address> "st-antoine 170-172"@fr .
+<http://data.soduco.fr/id/entry/10150> <http://data.soduco.fr/def/annuaire#numEntry> "618410"@fr .
+<http://data.soduco.fr/id/entry/10150> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3214> <http://www.w3.org/2000/01/rdf-schema#label> "dornier"@fr .
+<http://data.soduco.fr/id/entry/3214> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/3214> <http://data.soduco.fr/def/annuaire#address> "rivoli 150"@fr .
+<http://data.soduco.fr/id/entry/3214> <http://data.soduco.fr/def/annuaire#numEntry> "698593"@fr .
+<http://data.soduco.fr/id/entry/3214> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3474> <http://www.w3.org/2000/01/rdf-schema#label> "chenel"@fr .
+<http://data.soduco.fr/id/entry/3474> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/3474> <http://data.soduco.fr/def/annuaire#address> "rambuteau 76"@fr .
+<http://data.soduco.fr/id/entry/3474> <http://data.soduco.fr/def/annuaire#numEntry> "2865668"@fr .
+<http://data.soduco.fr/id/entry/3474> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8949> <http://www.w3.org/2000/01/rdf-schema#label> "meynier (g.)"@fr .
+<http://data.soduco.fr/id/entry/8949> <http://data.soduco.fr/def/annuaire#activity> "pour ch�les impri- m�s, photographie pour la repro- duction de toute esp�ce d'objets d'artet industriel, portraits"@fr .
+<http://data.soduco.fr/id/entry/8949> <http://data.soduco.fr/def/annuaire#address> "paix 3"@fr .
+<http://data.soduco.fr/id/entry/8949> <http://data.soduco.fr/def/annuaire#numEntry> "1449253"@fr .
+<http://data.soduco.fr/id/entry/8949> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10090> <http://www.w3.org/2000/01/rdf-schema#label> "lukkow"@fr .
+<http://data.soduco.fr/id/entry/10090> <http://data.soduco.fr/def/annuaire#activity> "artiste peintre, coloris sp�cial appliqu� sur la photogra-  phie"@fr .
+<http://data.soduco.fr/id/entry/10090> <http://data.soduco.fr/def/annuaire#address> "faub. -st-martin 35"@fr .
+<http://data.soduco.fr/id/entry/10090> <http://data.soduco.fr/def/annuaire#numEntry> "1486975"@fr .
+<http://data.soduco.fr/id/entry/10090> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8480> <http://www.w3.org/2000/01/rdf-schema#label> "delannoy"@fr .
+<http://data.soduco.fr/id/entry/8480> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/8480> <http://data.soduco.fr/def/annuaire#address> "faub.-st-martin 8"@fr .
+<http://data.soduco.fr/id/entry/8480> <http://data.soduco.fr/def/annuaire#numEntry> "7176340"@fr .
+<http://data.soduco.fr/id/entry/8480> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/517> <http://www.w3.org/2000/01/rdf-schema#label> "feyen"@fr .
+<http://data.soduco.fr/id/entry/517> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/517> <http://data.soduco.fr/def/annuaire#address> "basse-du-rempart 36"@fr .
+<http://data.soduco.fr/id/entry/517> <http://data.soduco.fr/def/annuaire#numEntry> "9615781"@fr .
+<http://data.soduco.fr/id/entry/517> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4399> <http://www.w3.org/2000/01/rdf-schema#label> "richebourg"@fr .
+<http://data.soduco.fr/id/entry/4399> <http://data.soduco.fr/def/annuaire#activity> "fail les portraits, sur plaques, pap. et verre, ainsi qu'au st�r�oscope, entrep. la reproduct. de tous les objels d'artet de perspect., � la ville ou � la campagne, donne des le�ons de pholographie sur plaques, papiers ou verre, suivant les nouveaux proc�d�s ; fabrique et fournit tous les ap- pareils ainsi que les accessoires, auteur du nouveau manvel de photographie sur collodion"@fr .
+<http://data.soduco.fr/id/entry/4399> <http://data.soduco.fr/def/annuaire#address> "horloge 29"@fr .
+<http://data.soduco.fr/id/entry/4399> <http://data.soduco.fr/def/annuaire#numEntry> "1487005"@fr .
+<http://data.soduco.fr/id/entry/4399> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9094> <http://www.w3.org/2000/01/rdf-schema#label> "d�rogy et hermagis"@fr .
+<http://data.soduco.fr/id/entry/9094> <http://data.soduco.fr/def/annuaire#activity> "success. de wallet, fab. sp�ciale d�instru- ments pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/9094> <http://data.soduco.fr/def/annuaire#address> "quai de l"@fr .
+<http://data.soduco.fr/id/entry/9094> <http://data.soduco.fr/def/annuaire#numEntry> "2296242"@fr .
+<http://data.soduco.fr/id/entry/9094> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6999> <http://www.w3.org/2000/01/rdf-schema#label> "meynier (g.)"@fr .
+<http://data.soduco.fr/id/entry/6999> <http://data.soduco.fr/def/annuaire#activity> "dessinateur et photographe"@fr .
+<http://data.soduco.fr/id/entry/6999> <http://data.soduco.fr/def/annuaire#address> "paix 3"@fr .
+<http://data.soduco.fr/id/entry/6999> <http://data.soduco.fr/def/annuaire#numEntry> "3494636"@fr .
+<http://data.soduco.fr/id/entry/6999> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6632> <http://www.w3.org/2000/01/rdf-schema#label> "chevalier (charles )"@fr .
+<http://data.soduco.fr/id/entry/6632> <http://data.soduco.fr/def/annuaire#activity> "inventeur du da- guerr�otype � verres combin�s. tout ce qui concerne la photograph"@fr .
+<http://data.soduco.fr/id/entry/6632> <http://data.soduco.fr/def/annuaire#address> "cour des fon- taines 1 bis"@fr .
+<http://data.soduco.fr/id/entry/6632> <http://data.soduco.fr/def/annuaire#numEntry> "1486906"@fr .
+<http://data.soduco.fr/id/entry/6632> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9795> <http://www.w3.org/2000/01/rdf-schema#label> "bevalet"@fr .
+<http://data.soduco.fr/id/entry/9795> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9795> <http://data.soduco.fr/def/annuaire#address> "montmartre 53"@fr .
+<http://data.soduco.fr/id/entry/9795> <http://data.soduco.fr/def/annuaire#numEntry> "3810796"@fr .
+<http://data.soduco.fr/id/entry/9795> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9711> <http://www.w3.org/2000/01/rdf-schema#label> "champigny"@fr .
+<http://data.soduco.fr/id/entry/9711> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9711> <http://data.soduco.fr/def/annuaire#address> "montmartre 59"@fr .
+<http://data.soduco.fr/id/entry/9711> <http://data.soduco.fr/def/annuaire#numEntry> "8850959"@fr .
+<http://data.soduco.fr/id/entry/9711> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5718> <http://www.w3.org/2000/01/rdf-schema#label> "samson (louis)"@fr .
+<http://data.soduco.fr/id/entry/5718> <http://data.soduco.fr/def/annuaire#activity> "vitraux photogra- phiques brev. s. g. d. g. pour la france etl'�trang., repr�s. toutes sortes de sujets, tableaux, vues, statues, compositions photogra- phiques et servant � la d�cora- tiou des fen�tres d'appartements, de salles de bains, de chapel- les, etc. �epreuves pour le st�- r�oscope et portraits en tout  genre"@fr .
+<http://data.soduco.fr/id/entry/5718> <http://data.soduco.fr/def/annuaire#address> "rue de l"@fr .
+<http://data.soduco.fr/id/entry/5718> <http://data.soduco.fr/def/annuaire#numEntry> "1487009"@fr .
+<http://data.soduco.fr/id/entry/5718> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5931> <http://www.w3.org/2000/01/rdf-schema#label> "paquet"@fr .
+<http://data.soduco.fr/id/entry/5931> <http://data.soduco.fr/def/annuaire#activity> "chronom�tre photographi- que, brevet�"@fr .
+<http://data.soduco.fr/id/entry/5931> <http://data.soduco.fr/def/annuaire#address> "st-louis-marais 29"@fr .
+<http://data.soduco.fr/id/entry/5931> <http://data.soduco.fr/def/annuaire#numEntry> "2296278"@fr .
+<http://data.soduco.fr/id/entry/5931> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8695> <http://www.w3.org/2000/01/rdf-schema#label> "gouin (a.)"@fr .
+<http://data.soduco.fr/id/entry/8695> <http://data.soduco.fr/def/annuaire#activity> "maison de confiance, daguerr�otype colori�, artiste peintre, �l�ve de feu girodet, sp�cialit� de st�r�oscopes, pho- tographie, photom�tres, instru- ments de pr�cision pour r�gler les foyers chimiques, de couleurs perfectionn�es, m�daille � l'ex- position universelle de londres"@fr .
+<http://data.soduco.fr/id/entry/8695> <http://data.soduco.fr/def/annuaire#address> "boul. des capucines 1"@fr .
+<http://data.soduco.fr/id/entry/8695> <http://data.soduco.fr/def/annuaire#numEntry> "2296253"@fr .
+<http://data.soduco.fr/id/entry/8695> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/175> <http://www.w3.org/2000/01/rdf-schema#label> "loewenthal"@fr .
+<http://data.soduco.fr/id/entry/175> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/175> <http://data.soduco.fr/def/annuaire#address> "petit-carreau 24"@fr .
+<http://data.soduco.fr/id/entry/175> <http://data.soduco.fr/def/annuaire#numEntry> "1812189"@fr .
+<http://data.soduco.fr/id/entry/175> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7887> <http://www.w3.org/2000/01/rdf-schema#label> "millet"@fr .
+<http://data.soduco.fr/id/entry/7887> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/7887> <http://data.soduco.fr/def/annuaire#address> "montesquieu 6"@fr .
+<http://data.soduco.fr/id/entry/7887> <http://data.soduco.fr/def/annuaire#numEntry> "3380157"@fr .
+<http://data.soduco.fr/id/entry/7887> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/857> <http://www.w3.org/2000/01/rdf-schema#label> "vaute (auguste)"@fr .
+<http://data.soduco.fr/id/entry/857> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/857> <http://data.soduco.fr/def/annuaire#address> "boul. montmartre 5"@fr .
+<http://data.soduco.fr/id/entry/857> <http://data.soduco.fr/def/annuaire#numEntry> "8817100"@fr .
+<http://data.soduco.fr/id/entry/857> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3397> <http://www.w3.org/2000/01/rdf-schema#label> "duclos"@fr .
+<http://data.soduco.fr/id/entry/3397> <http://data.soduco.fr/def/annuaire#activity> "brev. s. g. d. g. fab. de gutla-percha, instruments de chirurgie, de photographie, arti- cles de voyage et de chasse, garnitures de cuves et r�servoirs"@fr .
+<http://data.soduco.fr/id/entry/3397> <http://data.soduco.fr/def/annuaire#address> "nve-coquenard 26"@fr .
+<http://data.soduco.fr/id/entry/3397> <http://data.soduco.fr/def/annuaire#numEntry> "8299199"@fr .
+<http://data.soduco.fr/id/entry/3397> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6262> <http://www.w3.org/2000/01/rdf-schema#label> "hoiteau"@fr .
+<http://data.soduco.fr/id/entry/6262> <http://data.soduco.fr/def/annuaire#activity> "fab. de cadres pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/6262> <http://data.soduco.fr/def/annuaire#address> "temple 191"@fr .
+<http://data.soduco.fr/id/entry/6262> <http://data.soduco.fr/def/annuaire#numEntry> "8523963"@fr .
+<http://data.soduco.fr/id/entry/6262> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11429> <http://www.w3.org/2000/01/rdf-schema#label> "belloc (a.)"@fr .
+<http://data.soduco.fr/id/entry/11429> <http://data.soduco.fr/def/annuaire#activity> "sp�cialu� d'enseigne- ment photographique sur tous les proc�d�s , imprimerie photogra- phique, reproduction d'objels d'art"@fr .
+<http://data.soduco.fr/id/entry/11429> <http://data.soduco.fr/def/annuaire#address> "lancry 16"@fr .
+<http://data.soduco.fr/id/entry/11429> <http://data.soduco.fr/def/annuaire#numEntry> "288446"@fr .
+<http://data.soduco.fr/id/entry/11429> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3564> <http://www.w3.org/2000/01/rdf-schema#label> "chabut"@fr .
+<http://data.soduco.fr/id/entry/3564> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/3564> <http://data.soduco.fr/def/annuaire#address> "st-denis 177"@fr .
+<http://data.soduco.fr/id/entry/3564> <http://data.soduco.fr/def/annuaire#numEntry> "2974928"@fr .
+<http://data.soduco.fr/id/entry/3564> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8853> <http://www.w3.org/2000/01/rdf-schema#label> "le?man fr�res"@fr .
+<http://data.soduco.fr/id/entry/8853> <http://data.soduco.fr/def/annuaire#activity> "photographie ar- tistique, portraits, reproduction d'objets d'art et industriels, st�- r�oscopes"@fr .
+<http://data.soduco.fr/id/entry/8853> <http://data.soduco.fr/def/annuaire#address> "boul. de s�bastopol 3"@fr .
+<http://data.soduco.fr/id/entry/8853> <http://data.soduco.fr/def/annuaire#numEntry> "1486967"@fr .
+<http://data.soduco.fr/id/entry/8853> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11633> <http://www.w3.org/2000/01/rdf-schema#label> "guillet"@fr .
+<http://data.soduco.fr/id/entry/11633> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/11633> <http://data.soduco.fr/def/annuaire#address> "boul, bonne-nouvelle 5 bis"@fr .
+<http://data.soduco.fr/id/entry/11633> <http://data.soduco.fr/def/annuaire#numEntry> "1489486"@fr .
+<http://data.soduco.fr/id/entry/11633> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7140> <http://www.w3.org/2000/01/rdf-schema#label> "richebourg"@fr .
+<http://data.soduco.fr/id/entry/7140> <http://data.soduco.fr/def/annuaire#activity> "ancien �l�ve particulier et fournisseur de m. daguerre. auteur de plu- sieurs manuels �l�mentaires sur le daguerr�otype et la photogra- phie par le collodion ; fabrique et fournit tous les appareils ou ac- cessoires n�cessaires � l'applica- tion ou � l'exploitation de ce nouvel art, soit sur plaque, papier ou verre. fabrique aussi les produits chimiques sp�ciaux ad hoc. laboratoire, fabrique et"@fr .
+<http://data.soduco.fr/id/entry/7140> <http://data.soduco.fr/def/annuaire#address> "quai de l"@fr .
+<http://data.soduco.fr/id/entry/7140> <http://data.soduco.fr/def/annuaire#numEntry> "2296287"@fr .
+<http://data.soduco.fr/id/entry/7140> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11002> <http://www.w3.org/2000/01/rdf-schema#label> "l�cu et richy"@fr .
+<http://data.soduco.fr/id/entry/11002> <http://data.soduco.fr/def/annuaire#activity> "glaces minces el fortes, cuvettes en glace (cuves verticales, double biseau, mod�le d�pos�); porcelaine, gutta-percha et en bois fond de verre pour la photographie, capsules poreuses, syst�me baroh-gros, glaces et verres d�polis pour la chambre noire, etc"@fr .
+<http://data.soduco.fr/id/entry/11002> <http://data.soduco.fr/def/annuaire#address> "st-etienne-bonne- nouvelle 5"@fr .
+<http://data.soduco.fr/id/entry/11002> <http://data.soduco.fr/def/annuaire#numEntry> "2296265"@fr .
+<http://data.soduco.fr/id/entry/11002> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1586> <http://www.w3.org/2000/01/rdf-schema#label> "bisson fr�res"@fr .
+<http://data.soduco.fr/id/entry/1586> <http://data.soduco.fr/def/annuaire#activity> "photographes des minist�res, imprimerie photogra- phique, reproduction de tous des- sins, gravures, bronzes, pendules et objets d"@fr .
+<http://data.soduco.fr/id/entry/1586> <http://data.soduco.fr/def/annuaire#address> "garanci�re 8"@fr .
+<http://data.soduco.fr/id/entry/1586> <http://data.soduco.fr/def/annuaire#numEntry> "288451"@fr .
+<http://data.soduco.fr/id/entry/1586> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8297> <http://www.w3.org/2000/01/rdf-schema#label> "legros"@fr .
+<http://data.soduco.fr/id/entry/8297> <http://data.soduco.fr/def/annuaire#activity> "auteur de plusieurs ou- vrages de photographie perfec- tionn�e"@fr .
+<http://data.soduco.fr/id/entry/8297> <http://data.soduco.fr/def/annuaire#address> "palais-royal, gale- rie de valois 116"@fr .
+<http://data.soduco.fr/id/entry/8297> <http://data.soduco.fr/def/annuaire#numEntry> "2296266"@fr .
+<http://data.soduco.fr/id/entry/8297> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4910> <http://www.w3.org/2000/01/rdf-schema#label> "wild et fronti"@fr .
+<http://data.soduco.fr/id/entry/4910> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/4910> <http://data.soduco.fr/def/annuaire#address> "boul. des ca- pucines 39"@fr .
+<http://data.soduco.fr/id/entry/4910> <http://data.soduco.fr/def/annuaire#numEntry> "8460731"@fr .
+<http://data.soduco.fr/id/entry/4910> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4006> <http://www.w3.org/2000/01/rdf-schema#label> "boucher-lormeau"@fr .
+<http://data.soduco.fr/id/entry/4006> <http://data.soduco.fr/def/annuaire#activity> "jumelles achro- matiques, duchesses, longues- vues, lunclles, daguerr�otypes, st�r�oscopes, instruments de physique el de photographic en tous geures, commiss., export"@fr .
+<http://data.soduco.fr/id/entry/4006> <http://data.soduco.fr/def/annuaire#address> "renard-st-sauveur 6"@fr .
+<http://data.soduco.fr/id/entry/4006> <http://data.soduco.fr/def/annuaire#numEntry> "3302140"@fr .
+<http://data.soduco.fr/id/entry/4006> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10728> <http://www.w3.org/2000/01/rdf-schema#label> "reitlinger (f.-s.)"@fr .
+<http://data.soduco.fr/id/entry/10728> <http://data.soduco.fr/def/annuaire#activity> "fab. d'enca- drements en tous genres, articles pour le daguerr�otype ; la photo- graphie et la miroiderie, tableaux  fin�s"@fr .
+<http://data.soduco.fr/id/entry/10728> <http://data.soduco.fr/def/annuaire#address> "faub.-st-denis 67"@fr .
+<http://data.soduco.fr/id/entry/10728> <http://data.soduco.fr/def/annuaire#numEntry> "9622279"@fr .
+<http://data.soduco.fr/id/entry/10728> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7169> <http://www.w3.org/2000/01/rdf-schema#label> "larcher (a.)"@fr .
+<http://data.soduco.fr/id/entry/7169> <http://data.soduco.fr/def/annuaire#activity> "fab d'articles en gutta-percha pour la photogra- phie, la chimie et la chirurgie ; objets confectionn�s sur mod�les"@fr .
+<http://data.soduco.fr/id/entry/7169> <http://data.soduco.fr/def/annuaire#address> "foss�s-montmartre 7"@fr .
+<http://data.soduco.fr/id/entry/7169> <http://data.soduco.fr/def/annuaire#numEntry> "8299203"@fr .
+<http://data.soduco.fr/id/entry/7169> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/723> <http://www.w3.org/2000/01/rdf-schema#label> "guillot-saguez"@fr .
+<http://data.soduco.fr/id/entry/723> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/723> <http://data.soduco.fr/def/annuaire#address> "pass. des p�- noramas, galerie de la bourse 5"@fr .
+<http://data.soduco.fr/id/entry/723> <http://data.soduco.fr/def/annuaire#numEntry> "1489594"@fr .
+<http://data.soduco.fr/id/entry/723> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/946> <http://www.w3.org/2000/01/rdf-schema#label> "trottier"@fr .
+<http://data.soduco.fr/id/entry/946> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/946> <http://data.soduco.fr/def/annuaire#address> "montmartre 149"@fr .
+<http://data.soduco.fr/id/entry/946> <http://data.soduco.fr/def/annuaire#numEntry> "2032445"@fr .
+<http://data.soduco.fr/id/entry/946> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/12178> <http://www.w3.org/2000/01/rdf-schema#label> "bellan"@fr .
+<http://data.soduco.fr/id/entry/12178> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/12178> <http://data.soduco.fr/def/annuaire#address> "filles-du-calvaire 8"@fr .
+<http://data.soduco.fr/id/entry/12178> <http://data.soduco.fr/def/annuaire#numEntry> "488995"@fr .
+<http://data.soduco.fr/id/entry/12178> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6226> <http://www.w3.org/2000/01/rdf-schema#label> "doyen (a.)"@fr .
+<http://data.soduco.fr/id/entry/6226> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/6226> <http://data.soduco.fr/def/annuaire#address> "saint-denis 278"@fr .
+<http://data.soduco.fr/id/entry/6226> <http://data.soduco.fr/def/annuaire#numEntry> "4420883"@fr .
+<http://data.soduco.fr/id/entry/6226> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5826> <http://www.w3.org/2000/01/rdf-schema#label> "marion (a.) et cie"@fr .
+<http://data.soduco.fr/id/entry/5826> <http://data.soduco.fr/def/annuaire#activity> "papiers pr�pa- r�s de toutes sortes, positifs, sa- l�s et albumin�s, papiers n�gatifs, cire simpl�, cire iodur�e et sen- sibilis�e, papiers photographi- ques non pr�par�s"@fr .
+<http://data.soduco.fr/id/entry/5826> <http://data.soduco.fr/def/annuaire#address> "cit� berg�re 15"@fr .
+<http://data.soduco.fr/id/entry/5826> <http://data.soduco.fr/def/annuaire#numEntry> "2296268"@fr .
+<http://data.soduco.fr/id/entry/5826> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/714> <http://www.w3.org/2000/01/rdf-schema#label> "bisson fr�res"@fr .
+<http://data.soduco.fr/id/entry/714> <http://data.soduco.fr/def/annuaire#activity> "photographes des minist�res, imprimerie photogra- phique, reproduction de tous des- sins, gravures, bronzes, pendules et objets d"@fr .
+<http://data.soduco.fr/id/entry/714> <http://data.soduco.fr/def/annuaire#address> "sulpice"@fr .
+<http://data.soduco.fr/id/entry/714> <http://data.soduco.fr/def/annuaire#numEntry> "288451"@fr .
+<http://data.soduco.fr/id/entry/714> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10524> <http://www.w3.org/2000/01/rdf-schema#label> "michel"@fr .
+<http://data.soduco.fr/id/entry/10524> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/10524> <http://data.soduco.fr/def/annuaire#address> "mirom�nil 3"@fr .
+<http://data.soduco.fr/id/entry/10524> <http://data.soduco.fr/def/annuaire#numEntry> "9301108"@fr .
+<http://data.soduco.fr/id/entry/10524> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3625> <http://www.w3.org/2000/01/rdf-schema#label> "carr� (l.)"@fr .
+<http://data.soduco.fr/id/entry/3625> <http://data.soduco.fr/def/annuaire#activity> "tourneur-garnisseur, fab. sp�ciale de cadres en tous genres, pour miniatures et photo- graphie"@fr .
+<http://data.soduco.fr/id/entry/3625> <http://data.soduco.fr/def/annuaire#address> "beaubourg 33"@fr .
+<http://data.soduco.fr/id/entry/3625> <http://data.soduco.fr/def/annuaire#numEntry> "1487042"@fr .
+<http://data.soduco.fr/id/entry/3625> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3254> <http://www.w3.org/2000/01/rdf-schema#label> "fougeret"@fr .
+<http://data.soduco.fr/id/entry/3254> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/3254> <http://data.soduco.fr/def/annuaire#address> "faub.-st-antoine 78"@fr .
+<http://data.soduco.fr/id/entry/3254> <http://data.soduco.fr/def/annuaire#numEntry> "9744274"@fr .
+<http://data.soduco.fr/id/entry/3254> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2891> <http://www.w3.org/2000/01/rdf-schema#label> "beaudier"@fr .
+<http://data.soduco.fr/id/entry/2891> <http://data.soduco.fr/def/annuaire#activity> "artiste photogr"@fr .
+<http://data.soduco.fr/id/entry/2891> <http://data.soduco.fr/def/annuaire#address> "st-honor� 276"@fr .
+<http://data.soduco.fr/id/entry/2891> <http://data.soduco.fr/def/annuaire#numEntry> "7436254"@fr .
+<http://data.soduco.fr/id/entry/2891> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10960> <http://www.w3.org/2000/01/rdf-schema#label> "darlot"@fr .
+<http://data.soduco.fr/id/entry/10960> <http://data.soduco.fr/def/annuaire#activity> "sp�cial. d'apparcits pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/10960> <http://data.soduco.fr/def/annuaire#address> "quai de l'hor- loge 25"@fr .
+<http://data.soduco.fr/id/entry/10960> <http://data.soduco.fr/def/annuaire#numEntry> "3302189"@fr .
+<http://data.soduco.fr/id/entry/10960> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/8794> <http://www.w3.org/2000/01/rdf-schema#label> "fredricks penabert et leblanc"@fr .
+<http://data.soduco.fr/id/entry/8794> <http://data.soduco.fr/def/annuaire#activity> "galerie am�- ricaine photograph"@fr .
+<http://data.soduco.fr/id/entry/8794> <http://data.soduco.fr/def/annuaire#address> "basse-du-rempart 46"@fr .
+<http://data.soduco.fr/id/entry/8794> <http://data.soduco.fr/def/annuaire#numEntry> "367817"@fr .
+<http://data.soduco.fr/id/entry/8794> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6148> <http://www.w3.org/2000/01/rdf-schema#label> "gilbert"@fr .
+<http://data.soduco.fr/id/entry/6148> <http://data.soduco.fr/def/annuaire#activity> "peintre photographe, cours k de photographie"@fr .
+<http://data.soduco.fr/id/entry/6148> <http://data.soduco.fr/def/annuaire#address> "st-marc 13"@fr .
+<http://data.soduco.fr/id/entry/6148> <http://data.soduco.fr/def/annuaire#numEntry> "1486942"@fr .
+<http://data.soduco.fr/id/entry/6148> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5094> <http://www.w3.org/2000/01/rdf-schema#label> "cosson"@fr .
+<http://data.soduco.fr/id/entry/5094> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/5094> <http://data.soduco.fr/def/annuaire#address> "boul. bonne-nouvelle 35"@fr .
+<http://data.soduco.fr/id/entry/5094> <http://data.soduco.fr/def/annuaire#numEntry> "427544"@fr .
+<http://data.soduco.fr/id/entry/5094> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6032> <http://www.w3.org/2000/01/rdf-schema#label> "lukkow"@fr .
+<http://data.soduco.fr/id/entry/6032> <http://data.soduco.fr/def/annuaire#activity> "peintre-photographe"@fr .
+<http://data.soduco.fr/id/entry/6032> <http://data.soduco.fr/def/annuaire#address> "faub.-st-mar- * tin 35"@fr .
+<http://data.soduco.fr/id/entry/6032> <http://data.soduco.fr/def/annuaire#numEntry> "175520"@fr .
+<http://data.soduco.fr/id/entry/6032> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4597> <http://www.w3.org/2000/01/rdf-schema#label> "guilloux"@fr .
+<http://data.soduco.fr/id/entry/4597> <http://data.soduco.fr/def/annuaire#activity> "miroitier, arlicles pour la photographic, envois en pro- vince ct � l'�tranger"@fr .
+<http://data.soduco.fr/id/entry/4597> <http://data.soduco.fr/def/annuaire#address> "faub.-st- martin 34"@fr .
+<http://data.soduco.fr/id/entry/4597> <http://data.soduco.fr/def/annuaire#numEntry> "2983825"@fr .
+<http://data.soduco.fr/id/entry/4597> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9626> <http://www.w3.org/2000/01/rdf-schema#label> "thi�bault (g.)"@fr .
+<http://data.soduco.fr/id/entry/9626> <http://data.soduco.fr/def/annuaire#activity> "accessoires de photographie"@fr .
+<http://data.soduco.fr/id/entry/9626> <http://data.soduco.fr/def/annuaire#address> "richer 3"@fr .
+<http://data.soduco.fr/id/entry/9626> <http://data.soduco.fr/def/annuaire#numEntry> "554830"@fr .
+<http://data.soduco.fr/id/entry/9626> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3306> <http://www.w3.org/2000/01/rdf-schema#label> "d�rogy et hermagis"@fr .
+<http://data.soduco.fr/id/entry/3306> <http://data.soduco.fr/def/annuaire#activity> "success. de wallet, fab. sp�ciale d�instru- ments pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/3306> <http://data.soduco.fr/def/annuaire#address> "horloge 33"@fr .
+<http://data.soduco.fr/id/entry/3306> <http://data.soduco.fr/def/annuaire#numEntry> "2296242"@fr .
+<http://data.soduco.fr/id/entry/3306> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/10553> <http://www.w3.org/2000/01/rdf-schema#label> "mayer et pierson"@fr .
+<http://data.soduco.fr/id/entry/10553> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/10553> <http://data.soduco.fr/def/annuaire#address> "boul.-des ca- pucines 5"@fr .
+<http://data.soduco.fr/id/entry/10553> <http://data.soduco.fr/def/annuaire#numEntry> "9758025"@fr .
+<http://data.soduco.fr/id/entry/10553> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4105> <http://www.w3.org/2000/01/rdf-schema#label> "mathiez fr�res"@fr .
+<http://data.soduco.fr/id/entry/4105> <http://data.soduco.fr/def/annuaire#activity> "fab. sp�crale de cuves et cuvettes en gulta-percha, � l'usage de la photographie, gar- nitures de cuves pour dorure, ar- genture et ga'vanoplastie"@fr .
+<http://data.soduco.fr/id/entry/4105> <http://data.soduco.fr/def/annuaire#address> "faub.� * st-martin 73"@fr .
+<http://data.soduco.fr/id/entry/4105> <http://data.soduco.fr/def/annuaire#numEntry> "8299206"@fr .
+<http://data.soduco.fr/id/entry/4105> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3742> <http://www.w3.org/2000/01/rdf-schema#label> "delezenne"@fr .
+<http://data.soduco.fr/id/entry/3742> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/3742> <http://data.soduco.fr/def/annuaire#address> "valois-palais-royal 9"@fr .
+<http://data.soduco.fr/id/entry/3742> <http://data.soduco.fr/def/annuaire#numEntry> "9307840"@fr .
+<http://data.soduco.fr/id/entry/3742> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9371> <http://www.w3.org/2000/01/rdf-schema#label> "arnaude"@fr .
+<http://data.soduco.fr/id/entry/9371> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9371> <http://data.soduco.fr/def/annuaire#address> "vivienne 49"@fr .
+<http://data.soduco.fr/id/entry/9371> <http://data.soduco.fr/def/annuaire#numEntry> "6932074"@fr .
+<http://data.soduco.fr/id/entry/9371> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1541> <http://www.w3.org/2000/01/rdf-schema#label> "moreau"@fr .
+<http://data.soduco.fr/id/entry/1541> <http://data.soduco.fr/def/annuaire#activity> "plancur et graveur a la m�ranique, cuivre, acier et zinc, pour taille-douce, acier rodi� pour photographie, ustensiles pour gravures et produits chi- miques, teinte et numismatique, syst�me coltas"@fr .
+<http://data.soduco.fr/id/entry/1541> <http://data.soduco.fr/def/annuaire#address> "nve-des-poir�es"@fr .
+<http://data.soduco.fr/id/entry/1541> <http://data.soduco.fr/def/annuaire#numEntry> "5746741"@fr .
+<http://data.soduco.fr/id/entry/1541> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4639> <http://www.w3.org/2000/01/rdf-schema#label> "mayer et pierson"@fr .
+<http://data.soduco.fr/id/entry/4639> <http://data.soduco.fr/def/annuaire#activity> "photographes de s. m. l'emp�reur"@fr .
+<http://data.soduco.fr/id/entry/4639> <http://data.soduco.fr/def/annuaire#address> "r. vivienne 48"@fr .
+<http://data.soduco.fr/id/entry/4639> <http://data.soduco.fr/def/annuaire#numEntry> "1486981"@fr .
+<http://data.soduco.fr/id/entry/4639> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1073> <http://www.w3.org/2000/01/rdf-schema#label> "couteux (auguste)"@fr .
+<http://data.soduco.fr/id/entry/1073> <http://data.soduco.fr/def/annuaire#activity> "fab. sp�c. de produits pour dorure, argenture, galvanoplastie, daguerr�otype et la photographie sur papier"@fr .
+<http://data.soduco.fr/id/entry/1073> <http://data.soduco.fr/def/annuaire#address> "grand-chantier 4"@fr .
+<http://data.soduco.fr/id/entry/1073> <http://data.soduco.fr/def/annuaire#numEntry> "8079747"@fr .
+<http://data.soduco.fr/id/entry/1073> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9585> <http://www.w3.org/2000/01/rdf-schema#label> "hoschteller (mme)"@fr .
+<http://data.soduco.fr/id/entry/9585> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/9585> <http://data.soduco.fr/def/annuaire#address> "palais-royal"@fr .
+<http://data.soduco.fr/id/entry/9585> <http://data.soduco.fr/def/annuaire#numEntry> "1308579"@fr .
+<http://data.soduco.fr/id/entry/9585> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/2206> <http://www.w3.org/2000/01/rdf-schema#label> "daranjo"@fr .
+<http://data.soduco.fr/id/entry/2206> <http://data.soduco.fr/def/annuaire#activity> "photog"@fr .
+<http://data.soduco.fr/id/entry/2206> <http://data.soduco.fr/def/annuaire#address> "croix des petits-champs 31"@fr .
+<http://data.soduco.fr/id/entry/2206> <http://data.soduco.fr/def/annuaire#numEntry> "7599631"@fr .
+<http://data.soduco.fr/id/entry/2206> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/7755> <http://www.w3.org/2000/01/rdf-schema#label> "gilbert"@fr .
+<http://data.soduco.fr/id/entry/7755> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/7755> <http://data.soduco.fr/def/annuaire#address> "st-marc 13"@fr .
+<http://data.soduco.fr/id/entry/7755> <http://data.soduco.fr/def/annuaire#numEntry> "1419712"@fr .
+<http://data.soduco.fr/id/entry/7755> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/3636> <http://www.w3.org/2000/01/rdf-schema#label> "billet"@fr .
+<http://data.soduco.fr/id/entry/3636> <http://data.soduco.fr/def/annuaire#activity> "professeur de photogra- phie, reproduction de toute es- p�ce d'objets d'art et portraits de famille, �preuves au ster�os- cope, donne des le�ons pour la pro- vince par correspondance ( af.. franchir)"@fr .
+<http://data.soduco.fr/id/entry/3636> <http://data.soduco.fr/def/annuaire#address> "st-quentin 4"@fr .
+<http://data.soduco.fr/id/entry/3636> <http://data.soduco.fr/def/annuaire#numEntry> "288449"@fr .
+<http://data.soduco.fr/id/entry/3636> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5369> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/5369> <http://data.soduco.fr/def/annuaire#activity> "photographique"@fr .
+<http://data.soduco.fr/id/entry/5369> <http://data.soduco.fr/def/annuaire#address> "meud"@fr .
+<http://data.soduco.fr/id/entry/5369> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/5369> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/1152> <http://www.w3.org/2000/01/rdf-schema#label> "leclerc"@fr .
+<http://data.soduco.fr/id/entry/1152> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/1152> <http://data.soduco.fr/def/annuaire#address> "pas-de-la-mule 1"@fr .
+<http://data.soduco.fr/id/entry/1152> <http://data.soduco.fr/def/annuaire#numEntry> "6698484"@fr .
+<http://data.soduco.fr/id/entry/1152> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/11510> <http://www.w3.org/2000/01/rdf-schema#label> "minel (b.)"@fr .
+<http://data.soduco.fr/id/entry/11510> <http://data.soduco.fr/def/annuaire#activity> "fab. d'articles pour tout ce qui concerne le daguerr�otype et la photographie; cadres en tous genres"@fr .
+<http://data.soduco.fr/id/entry/11510> <http://data.soduco.fr/def/annuaire#address> "faub.-du-temple"@fr .
+<http://data.soduco.fr/id/entry/11510> <http://data.soduco.fr/def/annuaire#numEntry> "2296271"@fr .
+<http://data.soduco.fr/id/entry/11510> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/4611> <http://www.w3.org/2000/01/rdf-schema#label> "defonds (e.)"@fr .
+<http://data.soduco.fr/id/entry/4611> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/4611> <http://data.soduco.fr/def/annuaire#address> "paix 7"@fr .
+<http://data.soduco.fr/id/entry/4611> <http://data.soduco.fr/def/annuaire#numEntry> "6213941"@fr .
+<http://data.soduco.fr/id/entry/4611> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/433> <http://www.w3.org/2000/01/rdf-schema#label> "richebourg"@fr .
+<http://data.soduco.fr/id/entry/433> <http://data.soduco.fr/def/annuaire#activity> "ancien �l�ve particulier et fournisseur de m. daguerre. auteur de plu- sieurs manuels �l�mentaires sur le daguerr�otype et la photogra- phie par le collodion ; fabrique et fournit tous les appareils ou ac- cessoires n�cessaires � l'applica- tion ou � l'exploitation de ce nouvel art, soit sur plaque, papier ou verre. fabrique aussi les produits chimiques sp�ciaux ad hoc. laboratoire, fabrique et"@fr .
+<http://data.soduco.fr/id/entry/433> <http://data.soduco.fr/def/annuaire#address> "horloge 29"@fr .
+<http://data.soduco.fr/id/entry/433> <http://data.soduco.fr/def/annuaire#numEntry> "2296287"@fr .
+<http://data.soduco.fr/id/entry/433> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/6715> <http://www.w3.org/2000/01/rdf-schema#label> "sourdot flis ain�"@fr .
+<http://data.soduco.fr/id/entry/6715> <http://data.soduco.fr/def/annuaire#activity> "accessoires pour photogra- phie"@fr .
+<http://data.soduco.fr/id/entry/6715> <http://data.soduco.fr/def/annuaire#address> "francs-bourgeois-marais 10"@fr .
+<http://data.soduco.fr/id/entry/6715> <http://data.soduco.fr/def/annuaire#numEntry> "3292204"@fr .
+<http://data.soduco.fr/id/entry/6715> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/9344> <http://www.w3.org/2000/01/rdf-schema#label> "cl�ment"@fr .
+<http://data.soduco.fr/id/entry/9344> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/9344> <http://data.soduco.fr/def/annuaire#address> "rivoli 43"@fr .
+<http://data.soduco.fr/id/entry/9344> <http://data.soduco.fr/def/annuaire#numEntry> "4191760"@fr .
+<http://data.soduco.fr/id/entry/9344> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/285> <http://www.w3.org/2000/01/rdf-schema#label> "rousseau fr�res"@fr .
+<http://data.soduco.fr/id/entry/285> <http://data.soduco.fr/def/annuaire#activity> "fab. de produits chimiques, sp�cialit� pour photo- graphie"@fr .
+<http://data.soduco.fr/id/entry/285> <http://data.soduco.fr/def/annuaire#address> "ecole-de-m�decine 9"@fr .
+<http://data.soduco.fr/id/entry/285> <http://data.soduco.fr/def/annuaire#numEntry> "2296289"@fr .
+<http://data.soduco.fr/id/entry/285> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/5350> <http://www.w3.org/2000/01/rdf-schema#label> "raudnitz"@fr .
+<http://data.soduco.fr/id/entry/5350> <http://data.soduco.fr/def/annuaire#activity> "photographie en cristal"@fr .
+<http://data.soduco.fr/id/entry/5350> <http://data.soduco.fr/def/annuaire#address> "grand- chantier il"@fr .
+<http://data.soduco.fr/id/entry/5350> <http://data.soduco.fr/def/annuaire#numEntry> "5163212"@fr .
+<http://data.soduco.fr/id/entry/5350> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17048> <http://www.w3.org/2000/01/rdf-schema#label> "braquehais"@fr .
+<http://data.soduco.fr/id/entry/17048> <http://data.soduco.fr/def/annuaire#activity> "photographie et da- guerr�otype colori�"@fr .
+<http://data.soduco.fr/id/entry/17048> <http://data.soduco.fr/def/annuaire#address> "louis- le- grand 37"@fr .
+<http://data.soduco.fr/id/entry/17048> <http://data.soduco.fr/def/annuaire#numEntry> "288454"@fr .
+<http://data.soduco.fr/id/entry/17048> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19591> <http://www.w3.org/2000/01/rdf-schema#label> "renaux (c.)"@fr .
+<http://data.soduco.fr/id/entry/19591> <http://data.soduco.fr/def/annuaire#activity> "fab. de cadres, bro- ches, �crins en tous genres pour la miniature et le daguerr�otype, fourniture pour la photographie sur plaques et sur papier"@fr .
+<http://data.soduco.fr/id/entry/19591> <http://data.soduco.fr/def/annuaire#address> "faub.-  du-temple 158"@fr .
+<http://data.soduco.fr/id/entry/19591> <http://data.soduco.fr/def/annuaire#numEntry> "9622280"@fr .
+<http://data.soduco.fr/id/entry/19591> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14423> <http://www.w3.org/2000/01/rdf-schema#label> "persu"@fr .
+<http://data.soduco.fr/id/entry/14423> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/14423> <http://data.soduco.fr/def/annuaire#address> "seine 47"@fr .
+<http://data.soduco.fr/id/entry/14423> <http://data.soduco.fr/def/annuaire#numEntry> "4496580"@fr .
+<http://data.soduco.fr/id/entry/14423> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20658> <http://www.w3.org/2000/01/rdf-schema#label> "bisson fr�res"@fr .
+<http://data.soduco.fr/id/entry/20658> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/20658> <http://data.soduco.fr/def/annuaire#address> "garanci�re 8"@fr .
+<http://data.soduco.fr/id/entry/20658> <http://data.soduco.fr/def/annuaire#numEntry> "2186837"@fr .
+<http://data.soduco.fr/id/entry/20658> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19271> <http://www.w3.org/2000/01/rdf-schema#label> "guilloux"@fr .
+<http://data.soduco.fr/id/entry/19271> <http://data.soduco.fr/def/annuaire#activity> "miroiterie, articles pour la photographie, envoie en pro- vince et � l'�tranger"@fr .
+<http://data.soduco.fr/id/entry/19271> <http://data.soduco.fr/def/annuaire#address> "faub.-st- martin 34"@fr .
+<http://data.soduco.fr/id/entry/19271> <http://data.soduco.fr/def/annuaire#numEntry> "2296254"@fr .
+<http://data.soduco.fr/id/entry/19271> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17086> <http://www.w3.org/2000/01/rdf-schema#label> "piot (eug�ne )"@fr .
+<http://data.soduco.fr/id/entry/17086> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17086> <http://data.soduco.fr/def/annuaire#address> "st-fiacre 20"@fr .
+<http://data.soduco.fr/id/entry/17086> <http://data.soduco.fr/def/annuaire#numEntry> "1202834"@fr .
+<http://data.soduco.fr/id/entry/17086> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19272> <http://www.w3.org/2000/01/rdf-schema#label> "fruit (edmond)"@fr .
+<http://data.soduco.fr/id/entry/19272> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/19272> <http://data.soduco.fr/def/annuaire#address> "temple 221"@fr .
+<http://data.soduco.fr/id/entry/19272> <http://data.soduco.fr/def/annuaire#numEntry> "2203984"@fr .
+<http://data.soduco.fr/id/entry/19272> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17778> <http://www.w3.org/2000/01/rdf-schema#label> "bouch�)"@fr .
+<http://data.soduco.fr/id/entry/17778> <http://data.soduco.fr/def/annuaire#activity> "sp�cialit� pour la phar- macie, la chimie, la physique, pour la photographic, la galva- noplastic ; porcelaine pour ser- vice de table, confiscurs, �pi- ciers, papctiers, etc"@fr .
+<http://data.soduco.fr/id/entry/17778> <http://data.soduco.fr/def/annuaire#address> "rivoli 104"@fr .
+<http://data.soduco.fr/id/entry/17778> <http://data.soduco.fr/def/annuaire#numEntry> "6431593"@fr .
+<http://data.soduco.fr/id/entry/17778> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20552> <http://www.w3.org/2000/01/rdf-schema#label> "coutant"@fr .
+<http://data.soduco.fr/id/entry/20552> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/20552> <http://data.soduco.fr/def/annuaire#address> "montmartre 164"@fr .
+<http://data.soduco.fr/id/entry/20552> <http://data.soduco.fr/def/annuaire#numEntry> "5111354"@fr .
+<http://data.soduco.fr/id/entry/20552> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/16026> <http://www.w3.org/2000/01/rdf-schema#label> "poirier"@fr .
+<http://data.soduco.fr/id/entry/16026> <http://data.soduco.fr/def/annuaire#activity> "presses � satiner les �preuves photographiques, nou- veau syst�me"@fr .
+<http://data.soduco.fr/id/entry/16026> <http://data.soduco.fr/def/annuaire#address> "faub.-st-martin 124"@fr .
+<http://data.soduco.fr/id/entry/16026> <http://data.soduco.fr/def/annuaire#numEntry> "2296281"@fr .
+<http://data.soduco.fr/id/entry/16026> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20181> <http://www.w3.org/2000/01/rdf-schema#label> "raudnitz (j.)"@fr .
+<http://data.soduco.fr/id/entry/20181> <http://data.soduco.fr/def/annuaire#activity> "sp?cialit� de photo- graphie en cristal peint et pho- tographi?, photographic artis- tique et commerciale, comm., cxportation"@fr .
+<http://data.soduco.fr/id/entry/20181> <http://data.soduco.fr/def/annuaire#address> "grand-chantier 11"@fr .
+<http://data.soduco.fr/id/entry/20181> <http://data.soduco.fr/def/annuaire#numEntry> "822882"@fr .
+<http://data.soduco.fr/id/entry/20181> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19166> <http://www.w3.org/2000/01/rdf-schema#label> "ausbert"@fr .
+<http://data.soduco.fr/id/entry/19166> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/19166> <http://data.soduco.fr/def/annuaire#address> "rivoli 67"@fr .
+<http://data.soduco.fr/id/entry/19166> <http://data.soduco.fr/def/annuaire#numEntry> "7316842"@fr .
+<http://data.soduco.fr/id/entry/19166> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17100> <http://www.w3.org/2000/01/rdf-schema#label> "belloc (a. )"@fr .
+<http://data.soduco.fr/id/entry/17100> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/17100> <http://data.soduco.fr/def/annuaire#address> "lancry 16"@fr .
+<http://data.soduco.fr/id/entry/17100> <http://data.soduco.fr/def/annuaire#numEntry> "489093"@fr .
+<http://data.soduco.fr/id/entry/17100> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17263> <http://www.w3.org/2000/01/rdf-schema#label> "puech (l.)"@fr .
+<http://data.soduco.fr/id/entry/17263> <http://data.soduco.fr/def/annuaire#activity> "fab. de produits chi- miques pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/17263> <http://data.soduco.fr/def/annuaire#address> "place de la madeleine 24"@fr .
+<http://data.soduco.fr/id/entry/17263> <http://data.soduco.fr/def/annuaire#numEntry> "2296282"@fr .
+<http://data.soduco.fr/id/entry/17263> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17690> <http://www.w3.org/2000/01/rdf-schema#label> "lefran�ay (h)"@fr .
+<http://data.soduco.fr/id/entry/17690> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17690> <http://data.soduco.fr/def/annuaire#address> "st-honor� 2"@fr .
+<http://data.soduco.fr/id/entry/17690> <http://data.soduco.fr/def/annuaire#numEntry> "2895977"@fr .
+<http://data.soduco.fr/id/entry/17690> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19306> <http://www.w3.org/2000/01/rdf-schema#label> "dubois"@fr .
+<http://data.soduco.fr/id/entry/19306> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/19306> <http://data.soduco.fr/def/annuaire#address> "faub. - st-martin 83"@fr .
+<http://data.soduco.fr/id/entry/19306> <http://data.soduco.fr/def/annuaire#numEntry> "7617755"@fr .
+<http://data.soduco.fr/id/entry/19306> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14106> <http://www.w3.org/2000/01/rdf-schema#label> "reutlinger (ch.)"@fr .
+<http://data.soduco.fr/id/entry/14106> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/14106> <http://data.soduco.fr/def/annuaire#address> "richelieu 112"@fr .
+<http://data.soduco.fr/id/entry/14106> <http://data.soduco.fr/def/annuaire#numEntry> "2648739"@fr .
+<http://data.soduco.fr/id/entry/14106> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/21082> <http://www.w3.org/2000/01/rdf-schema#label> "ste-foy"@fr .
+<http://data.soduco.fr/id/entry/21082> <http://data.soduco.fr/def/annuaire#activity> "la lumi�re, revue de la photographie, 6e ann�e"@fr .
+<http://data.soduco.fr/id/entry/21082> <http://data.soduco.fr/def/annuaire#address> "perle 9"@fr .
+<http://data.soduco.fr/id/entry/21082> <http://data.soduco.fr/def/annuaire#numEntry> "1487025"@fr .
+<http://data.soduco.fr/id/entry/21082> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14302> <http://www.w3.org/2000/01/rdf-schema#label> "pinaud"@fr .
+<http://data.soduco.fr/id/entry/14302> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/14302> <http://data.soduco.fr/def/annuaire#address> "montorgueil 76"@fr .
+<http://data.soduco.fr/id/entry/14302> <http://data.soduco.fr/def/annuaire#numEntry> "4715154"@fr .
+<http://data.soduco.fr/id/entry/14302> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18837> <http://www.w3.org/2000/01/rdf-schema#label> "coss�"@fr .
+<http://data.soduco.fr/id/entry/18837> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/18837> <http://data.soduco.fr/def/annuaire#address> "croix-des-pis-champs 10"@fr .
+<http://data.soduco.fr/id/entry/18837> <http://data.soduco.fr/def/annuaire#numEntry> "427525"@fr .
+<http://data.soduco.fr/id/entry/18837> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15716> <http://www.w3.org/2000/01/rdf-schema#label> "laurent (f.) et casthelaz"@fr .
+<http://data.soduco.fr/id/entry/15716> <http://data.soduco.fr/def/annuaire#activity> "produits chimiques pour la pharmacie et la dro- guerie, sp�c. de prod. pour la photographie"@fr .
+<http://data.soduco.fr/id/entry/15716> <http://data.soduco.fr/def/annuaire#address> "ste-croix-de-la- bretonnerie 19"@fr .
+<http://data.soduco.fr/id/entry/15716> <http://data.soduco.fr/def/annuaire#numEntry> "8925695"@fr .
+<http://data.soduco.fr/id/entry/15716> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15239> <http://www.w3.org/2000/01/rdf-schema#label> "billet"@fr .
+<http://data.soduco.fr/id/entry/15239> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/15239> <http://data.soduco.fr/def/annuaire#address> "st-quentin 4"@fr .
+<http://data.soduco.fr/id/entry/15239> <http://data.soduco.fr/def/annuaire#numEntry> "2591268"@fr .
+<http://data.soduco.fr/id/entry/15239> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/16439> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/16439> <http://data.soduco.fr/def/annuaire#activity> "photographique"@fr .
+<http://data.soduco.fr/id/entry/16439> <http://data.soduco.fr/def/annuaire#address> "laffitte 34"@fr .
+<http://data.soduco.fr/id/entry/16439> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/16439> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13480> <http://www.w3.org/2000/01/rdf-schema#label> "coquet"@fr .
+<http://data.soduco.fr/id/entry/13480> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/13480> <http://data.soduco.fr/def/annuaire#address> "ste-apolline 20"@fr .
+<http://data.soduco.fr/id/entry/13480> <http://data.soduco.fr/def/annuaire#numEntry> "7748562"@fr .
+<http://data.soduco.fr/id/entry/13480> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/21084> <http://www.w3.org/2000/01/rdf-schema#label> "sourdot fils a�n�"@fr .
+<http://data.soduco.fr/id/entry/21084> <http://data.soduco.fr/def/annuaire#activity> "fab. de cadres et passe-partout, appareils, pla- ques, produils chimiques, grand choix d'�preuves photographi- ques et st�r�oscopiques"@fr .
+<http://data.soduco.fr/id/entry/21084> <http://data.soduco.fr/def/annuaire#address> "francs  bourgeois-marais 10"@fr .
+<http://data.soduco.fr/id/entry/21084> <http://data.soduco.fr/def/annuaire#numEntry> "9419340"@fr .
+<http://data.soduco.fr/id/entry/21084> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20501> <http://www.w3.org/2000/01/rdf-schema#label> "vion (ch.)"@fr .
+<http://data.soduco.fr/id/entry/20501> <http://data.soduco.fr/def/annuaire#activity> "pour la photogra- phie"@fr .
+<http://data.soduco.fr/id/entry/20501> <http://data.soduco.fr/def/annuaire#address> "prouvaires 3"@fr .
+<http://data.soduco.fr/id/entry/20501> <http://data.soduco.fr/def/annuaire#numEntry> "8925771"@fr .
+<http://data.soduco.fr/id/entry/20501> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13211> <http://www.w3.org/2000/01/rdf-schema#label> "samson (louis)"@fr .
+<http://data.soduco.fr/id/entry/13211> <http://data.soduco.fr/def/annuaire#activity> "vitraux photogra- phiques brev. s. g. d. g. pour la france etl'�trang., repr�s. toutes sortes de sujets, tableaux, vues, statues, compositions photogra- phiques et servant � la d�cora- tiou des fen�tres d'appartements, de salles de bains, de chapel- les, etc. �epreuves pour le st�- r�oscope et portraits en tout  genre"@fr .
+<http://data.soduco.fr/id/entry/13211> <http://data.soduco.fr/def/annuaire#address> "arbre-sec"@fr .
+<http://data.soduco.fr/id/entry/13211> <http://data.soduco.fr/def/annuaire#numEntry> "1487009"@fr .
+<http://data.soduco.fr/id/entry/13211> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17161> <http://www.w3.org/2000/01/rdf-schema#label> "boisson"@fr .
+<http://data.soduco.fr/id/entry/17161> <http://data.soduco.fr/def/annuaire#activity> "d. g., pour les passe-parlout, encadrements � biseaux et cadres, accessoires pour la photographie, exp�dition"@fr .
+<http://data.soduco.fr/id/entry/17161> <http://data.soduco.fr/def/annuaire#address> "st-pierre-montmar- tre 8"@fr .
+<http://data.soduco.fr/id/entry/17161> <http://data.soduco.fr/def/annuaire#numEntry> "1487034"@fr .
+<http://data.soduco.fr/id/entry/17161> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13903> <http://www.w3.org/2000/01/rdf-schema#label> "plaut (henri)"@fr .
+<http://data.soduco.fr/id/entry/13903> <http://data.soduco.fr/def/annuaire#activity> "atelier de photogra- phie, de portraits, grand choix d'�preuves, pour sl�r�oscope sur verre, plaque et papiers en gros et en d�tail, exportation"@fr .
+<http://data.soduco.fr/id/entry/13903> <http://data.soduco.fr/def/annuaire#address> "quai conti 7"@fr .
+<http://data.soduco.fr/id/entry/13903> <http://data.soduco.fr/def/annuaire#numEntry> "1486997"@fr .
+<http://data.soduco.fr/id/entry/13903> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20061> <http://www.w3.org/2000/01/rdf-schema#label> "anjoux"@fr .
+<http://data.soduco.fr/id/entry/20061> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/20061> <http://data.soduco.fr/def/annuaire#address> "saint-honor� 270"@fr .
+<http://data.soduco.fr/id/entry/20061> <http://data.soduco.fr/def/annuaire#numEntry> "5471029"@fr .
+<http://data.soduco.fr/id/entry/20061> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/12583> <http://www.w3.org/2000/01/rdf-schema#label> "chatelin (eug�ne)"@fr .
+<http://data.soduco.fr/id/entry/12583> <http://data.soduco.fr/def/annuaire#activity> "sp�cialil� de glaces pour la photographie et te b�timent"@fr .
+<http://data.soduco.fr/id/entry/12583> <http://data.soduco.fr/def/annuaire#address> "od�on 6"@fr .
+<http://data.soduco.fr/id/entry/12583> <http://data.soduco.fr/def/annuaire#numEntry> "2983783"@fr .
+<http://data.soduco.fr/id/entry/12583> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17180> <http://www.w3.org/2000/01/rdf-schema#label> "appert (mile)"@fr .
+<http://data.soduco.fr/id/entry/17180> <http://data.soduco.fr/def/annuaire#activity> "photog"@fr .
+<http://data.soduco.fr/id/entry/17180> <http://data.soduco.fr/def/annuaire#address> "j. - j. - rousseau 5"@fr .
+<http://data.soduco.fr/id/entry/17180> <http://data.soduco.fr/def/annuaire#numEntry> "5471154"@fr .
+<http://data.soduco.fr/id/entry/17180> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17696> <http://www.w3.org/2000/01/rdf-schema#label> "gillard et cie"@fr .
+<http://data.soduco.fr/id/entry/17696> <http://data.soduco.fr/def/annuaire#activity> "artistes photographes"@fr .
+<http://data.soduco.fr/id/entry/17696> <http://data.soduco.fr/def/annuaire#address> "coq-st- honor� 6"@fr .
+<http://data.soduco.fr/id/entry/17696> <http://data.soduco.fr/def/annuaire#numEntry> "1419745"@fr .
+<http://data.soduco.fr/id/entry/17696> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17659> <http://www.w3.org/2000/01/rdf-schema#label> "raudnitz (j.)"@fr .
+<http://data.soduco.fr/id/entry/17659> <http://data.soduco.fr/def/annuaire#activity> "sp?cialit� de photo- graphie en cristal peint et pho- tographi?, photographic artis- tique et commerciale, comm., cxportation"@fr .
+<http://data.soduco.fr/id/entry/17659> <http://data.soduco.fr/def/annuaire#address> "boul. du temple 78"@fr .
+<http://data.soduco.fr/id/entry/17659> <http://data.soduco.fr/def/annuaire#numEntry> "822882"@fr .
+<http://data.soduco.fr/id/entry/17659> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18469> <http://www.w3.org/2000/01/rdf-schema#label> "gilbert"@fr .
+<http://data.soduco.fr/id/entry/18469> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/18469> <http://data.soduco.fr/def/annuaire#address> "st-marc 13"@fr .
+<http://data.soduco.fr/id/entry/18469> <http://data.soduco.fr/def/annuaire#numEntry> "1419683"@fr .
+<http://data.soduco.fr/id/entry/18469> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13602> <http://www.w3.org/2000/01/rdf-schema#label> "raudnitz"@fr .
+<http://data.soduco.fr/id/entry/13602> <http://data.soduco.fr/def/annuaire#activity> "photographie en cristal"@fr .
+<http://data.soduco.fr/id/entry/13602> <http://data.soduco.fr/def/annuaire#address> "prouvaires 3"@fr .
+<http://data.soduco.fr/id/entry/13602> <http://data.soduco.fr/def/annuaire#numEntry> "5163212"@fr .
+<http://data.soduco.fr/id/entry/13602> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15863> <http://www.w3.org/2000/01/rdf-schema#label> "bureau (s.)"@fr .
+<http://data.soduco.fr/id/entry/15863> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/15863> <http://data.soduco.fr/def/annuaire#address> "baillif 4"@fr .
+<http://data.soduco.fr/id/entry/15863> <http://data.soduco.fr/def/annuaire#numEntry> "279410"@fr .
+<http://data.soduco.fr/id/entry/15863> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18646> <http://www.w3.org/2000/01/rdf-schema#label> "vion (ch. )"@fr .
+<http://data.soduco.fr/id/entry/18646> <http://data.soduco.fr/def/annuaire#activity> "photographie et pro- duits chimiques"@fr .
+<http://data.soduco.fr/id/entry/18646> <http://data.soduco.fr/def/annuaire#address> "prouvaires 3"@fr .
+<http://data.soduco.fr/id/entry/18646> <http://data.soduco.fr/def/annuaire#numEntry> "1487020"@fr .
+<http://data.soduco.fr/id/entry/18646> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13924> <http://www.w3.org/2000/01/rdf-schema#label> "zacharie"@fr .
+<http://data.soduco.fr/id/entry/13924> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/13924> <http://data.soduco.fr/def/annuaire#address> "boul. des ita- liens 3"@fr .
+<http://data.soduco.fr/id/entry/13924> <http://data.soduco.fr/def/annuaire#numEntry> "8967046"@fr .
+<http://data.soduco.fr/id/entry/13924> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19935> <http://www.w3.org/2000/01/rdf-schema#label> "mayer et damant"@fr .
+<http://data.soduco.fr/id/entry/19935> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/19935> <http://data.soduco.fr/def/annuaire#address> "richelieu 102"@fr .
+<http://data.soduco.fr/id/entry/19935> <http://data.soduco.fr/def/annuaire#numEntry> "9758026"@fr .
+<http://data.soduco.fr/id/entry/19935> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18327> <http://www.w3.org/2000/01/rdf-schema#label> "cl�ment (f.)"@fr .
+<http://data.soduco.fr/id/entry/18327> <http://data.soduco.fr/def/annuaire#activity> "planeur sur tous m�taux, fab. sp�ciale de plaques pour photogr"@fr .
+<http://data.soduco.fr/id/entry/18327> <http://data.soduco.fr/def/annuaire#address> "saintonge 26"@fr .
+<http://data.soduco.fr/id/entry/18327> <http://data.soduco.fr/def/annuaire#numEntry> "2296237"@fr .
+<http://data.soduco.fr/id/entry/18327> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14559> <http://www.w3.org/2000/01/rdf-schema#label> "cl�ment"@fr .
+<http://data.soduco.fr/id/entry/14559> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/14559> <http://data.soduco.fr/def/annuaire#address> "n. -d.-de-nazareth 4"@fr .
+<http://data.soduco.fr/id/entry/14559> <http://data.soduco.fr/def/annuaire#numEntry> "4191761"@fr .
+<http://data.soduco.fr/id/entry/14559> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15508> <http://www.w3.org/2000/01/rdf-schema#label> "carri�re"@fr .
+<http://data.soduco.fr/id/entry/15508> <http://data.soduco.fr/def/annuaire#activity> "fab. de passe-partout pour photogra- phie"@fr .
+<http://data.soduco.fr/id/entry/15508> <http://data.soduco.fr/def/annuaire#address> "quatre-fils 8"@fr .
+<http://data.soduco.fr/id/entry/15508> <http://data.soduco.fr/def/annuaire#numEntry> "1567288"@fr .
+<http://data.soduco.fr/id/entry/15508> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18648> <http://www.w3.org/2000/01/rdf-schema#label> "bourdette (edouard)"@fr .
+<http://data.soduco.fr/id/entry/18648> <http://data.soduco.fr/def/annuaire#activity> "fab. de ca- dres et art. de photographie"@fr .
+<http://data.soduco.fr/id/entry/18648> <http://data.soduco.fr/def/annuaire#address> "pierre-lev�e 18"@fr .
+<http://data.soduco.fr/id/entry/18648> <http://data.soduco.fr/def/annuaire#numEntry> "7274902"@fr .
+<http://data.soduco.fr/id/entry/18648> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14220> <http://www.w3.org/2000/01/rdf-schema#label> "romieu"@fr .
+<http://data.soduco.fr/id/entry/14220> <http://data.soduco.fr/def/annuaire#activity> "brevet� pour une presse � d�calquer la photographie, fabrique de passe-partout, sp�cia- lement de ceux � biseaux et tou- tes esp�ces denouveaut�s pour la photographie, passe-partout en alb�tre, plaques appr�t�es ; tous les accessoires,et tous les produits n�cessaires pour la photographie sur papier et sur verre"@fr .
+<http://data.soduco.fr/id/entry/14220> <http://data.soduco.fr/def/annuaire#address> "ram- buteau 15"@fr .
+<http://data.soduco.fr/id/entry/14220> <http://data.soduco.fr/def/annuaire#numEntry> "2296288"@fr .
+<http://data.soduco.fr/id/entry/14220> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13536> <http://www.w3.org/2000/01/rdf-schema#label> "fillion"@fr .
+<http://data.soduco.fr/id/entry/13536> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/13536> <http://data.soduco.fr/def/annuaire#address> "penthi�vre 30"@fr .
+<http://data.soduco.fr/id/entry/13536> <http://data.soduco.fr/def/annuaire#numEntry> "9615884"@fr .
+<http://data.soduco.fr/id/entry/13536> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15281> <http://www.w3.org/2000/01/rdf-schema#label> "mathiez fr�res"@fr .
+<http://data.soduco.fr/id/entry/15281> <http://data.soduco.fr/def/annuaire#activity> "fab. sp�ciale de cuves et cuvettes en gutta percha � l'usage de la photographie, garnit. de cuves pour dorure, argenture et galvanoplastie"@fr .
+<http://data.soduco.fr/id/entry/15281> <http://data.soduco.fr/def/annuaire#address> "faub.-st-martin 73"@fr .
+<http://data.soduco.fr/id/entry/15281> <http://data.soduco.fr/def/annuaire#numEntry> "2296269"@fr .
+<http://data.soduco.fr/id/entry/15281> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19208> <http://www.w3.org/2000/01/rdf-schema#label> "fruit (edmond)"@fr .
+<http://data.soduco.fr/id/entry/19208> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/19208> <http://data.soduco.fr/def/annuaire#address> "st- martin 339"@fr .
+<http://data.soduco.fr/id/entry/19208> <http://data.soduco.fr/def/annuaire#numEntry> "2203984"@fr .
+<http://data.soduco.fr/id/entry/19208> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18737> <http://www.w3.org/2000/01/rdf-schema#label> "pilas"@fr .
+<http://data.soduco.fr/id/entry/18737> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/18737> <http://data.soduco.fr/def/annuaire#address> "st-martin 347"@fr .
+<http://data.soduco.fr/id/entry/18737> <http://data.soduco.fr/def/annuaire#numEntry> "2191948"@fr .
+<http://data.soduco.fr/id/entry/18737> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20066> <http://www.w3.org/2000/01/rdf-schema#label> "andrieux"@fr .
+<http://data.soduco.fr/id/entry/20066> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/20066> <http://data.soduco.fr/def/annuaire#address> "rivoli 79"@fr .
+<http://data.soduco.fr/id/entry/20066> <http://data.soduco.fr/def/annuaire#numEntry> "7820280"@fr .
+<http://data.soduco.fr/id/entry/20066> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/18793> <http://www.w3.org/2000/01/rdf-schema#label> "david"@fr .
+<http://data.soduco.fr/id/entry/18793> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/18793> <http://data.soduco.fr/def/annuaire#address> "richelieu 16"@fr .
+<http://data.soduco.fr/id/entry/18793> <http://data.soduco.fr/def/annuaire#numEntry> "8913331"@fr .
+<http://data.soduco.fr/id/entry/18793> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19705> <http://www.w3.org/2000/01/rdf-schema#label> "lafon de camarsac"@fr .
+<http://data.soduco.fr/id/entry/19705> <http://data.soduco.fr/def/annuaire#activity> "peintre brev. s. g. d. g. pour la transforma- tion des dessins photographi- ques enimages colori�es et fix?es par les proc�d�s m?caniques sur le verre, l�mail, la porcelainc et les m�taux"@fr .
+<http://data.soduco.fr/id/entry/19705> <http://data.soduco.fr/def/annuaire#address> "passage sainte- 2 tep marie"@fr .
+<http://data.soduco.fr/id/entry/19705> <http://data.soduco.fr/def/annuaire#numEntry> "3327978"@fr .
+<http://data.soduco.fr/id/entry/19705> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20935> <http://www.w3.org/2000/01/rdf-schema#label> "gerfaux"@fr .
+<http://data.soduco.fr/id/entry/20935> <http://data.soduco.fr/def/annuaire#activity> "tourneur, fab. et mag. de cadres et objets de saintet�, plastique et ivoire, encadrements en tout genre, cadres pour minia- tures, aquarelle, dessin, daguer- r�otype, photographie, etc., ex- p�"@fr .
+<http://data.soduco.fr/id/entry/20935> <http://data.soduco.fr/def/annuaire#address> "r�aumur 27"@fr .
+<http://data.soduco.fr/id/entry/20935> <http://data.soduco.fr/def/annuaire#numEntry> "7274948"@fr .
+<http://data.soduco.fr/id/entry/20935> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17005> <http://www.w3.org/2000/01/rdf-schema#label> "thompson w. )"@fr .
+<http://data.soduco.fr/id/entry/17005> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17005> <http://data.soduco.fr/def/annuaire#address> "choiseul 22"@fr .
+<http://data.soduco.fr/id/entry/17005> <http://data.soduco.fr/def/annuaire#numEntry> "5852934"@fr .
+<http://data.soduco.fr/id/entry/17005> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14028> <http://www.w3.org/2000/01/rdf-schema#label> "tige"@fr .
+<http://data.soduco.fr/id/entry/14028> <http://data.soduco.fr/def/annuaire#activity> "peintre et photographe, pho- tographie sur papier, sur verre, sur toile et sur plaque, portraits grandeur naturelle, noirs et co- lori�s, � l'huile et au pastel, cours de photographie de 8 �"@fr .
+<http://data.soduco.fr/id/entry/14028> <http://data.soduco.fr/def/annuaire#address> "place du louvre 20"@fr .
+<http://data.soduco.fr/id/entry/14028> <http://data.soduco.fr/def/annuaire#numEntry> "1487014"@fr .
+<http://data.soduco.fr/id/entry/14028> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13682> <http://www.w3.org/2000/01/rdf-schema#label> "legros"@fr .
+<http://data.soduco.fr/id/entry/13682> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/13682> <http://data.soduco.fr/def/annuaire#address> "palais-royal, galerie de valois 116"@fr .
+<http://data.soduco.fr/id/entry/13682> <http://data.soduco.fr/def/annuaire#numEntry> "5513568"@fr .
+<http://data.soduco.fr/id/entry/13682> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17307> <http://www.w3.org/2000/01/rdf-schema#label> "bourgeois (is:dore)"@fr .
+<http://data.soduco.fr/id/entry/17307> <http://data.soduco.fr/def/annuaire#activity> "artiste pein- tre, directeur de l'�tablissement photographique, bre"@fr .
+<http://data.soduco.fr/id/entry/17307> <http://data.soduco.fr/def/annuaire#address> "rivoli 59"@fr .
+<http://data.soduco.fr/id/entry/17307> <http://data.soduco.fr/def/annuaire#numEntry> "288453"@fr .
+<http://data.soduco.fr/id/entry/17307> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13896> <http://www.w3.org/2000/01/rdf-schema#label> "legros"@fr .
+<http://data.soduco.fr/id/entry/13896> <http://data.soduco.fr/def/annuaire#activity> "photographie sur papier et da- guerr�otypes nouveaux, perfec- tionnements extraordinaires ; portraits � la minute, coloris naturel, ressemblance garantie ; le�ons, cours complet en 3 vo- lumes pour apprendre sur pa- pier, plaque, collodion et verre ; exposition permanente et publi- que"@fr .
+<http://data.soduco.fr/id/entry/13896> <http://data.soduco.fr/def/annuaire#address> "palais-royal, galerie de va- lois 116"@fr .
+<http://data.soduco.fr/id/entry/13896> <http://data.soduco.fr/def/annuaire#numEntry> "1486970"@fr .
+<http://data.soduco.fr/id/entry/13896> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/16377> <http://www.w3.org/2000/01/rdf-schema#label> "villeneuve"@fr .
+<http://data.soduco.fr/id/entry/16377> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/16377> <http://data.soduco.fr/def/annuaire#address> "st-antoine 214"@fr .
+<http://data.soduco.fr/id/entry/16377> <http://data.soduco.fr/def/annuaire#numEntry> "6160810"@fr .
+<http://data.soduco.fr/id/entry/16377> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15070> <http://www.w3.org/2000/01/rdf-schema#label> "feug�re"@fr .
+<http://data.soduco.fr/id/entry/15070> <http://data.soduco.fr/def/annuaire#activity> "photogr"@fr .
+<http://data.soduco.fr/id/entry/15070> <http://data.soduco.fr/def/annuaire#address> "quai m�gisserie 6"@fr .
+<http://data.soduco.fr/id/entry/15070> <http://data.soduco.fr/def/annuaire#numEntry> "9615720"@fr .
+<http://data.soduco.fr/id/entry/15070> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13664> <http://www.w3.org/2000/01/rdf-schema#label> "galle"@fr .
+<http://data.soduco.fr/id/entry/13664> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/13664> <http://data.soduco.fr/def/annuaire#address> "montmartre 15"@fr .
+<http://data.soduco.fr/id/entry/13664> <http://data.soduco.fr/def/annuaire#numEntry> "905357"@fr .
+<http://data.soduco.fr/id/entry/13664> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19034> <http://www.w3.org/2000/01/rdf-schema#label> "brocherel et berthod"@fr .
+<http://data.soduco.fr/id/entry/19034> <http://data.soduco.fr/def/annuaire#activity> "grande fa- brique de cadres en p�te coulante, fournitures pour daguerr�oty- peurs et photographes, passe-par- touts, cadres et encadrements en tous genres"@fr .
+<http://data.soduco.fr/id/entry/19034> <http://data.soduco.fr/def/annuaire#address> "bourt bourg 9"@fr .
+<http://data.soduco.fr/id/entry/19034> <http://data.soduco.fr/def/annuaire#numEntry> "1487041"@fr .
+<http://data.soduco.fr/id/entry/19034> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15762> <http://www.w3.org/2000/01/rdf-schema#label> "gouin (a.)"@fr .
+<http://data.soduco.fr/id/entry/15762> <http://data.soduco.fr/def/annuaire#activity> "maison de confiance, daguerr�otype colori�, artiste peintre, �l�ve de feu girodet, sp�cialit� de st�r�oscopes, pho- tographie, photom�tres, instru- ments de pr�cision pour r�gler les foyers chimiques, de couleurs perfectionn�es, m�daille � l'ex- position universelle de londres"@fr .
+<http://data.soduco.fr/id/entry/15762> <http://data.soduco.fr/def/annuaire#address> "rue louis-le-grand 37"@fr .
+<http://data.soduco.fr/id/entry/15762> <http://data.soduco.fr/def/annuaire#numEntry> "2296253"@fr .
+<http://data.soduco.fr/id/entry/15762> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14205> <http://www.w3.org/2000/01/rdf-schema#label> "beaud (ii.) et cie"@fr .
+<http://data.soduco.fr/id/entry/14205> <http://data.soduco.fr/def/annuaire#activity> "produits chi- miques essay�s pourdaguerr�o- type et photographie"@fr .
+<http://data.soduco.fr/id/entry/14205> <http://data.soduco.fr/def/annuaire#address> "cit� holz- bacher 7"@fr .
+<http://data.soduco.fr/id/entry/14205> <http://data.soduco.fr/def/annuaire#numEntry> "8079710"@fr .
+<http://data.soduco.fr/id/entry/14205> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/16711> <http://www.w3.org/2000/01/rdf-schema#label> "le gray"@fr .
+<http://data.soduco.fr/id/entry/16711> <http://data.soduco.fr/def/annuaire#activity> "peintre d'histoire et pho- tographiste, portraits sur papier, reproduction de tableaux, vues de france et objets d'art, imprime- rie photographique et le�ons de photographie"@fr .
+<http://data.soduco.fr/id/entry/16711> <http://data.soduco.fr/def/annuaire#address> "chemin de ronde  de la barri�re de clichy 7"@fr .
+<http://data.soduco.fr/id/entry/16711> <http://data.soduco.fr/def/annuaire#numEntry> "1486969"@fr .
+<http://data.soduco.fr/id/entry/16711> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13753> <http://www.w3.org/2000/01/rdf-schema#label> "boitouzet"@fr .
+<http://data.soduco.fr/id/entry/13753> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/13753> <http://data.soduco.fr/def/annuaire#address> "st-marc 6"@fr .
+<http://data.soduco.fr/id/entry/13753> <http://data.soduco.fr/def/annuaire#numEntry> "1683347"@fr .
+<http://data.soduco.fr/id/entry/13753> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19072> <http://www.w3.org/2000/01/rdf-schema#label> "cure (f.)"@fr .
+<http://data.soduco.fr/id/entry/19072> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/19072> <http://data.soduco.fr/def/annuaire#address> "bac 92"@fr .
+<http://data.soduco.fr/id/entry/19072> <http://data.soduco.fr/def/annuaire#numEntry> "6640347"@fr .
+<http://data.soduco.fr/id/entry/19072> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/20264> <http://www.w3.org/2000/01/rdf-schema#label> "chatelin (eug.)"@fr .
+<http://data.soduco.fr/id/entry/20264> <http://data.soduco.fr/def/annuaire#activity> "verres � vitres et glaces pour le b�timent et la photographie"@fr .
+<http://data.soduco.fr/id/entry/20264> <http://data.soduco.fr/def/annuaire#address> "od�on 6"@fr .
+<http://data.soduco.fr/id/entry/20264> <http://data.soduco.fr/def/annuaire#numEntry> "6431525"@fr .
+<http://data.soduco.fr/id/entry/20264> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14192> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/14192> <http://data.soduco.fr/def/annuaire#activity> "photographique"@fr .
+<http://data.soduco.fr/id/entry/14192> <http://data.soduco.fr/def/annuaire#address> "� belle- vue"@fr .
+<http://data.soduco.fr/id/entry/14192> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/14192> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17132> <http://www.w3.org/2000/01/rdf-schema#label> "fl�cheux"@fr .
+<http://data.soduco.fr/id/entry/17132> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17132> <http://data.soduco.fr/def/annuaire#address> "st-martin 829"@fr .
+<http://data.soduco.fr/id/entry/17132> <http://data.soduco.fr/def/annuaire#numEntry> "7577151"@fr .
+<http://data.soduco.fr/id/entry/17132> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17220> <http://www.w3.org/2000/01/rdf-schema#label> "gl�nisson"@fr .
+<http://data.soduco.fr/id/entry/17220> <http://data.soduco.fr/def/annuaire#activity> "profess. de photogra- phie, portraits et le�ons"@fr .
+<http://data.soduco.fr/id/entry/17220> <http://data.soduco.fr/def/annuaire#address> "st-an- k toine 110"@fr .
+<http://data.soduco.fr/id/entry/17220> <http://data.soduco.fr/def/annuaire#numEntry> "1486944"@fr .
+<http://data.soduco.fr/id/entry/17220> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17346> <http://www.w3.org/2000/01/rdf-schema#label> "bisson fr�res"@fr .
+<http://data.soduco.fr/id/entry/17346> <http://data.soduco.fr/def/annuaire#activity> "photographes des minist�res, imprimerie photogra- phique, reproduction de tous des- sins, gravures, bronzes, pendules et objets d"@fr .
+<http://data.soduco.fr/id/entry/17346> <http://data.soduco.fr/def/annuaire#address> "st"@fr .
+<http://data.soduco.fr/id/entry/17346> <http://data.soduco.fr/def/annuaire#numEntry> "288451"@fr .
+<http://data.soduco.fr/id/entry/17346> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13968> <http://www.w3.org/2000/01/rdf-schema#label> "bouch�)"@fr .
+<http://data.soduco.fr/id/entry/13968> <http://data.soduco.fr/def/annuaire#activity> "sp�cialit� pour la phar- macie, la chimie, la physique, pour la photographic, la galva- noplastic ; porcelaine pour ser- vice de table, confiscurs, �pi- ciers, papctiers, etc"@fr .
+<http://data.soduco.fr/id/entry/13968> <http://data.soduco.fr/def/annuaire#address> "rue de pontoise 26"@fr .
+<http://data.soduco.fr/id/entry/13968> <http://data.soduco.fr/def/annuaire#numEntry> "6431593"@fr .
+<http://data.soduco.fr/id/entry/13968> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19445> <http://www.w3.org/2000/01/rdf-schema#label> "remond-morin"@fr .
+<http://data.soduco.fr/id/entry/19445> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/19445> <http://data.soduco.fr/def/annuaire#address> "st-martin 85"@fr .
+<http://data.soduco.fr/id/entry/19445> <http://data.soduco.fr/def/annuaire#numEntry> "5546720"@fr .
+<http://data.soduco.fr/id/entry/19445> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19960> <http://www.w3.org/2000/01/rdf-schema#label> "cuvette"@fr .
+<http://data.soduco.fr/id/entry/19960> <http://data.soduco.fr/def/annuaire#activity> "en papier pour cirer le le papier photographique, choix de st�r�oscopes, articles de da- guerr�otype et accessoires"@fr .
+<http://data.soduco.fr/id/entry/19960> <http://data.soduco.fr/def/annuaire#address> "place dauphine 17"@fr .
+<http://data.soduco.fr/id/entry/19960> <http://data.soduco.fr/def/annuaire#numEntry> "2296277"@fr .
+<http://data.soduco.fr/id/entry/19960> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15375> <http://www.w3.org/2000/01/rdf-schema#label> "darlot"@fr .
+<http://data.soduco.fr/id/entry/15375> <http://data.soduco.fr/def/annuaire#activity> "opticien, sp�cialit� d'ob- jecti fs et d'accessoires � l'usage de laphotographie"@fr .
+<http://data.soduco.fr/id/entry/15375> <http://data.soduco.fr/def/annuaire#address> "quai de l'hor- loge 25"@fr .
+<http://data.soduco.fr/id/entry/15375> <http://data.soduco.fr/def/annuaire#numEntry> "2296238"@fr .
+<http://data.soduco.fr/id/entry/15375> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17932> <http://www.w3.org/2000/01/rdf-schema#label> "damas (mile)"@fr .
+<http://data.soduco.fr/id/entry/17932> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17932> <http://data.soduco.fr/def/annuaire#address> "rivoli 33"@fr .
+<http://data.soduco.fr/id/entry/17932> <http://data.soduco.fr/def/annuaire#numEntry> "8368885"@fr .
+<http://data.soduco.fr/id/entry/17932> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17719> <http://www.w3.org/2000/01/rdf-schema#label> "chauvin"@fr .
+<http://data.soduco.fr/id/entry/17719> <http://data.soduco.fr/def/annuaire#activity> "photographe"@fr .
+<http://data.soduco.fr/id/entry/17719> <http://data.soduco.fr/def/annuaire#address> "j.-j.- rousseau 18"@fr .
+<http://data.soduco.fr/id/entry/17719> <http://data.soduco.fr/def/annuaire#numEntry> "6941477"@fr .
+<http://data.soduco.fr/id/entry/17719> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/14194> <http://www.w3.org/2000/01/rdf-schema#label> "beaud (henri) et cie"@fr .
+<http://data.soduco.fr/id/entry/14194> <http://data.soduco.fr/def/annuaire#activity> "fab. par machine � vapeur de plaqu� ar- gent pour daguerr�otype, plaques galvanis�es garanties, passepar- tout encadrement, fantaisies, ap- pareils et tout ce qui a rapport au daguerr�otype-et � la photogra- phie"@fr .
+<http://data.soduco.fr/id/entry/14194> <http://data.soduco.fr/def/annuaire#address> "cit� holzbach 7"@fr .
+<http://data.soduco.fr/id/entry/14194> <http://data.soduco.fr/def/annuaire#numEntry> "1487030"@fr .
+<http://data.soduco.fr/id/entry/14194> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/15765> <http://www.w3.org/2000/01/rdf-schema#label> "bataille"@fr .
+<http://data.soduco.fr/id/entry/15765> <http://data.soduco.fr/def/annuaire#activity> "artiste photographe"@fr .
+<http://data.soduco.fr/id/entry/15765> <http://data.soduco.fr/def/annuaire#address> "rousselet 29"@fr .
+<http://data.soduco.fr/id/entry/15765> <http://data.soduco.fr/def/annuaire#numEntry> "1635526"@fr .
+<http://data.soduco.fr/id/entry/15765> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/17738> <http://www.w3.org/2000/01/rdf-schema#label> "trouillot"@fr .
+<http://data.soduco.fr/id/entry/17738> <http://data.soduco.fr/def/annuaire#activity> "sp�cialit� de cadres pour * photographes"@fr .
+<http://data.soduco.fr/id/entry/17738> <http://data.soduco.fr/def/annuaire#address> "temple 121"@fr .
+<http://data.soduco.fr/id/entry/17738> <http://data.soduco.fr/def/annuaire#numEntry> "2296297"@fr .
+<http://data.soduco.fr/id/entry/17738> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/19000> <http://www.w3.org/2000/01/rdf-schema#label> "laurent (f.), et casthelaz"@fr .
+<http://data.soduco.fr/id/entry/19000> <http://data.soduco.fr/def/annuaire#activity> "fab. de produits chimiques, sp�cialit� de produits pour ta photographie, dep�t des brochures legray"@fr .
+<http://data.soduco.fr/id/entry/19000> <http://data.soduco.fr/def/annuaire#address> "ste- croix-de-la-bretonnerie 19"@fr .
+<http://data.soduco.fr/id/entry/19000> <http://data.soduco.fr/def/annuaire#numEntry> "2296263"@fr .
+<http://data.soduco.fr/id/entry/19000> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/16111> <http://www.w3.org/2000/01/rdf-schema#label> "plaut (henri"@fr .
+<http://data.soduco.fr/id/entry/16111> <http://data.soduco.fr/def/annuaire#activity> "artiste-photog"@fr .
+<http://data.soduco.fr/id/entry/16111> <http://data.soduco.fr/def/annuaire#address> "quai conti 7"@fr .
+<http://data.soduco.fr/id/entry/16111> <http://data.soduco.fr/def/annuaire#numEntry> "9691670"@fr .
+<http://data.soduco.fr/id/entry/16111> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .
+<http://data.soduco.fr/id/entry/13863> <http://www.w3.org/2000/01/rdf-schema#label> "harvillc et pont"@fr .
+<http://data.soduco.fr/id/entry/13863> <http://data.soduco.fr/def/annuaire#activity> "photographes"@fr .
+<http://data.soduco.fr/id/entry/13863> <http://data.soduco.fr/def/annuaire#address> "meud"@fr .
+<http://data.soduco.fr/id/entry/13863> <http://data.soduco.fr/def/annuaire#numEntry> "1486955"@fr .
+<http://data.soduco.fr/id/entry/13863> <http://data.soduco.fr/def/annuaire#directoryName> "Didot_1856a"@fr .

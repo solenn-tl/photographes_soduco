@@ -1,0 +1,187 @@
+@prefix adb: <http://rdf.geohistoricaldata.org/def/directory#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix organization: <http://www.w3.org/ns/org#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#>.
+@prefix locn: <http://www.w3.org/ns/locn#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+
+
+
+# ---- Ontology metadata -----
+<http://rdf.geohistoricaldata.org/def/annuaire> a owl:Ontology, voaf:Vocabulary ;
+        dcterms:creator [
+	      rdf:type foaf:Person ;
+	      organization:hasMembership [
+	          rdf:type organization:Membership ;
+	          organization:memberDuring [
+	              rdf:type time:Interval ;
+	              time:hasBeginning [
+	                  rdf:type time:Instant ;
+	                  time:inXSDDateTimeStamp "2005-09-09"^^xsd:dateTimeStamp ;
+	                ] ;
+	            ] ;
+	          organization:organization <http://www.ign.fr/> ;
+	          organization:role [
+	              rdf:type organization:Role ;
+	              rdfs:label "Chargée de recherche"@fr, "Survey engineer and Scientist"@en ;
+	            ] ;
+	        ] ;
+	      foaf:family_name "Abadie" ;
+	      foaf:firstName "Nathalie" ;
+	      foaf:mbox <mailto:nathalie-f.abadie@ign.fr> ;
+	      foaf:name "Nathalie Abadie" ;
+          foaf:workInfoHomepage <https://www.umr-lastig.fr/nathalie-abadie/> ;
+	    ] ; 
+		dcterms:creator [ rdf:type foaf:Person ;
+	      organization:hasMembership [
+	          rdf:type organization:Membership ;
+	          organization:memberDuring [
+	              rdf:type time:Interval ;
+	              time:hasBeginning [
+	                  rdf:type time:Instant ;
+	                  time:inXSDDateTimeStamp "2022-04-01"^^xsd:dateTimeStamp ;
+	                ] ;
+	            ] ;
+	          organization:organization <http://www.ign.fr/> ;
+	          organization:role [
+	              rdf:type organization:Role ;
+	              rdfs:label "Stagiaire"@fr, "Intern student"@en ;
+	            ] ;
+	        ] ;
+	      foaf:family_name "Tual" ;
+	      foaf:firstName "Solenn" ;
+	      foaf:mbox <mailto:solenn.tual@ign.fr> ;
+	      foaf:name "Solenn Tual" ;
+          foaf:workInfoHomepage <https://www.umr-lastig.fr/solenn-tual/> ;
+	    ] ;
+        dcterms:description "Ontologie décrivant le contenu des séries d'annuaires du commerce parisien du 19ème siècle"@fr, "Ontology describing the trade directory series published in Paris during theh 19th century."@en;
+        dcterms:issued "2022-08-31"^^xsd:date ;
+        dcterms:publisher <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8r> ;
+        dcterms:title "Ontologie des annuaires du commerce parisien du 19ème siècle."@fr, "Ontology of 19th century Paris trade directories."@en ;
+        vann:preferredNamespacePrefix "adb" ;
+		vann:preferredNamespaceUri <http://data.soduco.fr/def/annuaire#> ;
+		dcterms:rights "Copyright 2022, IGN" ;
+		cc:license <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> ;
+		cc:license <http://creativecommons.org/licenses/by/2.0/> ;
+		cc:license <http://opendatacommons.org/licenses/by/> ;
+		owl:versionInfo "Version 0.1 - 2022-08-31" .
+		
+
+
+# ---- Classes definition ----
+adb:Entry a owl:Class;
+  rdfs:isDefinedBy <http://rdf.geohistoricaldata.org/def/annuaire#>;
+  rdfs:label "Entrée d'un annuaire"@fr, "Directory entry"@en ;
+  # Keys used to create links between entries which describe the same person or company.
+  #owl:hasKey (adb:numEntry) ;
+  #owl:hasKey (rdfs:label <http://rdaregistry.info/Elements/a/P50104>) ;
+  #owl:hasKey (locn:address <http://rdaregistry.info/Elements/a/P50104>) ;
+  #owl:hasKey (locn:address rdfs:label) ;
+  rdfs:comment "Entrée d'un annuaire, comportant au moins une adresse et un intitulé (nom de personne ou de commerce) ou une activité."@fr.
+  
+adb:Directory a owl:Class;
+  rdfs:isDefinedBy <http://rdf.geohistoricaldata.org/def/annuaire#>;
+  rdfs:label "Annuaire"@fr, "Directory"@en ;
+  rdfs:comment "Liste ordonnée de personnes ou de commerces ou d'administrations associés à leur localisation à une date donnée, et ordonnés de sorte à être facilement retrouvés."@fr.
+
+# ---- Property definition ----
+adb:numEntry a owl:DatatypeProperty;
+	rdfs:comment "Identifiant de cette entrée dans la base d'origine."@fr, "Entry identifier in the original database."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Entry number"@en;
+	rdfs:label "Numéro de l'entrée"@fr;
+	rdfs:range xsd:integer.
+	
+	
+# --- Classes copyied here to avoir imports ---
+locn:Address a owl:Class;
+	rdfs:isDefinedBy <http://www.w3.org/ns/locn#>;
+	#owl:hasKey (locn:fullAddress) ;
+	#owl:hasKey (locn:locatorDesignator locn:thoroughfare) ;
+	rdfs:label "Adresse"@fr, "Address"@en .
+
+<http://www.opengis.net/ont/sf#Point> a rdfs:Class;
+	rdfs:isDefinedBy <http://www.opengis.net/ont/sf#>;
+	rdfs:label "Point"@fr, "Point"@en .
+
+prov:Activity a owl:Class;
+	rdfs:isDefinedBy <http://www.w3.org/ns/prov#>;
+	rdfs:label "Activité"@fr, "Activity"@en .
+
+prov:Entity a owl:Class;
+	rdfs:isDefinedBy <http://www.w3.org/ns/prov#>;
+	rdfs:label "Entité"@fr, "Entity"@en .
+  
+# --- Datatype properties copyied here to avoir imports ---
+gsp:asWKT a rdf:Property;
+  rdfs:label "wkt"@fr, "wkt"@en ;
+  rdfs:domain gsp:Geometry;
+  rdfs:range gsp:wktLiteral.
+  
+locn:fullAddress a rdf:Property;
+  rdfs:label "adresse complète"@fr, "full address"@en ;
+  rdfs:domain locn:Address;
+  rdfs:range xsd:string.
+  
+locn:locatorDesignator a rdf:Property;
+  rdfs:label "numéro de voie"@fr, "locator designator"@en ;
+  rdfs:domain locn:Address;
+  rdfs:range xsd:string.
+
+locn:thoroughfare a rdf:Property;
+  rdfs:label "nom de voie"@fr, "thoroughfare"@en ;
+  rdfs:domain locn:Address;
+  rdfs:range xsd:string.
+
+<http://purl.org/pav/createdOn> a rdf:Property;
+  rdfs:label "date de création"@fr, "created on"@en ;
+  rdfs:range xsd:date.
+
+rdfs:label a owl:DatatypeProperty.
+
+<http://rdaregistry.info/Elements/a/P50104> a rdf:Property;
+	rdfs:label "a pour profession ou activité"@fr, "has profession or occupation"@en.
+
+# --- Object properties copyied here to avoir imports ---
+locn:address a rdf:Property;
+  rdfs:label "adresse"@fr, "address"@en;
+  rdfs:range locn:Address.
+  
+gsp:hasGeometry a rdf:Property;
+  rdfs:label "has geometry"@en ;
+  rdfs:domain gsp:Feature;
+  rdfs:range gsp:Geometry.
+  
+prov:wasDerivedFrom a rdf:Property;
+	rdfs:label "est dérivé de"@fr, "was derived from"@en ;
+	rdfs:domain prov:Entity;
+	rdfs:range prov:Entity.
+
+prov:wasGeneratedBy a rdf:Property;
+	rdfs:label "a été généré par"@fr, "was generated by"@en ;
+	rdfs:domain prov:Entity;
+	rdfs:range prov:Activity.
+	
+prov:atTime a rdf:Property;
+	rdfs:label "date"@fr, "at time"@en ;
+	rdfs:domain prov:Activity;
+	rdfs:range xsd:dateTime.
+
+prov:used a rdf:Property;
+	rdfs:label "données en entrée"@fr, "used"@en ;
+	rdfs:domain prov:Activity;
+	rdfs:range prov:Entity.
+
+prov:generated a rdf:Property;
+	rdfs:label "données en sortie"@fr, "generated"@en ;
+	rdfs:domain prov:Activity;
+	rdfs:range prov:Entity.

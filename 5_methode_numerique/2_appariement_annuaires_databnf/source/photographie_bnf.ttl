@@ -1,0 +1,422 @@
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1893"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Georges Spitz (1857-1894)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Pesme (1826-1877?)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1826"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12537530x#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Victor Regnault (1810-1878)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri Lesecq (1818-1882)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1856"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb13533895h#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Henri-G\u00E9d\u00E9on Daloz (1861-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Adrien Alban Tournachon (1825-1903)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12537530x#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1810"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"S.M.E. (1831-1915)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14058274s#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis-R\u00E9my Robert (1810-1882)"@fr .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1819"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb153424672#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1901"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13533895h#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1861"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14845081z#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1863"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14496871f#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14021067n#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"P. Petit (1831-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11948432b#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1802"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12125776d#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1840"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12401301j#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1953"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1894"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14496871f#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1891"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Amiral Vignes (1831-1896)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1903"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12749400r#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1929"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Laure Albin- Guillot (1879-1962)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13050159j#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1906"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12216144b#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"\u00C9mile-Octave Prillot (1877-1935)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1831"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb162133661#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Lucien Blumer (1871-1947)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"G. J. (1856-1933)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14878876x#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jacques-Ernest Bulloz (1858-1942)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119269246#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1951"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13533895h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"H.-G. Daloz (1861-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb122592236#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1857"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"S\u00E9raphin-\u00C9mile Vernier (1852-1927)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14978010z#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb130129718#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Baron Gros (1793-1870)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12216142n#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Armand-Henri Prillot (1862-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120157730#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1851"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1943"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nadard (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"\u00C9tienne-Jules Marey (1830-1904)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12537530x#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb141284308#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1822"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14144292q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1961"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb120157730#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Claude-Marie-Fran\u00E7ois Niepce de Saint-Victor (1805-1870)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12216142n#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri Prillot (1862-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb130129718#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean-Baptiste-Louis Gros (1793-1870)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10572063v#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Isabelle Massieu (1844-1932)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1927"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1830"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb150919682#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Charles Champ (1879-1960)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12242510s#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eug\u00E8ne Trutat (1840-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles Spitz (1857-1894)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean Gilletta (1856-1933)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12170751w#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1894"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1857"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1962"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb11948432b#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis-D\u00E9sir\u00E9 Blanquart- Evrard (1802-1872)"@fr .
+<http://data.bnf.fr/ark:/12148/cb121578596#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb167542284#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Raymond-Ismidon-Marie de B\u00E9renger (1811-1875)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13050159j#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1828"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Ag\u00E9lou E. (1878-1921)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167655361#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb141284308#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1913"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13533895h#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1941"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119269246#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb150919682#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1879"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13568009q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1834"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Dagron (1819-1900)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1812"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14144292q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1915"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14144292q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb153426590#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Georges Penabert (1825-1903)"@fr .
+<http://data.bnf.fr/ark:/12148/cb17773376k#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1896"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1856"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12170751w#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1822"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb122592236#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1946"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Facteur Jacquet (1876-1929)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14496871f#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1829"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb123260611#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1806"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb15014020n#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"P. Emonds (Photographe, 1831-1912 ?)"@fr .
+<http://data.bnf.fr/ark:/12148/cb122592236#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Joseph Quentin (1857-1946)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12749400r#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Alcide L. (1848-1929)"@fr .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1879"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14058274s#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Louis Robert (1810-1882)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11948432b#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Louis-D\u00E9sir\u00E9 Blanquart-Evrard (1802-1872)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jules Gervais- Courtellemont (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Prudent Ren\u00E9-Patrice Dagron (1819-1900)"@fr .
+<http://data.bnf.fr/ark:/12148/cb153424672#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12749400r#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1848"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Nadar (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb123774068#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14978010z#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis Eug\u00E8ne Pirou (1841-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Andr\u00E9-Adolphe-Eug\u00E8ne Disd\u00E9ri (1819-1889)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb17773376k#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Gustave Cosson (1824-1896)"@fr .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Paul Fran\u00E7ois Arnold Cardon (1858-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb130129718#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb162133661#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1871"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb153426590#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb162133661#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Carl Bodmer (1809-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri Le Lieure de L'Aub\u00E9pin (1831-1914)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11948432b#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14144292q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Vizzavona (1876-1961)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1858"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13568009q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb123260611#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Fr\u00E9d\u00E9ric Martens (1806-1885)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12242510s#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jules-Claudin Gervais-Courtellemont (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12242510s#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles-Louis-Eug\u00E8ne Trutat (1840-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Bernard Ag\u00E9lou (1878-1921)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12572627x#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gustave Legray (1820-1884)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Disd\u00E9ri (1819-1889)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13196248m#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb15014020n#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1831"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1885"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Ernest Clair-Guyot (1856-1938)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10960717m#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Albert Joliet (1839-1928)"@fr .
+<http://data.bnf.fr/ark:/12148/cb17773376k#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1824"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb11889340k#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb16652069h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Edmond Jean Henri Laurent Samson (1870-1922)"@fr .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1938"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13013641r#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1895"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"\u00C9mile Pesme (1826-1877?)"@fr .
+<http://data.bnf.fr/ark:/12148/cb153424672#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean Delton (1850-1901)"@fr .
+<http://data.bnf.fr/ark:/12148/cb123260611#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1885"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"dit Clair-Guyot Guyot (1856-1938)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13568009q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Camille-L\u00E9on-Louis Silvy (1834-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13196248m#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1825"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13568009q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12572627x#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Gustave Le Gray (1820-1884)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13013641r#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Pierre Tr\u00E9maux (1818-1895)"@fr .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"J. A. (1878-1921)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1809"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb11889340k#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1927"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12242510s#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1840"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"\u00C9mile-S\u00E9raphin Vernier (1852-1927)"@fr .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb121578596#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Georges Demen\u00FF (1850-1917)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Hippolyte-Auguste Collard (1812-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"L\u00E9on Parvill\u00E9e (1830-1885)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13013641r#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1818"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12749400r#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Raymond de B\u00E9renger (1811-1875)"@fr .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean-Marie-Casimir Ducos (1830-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Am\u00E9lie Galup (1856-1943)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Tournachon Jeune (1825-1903)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12339149c#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1856"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12401301j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Professeur Desbonnet (1868-1953)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12216144b#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jacquet (facteur, 1876-1929)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120331273#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri-Paul V\u00E9rola (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12537530x#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Docteur Marey (1830-1904)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120331273#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14878876x#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12401301j#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb15014020n#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1912"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Laure Albin Guillot (1879-1962)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12339149c#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Paul Nadar (1856-1939)"@fr .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1893"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb15014020n#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Pierre Emonts (1831-1912 ?)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12170751w#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Dieudonn\u00E9 Auguste Lancelot (1822-1894)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Giletta (1856-1933)"@fr .
+<http://data.bnf.fr/ark:/12148/cb16652069h#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1922"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12200523t#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb141284308#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Pierre-Louis Pierson (1822-1913)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13182901q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jules Marey (1830-1904)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120331273#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1931"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gaspard-F\u00E9lix Tournachon (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12216144b#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1877"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"\u00C9mile Jacquet (1876-1929)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13013641r#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Pierre Tr\u00E9meaux (1818-1895)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1811"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14978010z#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1841"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Vice-amiral Vignes (1831-1896)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1914"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13196248m#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1905"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12200523t#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1813"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10494084j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Marie Hippolyte Blancard (1843-1924)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10960717m#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1839"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Antonin \u00C9mile G\u00E9rard Jean Personnaz (1854-1936)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"F\u00E9lix Tournachon (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb123774068#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Alphonse Justin Li\u00E9bert (1827-1914)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12339149c#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1939"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Alcide Ducos Du Hauron (1830-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb150919682#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gustave-F\u00E9lix Tournachon (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean Ag\u00E9lou (1878-1921)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"J.G. (1856-1933)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167542284#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Charles Popineau (1871-1948)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13050159j#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gervais Courtellemont (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14496871f#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"L\u00E9on Pierre Jouvin (1829-1891)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167655361#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"A. Fleury (1878-1961)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120331273#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1863"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14978010z#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1909"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1931"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12242510s#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Claude F\u00E9lix Abel Niepce de Saint-Victor (1805-1870)"@fr .
+<http://data.bnf.fr/ark:/12148/cb141284308#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Antonin Personnaz (1854-1936)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10494084j#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1875"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri Lelieure (1831-1914)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12339149c#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14058274s#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"A. Personnaz (1854-1936)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12216144b#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1935"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1896"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10494084j#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1843"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12339149c#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Paul Tournachon (1856-1939)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13568009q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Camille Silvy (1834-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb123260611#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb130129718#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1793"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb120157730#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1787"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13050159j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Carjat (1828-1906)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1831"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13182901q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Claude-Marie Ferrier (1811-1889)"@fr .
+<http://data.bnf.fr/ark:/12148/cb17773376k#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gustave (1824-1896)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nadar p\u00E8re (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119607001#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"\u00C9tienne Geoffray"@fr .
+<http://data.bnf.fr/ark:/12148/cb12200523t#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1879"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14977281s#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean Laurent (1816-1886)"@fr .
+<http://data.bnf.fr/ark:/12148/cb121578596#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1917"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis Parvill\u00E9e"@fr .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Numa-Fran\u00E7ois Saint-Marcel Eyss\u00E9ric (1831-1915)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11889340k#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eug\u00E8ne Atget (1857-1927)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120331273#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Paul V\u00E9rola (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb122592236#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Joseph Philibert Quentin (1857-1946)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14845081z#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"L\u00E9opold Reutlinger (1863-1937)"@fr .
+<http://data.bnf.fr/ark:/12148/cb153426590#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Georges Penabert (1825-1903)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13182901q#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1889"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Ren\u00E9 Dagron (1819-1900)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12401301j#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Edmond Desbonnet (1868-1953)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb17773376k#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb10960717m#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1928"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12125776d#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"S\u00E9raphin-M\u00E9d\u00E9ric Mieusement (1840-1905)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12125776d#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb153426590#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1825"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119269246#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Tournassoud (1866-1951)"@fr .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Alcide Ducos- Duhauron (1830-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14878876x#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Bulloz (1858-1942)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14878876x#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1942"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb141284308#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Louis Pierson (1822-1913)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12170751w#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb10572063v#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1831"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12572627x#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb123774068#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1827"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12216144b#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"\u00C9mile Prillot (1877-1935)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1819"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Pol Marsan (1858-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11889340k#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1857"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119607001#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1905"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14977281s#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb16652069h#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1863"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14845081z#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1937"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14978010z#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eug\u00E8ne Pirou (1841-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167655361#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean-Louis-Henri Le Secq Destournelles (1818-1882)"@fr .
+<http://data.bnf.fr/ark:/12148/cb121578596#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Georges Demenij (1850-1917)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1889"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb135281331#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Laure Albin-Guillot (1879-1962)"@fr .
+<http://data.bnf.fr/ark:/12148/cb11889340k#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Eug\u00E8ne Auguste Atget (1857-1927)"@fr .
+<http://data.bnf.fr/ark:/12148/cb121578596#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1850"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Auguste Hippolyte Collard (1812-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Henri Le Secq (1818-1882)"@fr .
+<http://data.bnf.fr/ark:/12148/cb130129718#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1870"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10494084j#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1924"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1921"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12125776d#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"M\u00E9d\u00E9ric Mieusement (1840-1905)"@fr .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1854"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb16652069h#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1870"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14021067n#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1909"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Paul \u00C9mile Pesme (1826-1877?)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14845081z#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Am\u00E9lie Galup Faure (1856-1943)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167542284#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles-Lucien Popineau (1871-1948)"@fr .
+<http://data.bnf.fr/ark:/12148/cb167655361#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1961"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10960717m#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb123774068#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1914"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14061765q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Am\u00E9lie Galup-Faure (1856-1943)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14977006g#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Raymond Ismidon Marie de B\u00E9renger Sassenage (marquis de, 1811-1875)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14519305h#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Charles Georges Spitz (1857-1894)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14878876x#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1858"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1830"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119269246#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1866"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb153426590#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1903"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nadar Jeune (1825-1903)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12200523t#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Charles Marville (1813-1879)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Paul Marsan (1858-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Dornac (1858-1941)"@fr .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles Bodmer (1809-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb167542284#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1871"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1805"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1933"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14144292q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Fran\u00E7ois Vizzavona (1876-1961)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119607001#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1827"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12216142n#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1862"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Eug\u00E8ne Disd\u00E9ri (1819-1889)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10494084j#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Hippolyte Blancard (1843-1924)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13196248m#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jacques-Charles-Emmanuel Gaudin (1825-1905)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14021067n#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Pierre Petit (1831-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14021067n#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb123774068#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Alphonse Li\u00E9bert (1827-1914)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13176121w#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Louis Vignes (1831-1896)"@fr .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb167655361#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Am\u00E9d\u00E9e Fleury (1878-1961)"@fr .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1830"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13182901q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1811"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Abel Niepce de Saint-Victor (1805-1870)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12170751w#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Auguste Dieudonn\u00E9 Lancelot (1822-1894)"@fr .
+<http://data.bnf.fr/ark:/12148/cb15114659h#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"J.A. (1878-1921)"@fr .
+<http://data.bnf.fr/ark:/12148/cb122592236#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12216142n#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb14977281s#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1816"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb120157730#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Louis-Jacques-Mand\u00E9 Daguerre (1787-1851)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14058274s#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1810"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12216142n#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12459864s#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1818"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13182901q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Ferrier p\u00E8re (1811-1889)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13013641r#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb123260611#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Vincent Fr\u00E9d\u00E9ric de Martens (1806-1885)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12572627x#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1884"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12749400r#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Alcide Leroux (1848-1929)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119607001#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"St\u00E9phane Geoffray (1827-1905)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14977281s#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Laurent y Minier (1816-1886)"@es .
+<http://data.bnf.fr/ark:/12148/cb14021067n#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1831"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12537530x#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Henri-Victor Regnault (1810-1878)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"F\u00E9lix Tournachon-Nadar (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Alcide Ducos du Hauron (1830-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13050159j#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"\u00C9tienne Carjat (1828-1906)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10960717m#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean Benigne Gaspard Albert Joliet (1839-1928)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1852"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14496871f#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"L\u00E9on Jouvin (1829-1891)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis L\u00E9on Parvill\u00E9e"@fr .
+<http://data.bnf.fr/ark:/12148/cb14057493c#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Augustin Collard (1812-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120157730#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jacques Daguerre (1787-1851)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14977281s#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1886"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12068980k#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1904"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb150919682#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12401301j#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1868"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb167542284#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1948"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb153424672#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Louis-Jean Delton (1850-1901)"@fr .
+<http://data.bnf.fr/ark:/12148/cb10368087r#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb162133661#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1947"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb153424672#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1850"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14058274s#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1882"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119269246#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jean-Baptiste Tournassoud (1866-1951)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12200523t#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles Fran\u00E7ois Bossu (1813-1879)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1856"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1909"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10572063v#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1844"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Jules Gervais-Courtellemont (1863-1931)"@fr .
+<http://data.bnf.fr/ark:/12148/cb120108852#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"J. G. (1856-1933)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12652026p#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1870"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb162133661#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Charles-Lucien Blumer (1871-1947)"@fr .
+<http://data.bnf.fr/ark:/12148/cb15014020n#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb11948432b#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1872"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb120462577#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1882"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb119607001#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12125776d#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1905"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13757025v#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Henri Le Lieure (1831-1914)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12196865q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb12572627x#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb16652069h#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Edmond Samson (1870-1922)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"N.-F. Saint-Marcel Eyss\u00E9ric (1831-1915)"@fr .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Victorin Clair Ernest Guyot (1856-1938)"@fr .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"\u00C9mile Vernier (1852-1927)"@fr .
+<http://data.bnf.fr/ark:/12148/cb118925174#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Karl Bodmer (1809-1893)"@fr .
+<http://data.bnf.fr/ark:/12148/cb119173388#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"F\u00E9lix Nadar (1820-1910)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13532499j#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1941"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb10572063v#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb149750823#about>	<http://data.bnf.fr/ontology/bnf-onto/firstYear>	"1825"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb124567027#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Alcide Ducos-Duhauron (1830-1909)"@fr .
+<http://data.bnf.fr/ark:/12148/cb149767243#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1877"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14845081z#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"L\u00E9opold-\u00C9mile Reutlinger (1863-1937)"@fr .
+<http://data.bnf.fr/ark:/12148/cb12501631g#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Saint-Marcel Eyss\u00E9ric (1831-1915)"@fr .
+<http://data.bnf.fr/ark:/12148/cb146736326#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Ernest Clair- Guyot (1856-1938)"@fr .
+<http://data.bnf.fr/ark:/12148/cb150919682#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jean-Charles Champ (1879-1960)"@fr .
+<http://data.bnf.fr/ark:/12148/cb111589943#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1936"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb14391362q#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://data.bnf.fr/ark:/12148/cb10572063v#about>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Jeanne Isabelle Bauche"@fr .
+<http://data.bnf.fr/ark:/12148/cb130092845#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1900"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb167527746#about>	<http://data.bnf.fr/ontology/bnf-onto/lastYear>	"1929"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.bnf.fr/ark:/12148/cb13196248m#about>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Charles Gaudin (1825-1905)"@fr .
+<http://data.bnf.fr/ark:/12148/cb13533895h#about>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .

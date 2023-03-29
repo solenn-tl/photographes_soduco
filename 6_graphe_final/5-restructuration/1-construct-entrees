@@ -1,0 +1,38 @@
+PREFIX adb: <http://data.soduco.fr/def/annuaire#>
+PREFIX ont: <http://rdf.geohistoricaldata.org/def/directory#>
+PREFIX gsp: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+CONSTRUCT {
+    ?newEntry a ont:Entry.
+    ?newEntry rdfs:label ?label.
+    ?newEntry prov:wasDerivedFrom ?directory.
+    ?newEntry ont:numEntry ?numEntry.
+    ?newEntry locn:address [ a locn:Address; locn:fullAddress ?add; locn:locatorDesignator ?numVoie; locn:thoroughfare ?voie; prov:wasGeneratedBy <http://rdf.geohistoricaldata.org/id/activity/0001>].
+    ?newEntry locn:address [ a locn:Address; locn:fullAddress ?addGcd; gsp:hasGeometry [ a gsp:Point; gsp:asWKT ?wkt]; prov:wasGeneratedBy <http://rdf.geohistoricaldata.org/id/activity/0002>].
+    ?newEntry <http://rdaregistry.info/Elements/a/P50104> ?act.
+    ?directory a ont:Directory.
+    ?directory rdfs:label ?nomAnnuaire.
+    ?directory <http://purl.org/pav/createdOn> ?dateAnnuaire. 
+    <http://rdf.geohistoricaldata.org/id/activity/0001> a prov:Activity; prov:atTime "2022-06-15"^^xsd:dateTime; prov:used ?directory; prov:generated ?newEntry; rdfs:comment "Segmentation des entrées, reconnaissance du texte et des entités nommées."@fr.
+    <http://rdf.geohistoricaldata.org/id/activity/0002> a prov:Activity; prov:atTime "2022-08-31"^^xsd:dateTime; prov:used ?newEntry; rdfs:comment "Géocodage historique"@fr.
+}
+WHERE {
+    ?s a adb:Entry.
+    ?s adb:address ?add.
+    ?s adb:activity ?act.
+    ?s adb:address_geocoding ?addGcd.
+    ?s adb:directoryDate ?dateAnnuaire.
+    ?s adb:directoryName ?nomAnnuaire.
+    ?s adb:numEntry ?numEntry.
+    ?s adb:numVoie ?numVoie.
+    ?s adb:voie ?voie.
+    ?s gsp:asWKT ?wkt.
+    ?s rdfs:label ?label.
+    BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/entry/", fn:substring-after(STR(?s),"http://data.soduco.fr/id/entry/"))) as ?newEntry).
+    BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/directory/", STR(?nomAnnuaire))) as ?directory)
+}

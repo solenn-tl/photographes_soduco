@@ -1,0 +1,51 @@
+@prefix adb: <http://data.soduco.fr/def/annuaire#>
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix mapping: <#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pleiades: <http://pleiades.stoa.org/places/vocab#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix topo: <http://data.ign.fr/def/topo#>.
+@prefix nym: <http://data.ign.fr/def/nyme#>.
+@prefix gsp: <http://www.opengis.net/ont/geosparql#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix gfl: <http://data.ign.fr/def/geofla#>.
+@prefix geom: <http://data.ign.fr/def/geometrie#>.
+
+mapping:table
+    rr:sqlQuery """
+        SELECT unique_id, index, person, activity, address, directory, published
+		FROM subsets_r2rml.par_activites_photo_daguer_opti_notitle_nonul
+		ORDER BY unique_id;
+        """ . 
+
+mapping:Entry
+	rr:logicalTable mapping:table;
+    rr:subjectMap [
+        rr:template "http://data.soduco.fr/id/entry/{unique_id}";
+        rr:class adb:Entry
+    ];
+	rr:predicateObjectMap [
+        rr:predicate adb:numEntry;
+		rr:objectMap [ rr:column "index"; rr:datatype xsd:integer; rr:language "fr"];
+	];
+	rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [ rr:column "person"; rr:datatype xsd:string; rr:language "fr"];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate adb:activity;
+        rr:objectMap [ rr:column "activity"; rr:datatype xsd:string; rr:language "fr"];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:address;
+        rr:objectMap [ rr:column "address"; rr:datatype xsd:string; rr:language "fr"];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:directoryName;
+        rr:objectMap [ rr:column "directory"; rr:datatype xsd:string; rr:language "fr"];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate adb:directoryDate;
+        rr:objectMap [ rr:column "published"; rr:datatype xsd:integer; rr:language "fr"];
+	].

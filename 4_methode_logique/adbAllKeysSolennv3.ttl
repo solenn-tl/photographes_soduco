@@ -1,0 +1,156 @@
+@prefix adb: <http://data.soduco.fr/def/annuaire#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix organization: <http://www.w3.org/ns/org#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#>.
+
+# ---- Ontology metadata -----
+<http://data.soduco.fr/def/annuaire> a owl:Ontology, voaf:Vocabulary ;
+        dcterms:creator [
+	      rdf:type foaf:Person ;
+	      organization:hasMembership [
+	          rdf:type organization:Membership ;
+	          organization:memberDuring [
+	              rdf:type time:Interval ;
+	              time:hasBeginning [
+	                  rdf:type time:Instant ;
+	                  time:inXSDDateTimeStamp "2005-09-09"^^xsd:dateTimeStamp ;
+	                ] ;
+	            ] ;
+	          organization:organization <http://www.ign.fr/> ;
+	          organization:organization <http://recherche.ign.fr/> ;
+	          organization:role [
+	              rdf:type organization:Role ;
+	              rdfs:label "ChargÃ©e de recherche"@fr, "Survey engineer and Scientist"@en ;
+	            ] ;
+	        ] ;
+	      foaf:family_name "Abadie" ;
+	      foaf:firstName "Nathalie" ;
+	      foaf:mbox <mailto:nathalie-f.abadie@ign.fr> ;
+	      foaf:name "Nathalie Abadie" ;
+          foaf:workInfoHomepage <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> ;
+	    ] ; 
+        dcterms:description "Ontologie décrivant le contenu des séries d'annuaires du commerce Didot-Bottin"@fr, "Ontology describing the directory series named Didot-Bottin."@en;
+        dcterms:issued "2021-04-19"^^xsd:date ;
+        dcterms:modified "2022-08-12"^^xsd:date ;
+        dcterms:publisher <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re> ;
+        dcterms:title "Ontologie des annuaires Didot-Bottin"@fr, "Ontology of Didot-Bottin directories"@en ;
+        vann:preferredNamespacePrefix "adb" ;
+		vann:preferredNamespaceUri <http://data.soduco.fr/def/annuaire#> ;
+		dcterms:rights "Copyright 2021, IGN" ;
+		cc:license <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> ;
+		cc:license <http://creativecommons.org/licenses/by/2.0/> ;
+		cc:license <http://opendatacommons.org/licenses/by/> ;
+        owl:priorVersion <http://data.ign.fr/def/geofla/20140822.ttl> ;
+		owl:versionInfo "Version 0.2 - 2022-08-12" .
+	   
+
+# ---- Classes definition ----
+adb:Entry a owl:Class;
+  rdfs:isDefinedBy <http://data.soduco.fr/def/annuaire#>;
+  rdfs:label "Entrée d'un annuaire"@fr, "Directory entry"@en ;
+  # Key used to create links between entries whom talk about the same person or company.
+  owl:hasKey (adb:numEntry) ;
+  owl:hasKey (rdfs:label adb:activity) ;
+  owl:hasKey (adb:address adb:activity) ;
+  owl:hasKey (adb:address rdfs:label) ;
+  # Initial keys
+  #owl:hasKey (adb:predPerson adb:succAddress adb:activity adb:predActivity) ;
+  #owl:hasKey (adb:predPerson adb:succAddress adb:address rdfs:label);
+  rdfs:comment "Entrée d'un annuaire, comportant au moins une adresse et un intitulé (nom de personne ou d'organisation) ou une activité."@fr.
+  
+adb:Directory a owl:Class;
+  rdfs:isDefinedBy <http://data.soduco.fr/def/annuaire#>;
+  rdfs:label "Annuaire"@fr, "Directory"@en ;
+  rdfs:comment "Liste ordonnée de personnes ou d'organisations (administrations, entreprises, etc.) associées à leur localisation à une date donnée, et ordonnées de sorte à être facilement retrouvées."@fr.
+
+# ---- Object properties ----
+adb:directory a owl:ObjectProperty;
+	rdfs:comment "Propriété qui relie une entrée à l'annuaire auquel elle appartient."@fr, "A property that links an entry to the directory to which it belongs."@en;
+	rdfs:domain  adb:Entry;
+	rdfs:label "appartient à l'annuaire"@fr;
+	rdfs:label "belongs to directory"@en;
+	rdfs:range adb:Directory.
+
+
+# ---- Datatype properties ----
+#adb:title a owl:DatatypeProperty;
+	#rdfs:comment "Titre honorifique accompagnant le nom d'une personne. Ex. : Officier de la Légion d'Honneur."@fr, "Honorary title accompanying a person's name. E.g.: Officer of the Legion of Honour."@en;
+	#rdfs:domain adb:Entry;
+	#rdfs:label "Honorary title"@en;
+	#rdfs:label "Titre honorifique"@fr;
+	#rdfs:range xsd:string.
+
+adb:voie a owl:DatatypeProperty;
+	rdfs:comment "Voie mentionnée dans une entrée."@fr, "Street provided by a given Entry."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Street"@en;
+	rdfs:label "Voie"@fr;
+	rdfs:range xsd:string.
+
+adb:numVoie a owl:DatatypeProperty;
+	rdfs:comment "Numéro de voie mentionné dans une entrée."@fr, "Street number provided by a given Entry."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Street number"@en;
+	rdfs:label "Numéro de voie"@fr;
+	rdfs:range xsd:string.
+	
+adb:address a owl:DatatypeProperty;
+	rdfs:comment "Adresse créée par la concatenation des champs nom de voie et numéro de voie"@fr, "Address created by concatenating the fields Street name and Street number"@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Address"@en;
+	rdfs:label "Adresse"@fr;
+	rdfs:range xsd:string.
+
+adb:activity a owl:DatatypeProperty;
+	rdfs:comment "Activité mentionnée dans une entrée. Ex.: cordonnier."@fr, "Activity provided by a given Entry. E.g.: shoemaker."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Activity"@en;
+	rdfs:label "Activité"@fr;
+	rdfs:range xsd:string.
+	
+adb:directoryName a owl:DatatypeProperty;
+	rdfs:comment "Nom de l'annuaire qui contient cette entrée."@fr, "Name of the directory that contains that entry."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Directory name"@en;
+	rdfs:label "Nom de l'annuaire"@fr;
+	rdfs:range xsd:string.
+
+adb:directoryDate a owl:DatatypeProperty;
+	rdfs:comment "Date de publication de l'annuaire qui contient cette entrée."@fr, "Publishing date of the directory that contains that entry."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Directory date"@en;
+	rdfs:label "Date de l'annuaire"@fr;
+	rdfs:range xsd:integer.
+
+adb:numEntry a owl:DatatypeProperty;
+	rdfs:comment "Identifiant de cette entrée dans la base de Bertrand."@fr, "Entry identifier in the database prodiced by Bertrand."@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Entry number"@en;
+	rdfs:label "Numéro de l'entrée"@fr;
+	rdfs:range xsd:integer.
+
+adb:address_geocoding a owl:DatatypeProperty;
+	rdfs:comment "Adresse retournée par le géocodeur"@fr, "Address returned by geocoder"@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Address (geocoder)"@en;
+	rdfs:label "Adresse (geocodeur)"@fr;
+	rdfs:range xsd:integer.
+
+gsp:asWKT a owl:DatatypeProperty;
+	rdfs:comment "Géométrie retournée par le géodeur (WKT)"@fr, "Geometry returned by geocoder (WKT)"@en;
+	rdfs:domain adb:Entry;
+	rdfs:label "Geometry"@en;
+	rdfs:label "Géométrie"@fr;
+	rdfs:range gsp:wktLiteral.
+
+# ---- Imported properties ----
+rdfs:label a owl:DatatypeProperty.
