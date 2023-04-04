@@ -1,7 +1,7 @@
 # 1.1 Extraction des données
 
 Deux possibilités pour extraire les données :
-- créer un schéma "Extraction" temporaire dans la base de données SoDUCo à l'aide les scripts  *1_requetes_base_soduco.sql* puis *2_requetes_base_locale.sql*;
+- créer un schéma "Extraction" temporaire dans la base de données SoDUCo à l'aide des scripts  *1_requetes_base_soduco.sql* puis *2_requetes_base_locale.sql*;
 - écrire une copie locale du résultat du filtrage à l'aide d'un script Python ;
 
 ## Fichier de requêtes SQL
