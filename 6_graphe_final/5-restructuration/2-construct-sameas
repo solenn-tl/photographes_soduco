@@ -16,4 +16,5 @@ WHERE {
     ?s owl:sameAs ?o.
     BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/entry/", fn:substring-after(STR(?s),"http://data.soduco.fr/id/entry/"))) as ?newEntry).
     BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/entry/", fn:substring-after(STR(?o),"http://data.soduco.fr/id/entry/"))) as ?newSameAs).
+    FILTER regex(STR(?o), '/entry/').
 }
