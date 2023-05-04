@@ -44,19 +44,18 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX pav: <http://purl.org/pav/>
 PREFIX gsp: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 select ?label where { 
-	?e a ont:Entry.
+    ?e a ont:Entry.
     ?e rdfs:label ?label.
     ?e prov:wasDerivedFrom ?directory.
-    ?directory pav:createdOn "1875"@fr. 
+    ?directory pav:createdOn 1875. 
     ?e locn:address ?add.
     ?add gsp:hasGeometry ?geom.
-    ?geom geof:sfWithin '''<http://www.opengis.net/def/crs/OGC/1.3/CRS84>
-            Polygon ((2.3360 48.8625, 2.3360 48.8663,
-                      2.3385 48.8663, 2.3385 48.8625,
-                      2.3360 48.8625))
-        '''^^geo:wktLiteral
+    ?geom gsp:asWKT ?wkt.
+    FILTER (geof:sfIntersects(?wkt, "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon((2.3360 48.8625,2.3360 48.8663,2.3385 48.8663,2.3385 48.8625,2.3360 48.8625))"^^gsp:wktLiteral))
 }
+
 ```
 
 # CQ4: Quels photographes ont déménagé entre 1860 et 1870?
