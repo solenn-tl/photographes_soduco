@@ -11,7 +11,7 @@ select * where {
 	?e a ont:Entry.
     ?e rdfs:label ?label.
     ?e prov:wasDerivedFrom ?directory.
-    ?directory pav:createdOn "1861"@fr. 
+    ?directory pav:createdOn 1861. 
     ?e locn:address ?add.
     ?add locn:fullAddress ?fullAdd.
     Filter regex(?label, "gallino").
@@ -28,7 +28,7 @@ PREFIX pav: <http://purl.org/pav/>
 select (count(?e) as ?nombre) where { 
 	?e a ont:Entry.
     ?e prov:wasDerivedFrom ?directory.
-    ?directory pav:createdOn "1856"@fr. 
+    ?directory pav:createdOn 1856. 
     ?e locn:address ?add.
     ?add locn:thoroughfare ?voie.
     Filter regex(?voie, "rivoli").
@@ -80,7 +80,7 @@ select distinct ?label ?voie ?labelo ?voieo where {
 	?o rdfs:label ?labelo.
 	?o locn:address ?addo.
     	?addo locn:thoroughfare ?voieo.
-    	Filter (xsd:integer(?date) >1860 && xsd:integer(?date) >1870).
+    	Filter ((?date > 1860) && (?date < 1870)).
  	Filter (!sameTerm(?voie, ?voieo))
 }
 ```
