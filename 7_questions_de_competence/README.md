@@ -8,7 +8,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX pav: <http://purl.org/pav/>
 select * where { 
-	?e a ont:Entry.
+    ?e a ont:Entry.
     ?e rdfs:label ?label.
     ?e prov:wasDerivedFrom ?directory.
     ?directory pav:createdOn 1861. 
@@ -26,7 +26,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX pav: <http://purl.org/pav/>
 select (count(?e) as ?nombre) where { 
-	?e a ont:Entry.
+    ?e a ont:Entry.
     ?e prov:wasDerivedFrom ?directory.
     ?directory pav:createdOn 1856. 
     ?e locn:address ?add.
@@ -97,12 +97,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 select distinct ?label ?voie ?labelo ?voieo where { 
 	?e a ont:Entry.
 	?e rdfs:label ?label.
-    ?e locn:address ?add.
-    ?add locn:thoroughfare ?voie.
+        ?e locn:address ?add.
+        ?add locn:thoroughfare ?voie.
 	?e owl:sameAs ?o.
 	?o rdfs:label ?labelo.
 	?o locn:address ?addo.
-    ?addo locn:thoroughfare ?voieo.
+        ?addo locn:thoroughfare ?voieo.
  	Filter (!sameTerm(?label, ?labelo) && sameTerm(?voie, ?voieo) )
 }
 ```
