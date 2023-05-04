@@ -23,15 +23,15 @@ CONSTRUCT {
 }
 WHERE {
     ?s a adb:Entry.
-    ?s adb:address ?add.
-    ?s adb:activity ?act.
-    ?s adb:address_geocoding ?addGcd.
+    OPTIONAL{?s adb:address ?add.}
+    OPTIONAL{?s adb:activity ?act.}
+    OPTIONAL{?s adb:address_geocoding ?addGcd.}
     ?s adb:directoryDate ?dateAnnuaire.
     ?s adb:directoryName ?nomAnnuaire.
     ?s adb:numEntry ?numEntry.
-    ?s adb:numVoie ?numVoie.
-    ?s adb:voie ?voie.
-    ?s gsp:asWKT ?wkt.
+    OPTIONAL{?s adb:numVoie ?numVoie.}
+    OPTIONAL{?s adb:voie ?voie.}
+    OPTIONAL{?s gsp:asWKT ?wkt.}
     ?s rdfs:label ?label.
     BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/entry/", fn:substring-after(STR(?s),"http://data.soduco.fr/id/entry/"))) as ?newEntry).
     BIND (URI(concat("http://rdf.geohistoricaldata.org/id/directories/directory/", STR(?nomAnnuaire))) as ?directory)
