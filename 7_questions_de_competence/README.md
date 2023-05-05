@@ -18,7 +18,7 @@ select * where {
 }
 ```
 # CQ2: Combien y a-t-il de "photographes" localisés rue de Rivoli en 1856 ? 
-Réponse attendue: 10
+Réponse attendue: 9
 ```
 PREFIX locn: <http://www.w3.org/ns/locn#>
 PREFIX ont: <http://rdf.geohistoricaldata.org/def/directory#>
