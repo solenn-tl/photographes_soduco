@@ -29,3 +29,5 @@ problemes_segmentation.txt
 doc/img/
 photographes-demo-v2/
 appli/unused.txt
+appli/data/reference_geocoded_unique.geojson
+6_graphe_final/5-restructuration/graphe_photographes_restructure_complet_liens_externes.ttl
