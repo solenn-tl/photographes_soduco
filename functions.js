@@ -117,7 +117,7 @@ async function searchLinkedDataWithBNF(uri) {
 function pointToLayerExtract(feature,latlng) {
     //Create markers of the 'extractions' layer
     return L.circleMarker(latlng, {
-        radius:13,
+        radius:6,
         //fillColor: getColor(feature.properties.has_photo,feature.properties.has_daguer,feature.properties.has_opti),
         fillColor:' #0351f9',
         color: "#ffffff",

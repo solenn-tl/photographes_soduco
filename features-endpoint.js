@@ -2,7 +2,8 @@
  * INIT DATA ***
  **************/
 
-//Requête SPARQL pour récupérer les données sur les monuments historiques de Paris		
+//Requête SPARQL pour récupérer les données sur les monuments historiques de Paris
+/*		
 var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
 "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
 "PREFIX gsp: <http://www.opengis.net/ont/geosparql#>"+
@@ -16,8 +17,34 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
 "gsp:asWKT ?geom_wkt ;"+
 "adb:directoryName ?directoryName ;"+
 "adb:directoryDate ?directoryDate ." //Le where de la requête SPARQL n'est pas fermé pour ajouter les filtres selon les entrées
- 
-var queryURL = repertoireGraphDB + "?query="+encodeURIComponent(query+'}')+"&?application/json";
+*/
+
+var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
+"PREFIX ont: <http://rdf.geohistoricaldata.org/def/directory#> "+
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+"PREFIX owl: <http://www.w3.org/2002/07/owl#> "+
+"PREFIX fn: <http://www.w3.org/2005/xpath-functions#> "+
+"PREFIX prov: <http://www.w3.org/ns/prov#> "+
+"PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "+
+"PREFIX pav: <http://purl.org/pav/> "+
+"PREFIX locn: <http://www.w3.org/ns/locn#> "+
+"PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
+"select ?uri ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
+"where { "+
+"?uri a ont:Entry."+
+"?uri rdfs:label ?person."+
+"?uri prov:wasDerivedFrom ?directory."+
+"?directory rdfs:label ?directoryName."+
+"?directory pav:createdOn ?directoryDate."+
+"?uri locn:address ?add."+
+"?add locn:fullAddress ?address."+
+"?add gsp:hasGeometry ?geom."+
+"?geom gsp:asWKT ?geom_wkt."+
+"OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity.}"
+
+var queryURL = repertoireGraphDB + "?query="+encodeURIComponent(query+'}')+"&?outputFormat=rawResponse";
+
+var queryURL = "https://rdf.geohistoricaldata.org/#query=PREFIX+adb%3A+%3Chttp%3A%2F%2Fdata.soduco.fr%2Fdef%2Fannuaire%23%3E%0APREFIX+ont%3A+%3Chttp%3A%2F%2Frdf.geohistoricaldata.org%2Fdef%2Fdirectory%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0APREFIX+fn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%23%3E%0APREFIX+prov%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0APREFIX+pav%3A+%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%0APREFIX+locn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flocn%23%3E%0APREFIX+gsp%3A+%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%0A%0Aselect+%3Furi+%3Fperson+%3Factivity+%3Faddress+%3Fgeom_wkt+%3FdirectoryName+%3FdirectoryDate+%0Awhere+%7B+%0A++++%3Furi+a+ont%3AEntry.%0A++++%3Furi+rdfs%3Alabel+%3Fperson.%0A++++%3Furi+prov%3AwasDerivedFrom+%3Fdirectory.%0A++++%3Fdirectory+rdfs%3Alabel+%3FdirectoryName.%0A++++%3Fdirectory+pav%3AcreatedOn+%3FdirectoryDate.%0A++++%3Furi+locn%3Aaddress+%3Fadd.%0A++++%3Fadd+locn%3AfullAddress+%3Faddress.%0A++++%3Fadd+gsp%3AhasGeometry+%3Fgeom.%0A++++%3Fgeom+gsp%3AasWKT+%3Fgeom_wkt.%0A++OPTIONAL%7B%3Furi+%3Chttp%3A%2F%2Frdaregistry.info%2FElements%2Fa%2FP50104%3E+%3Factivity.%7D%0A++Filter+((%3FdirectoryDate+%3E+1860)+%26%26+(%3FdirectoryDate+%3C+1870)).%0A%7D+%0AORDER+BY+ASC(%3FdirectoryDate)&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=https%3A%2F%2Frdf.geohistoricaldata.org%2Fsparql&requestMethod=POST&tabTitle=Query&headers=%7B%7D&outputFormat=rawResponse"
 
 let compquery = ''
 let finalquery = query + '}'
@@ -91,7 +118,7 @@ function createGeoJson(JSobject){
     //Init feature
     feature = {
       type:"Feature",
-      geometry: $.geo.WKT.parse(bindings.geom_wkt.value),
+      geometry: $.geo.WKT.parse(bindings.geom_wkt.value.replace('<http://www.opengis.net/def/crs/OGC/1.3/CRS84> ','')),
       properties: {}
     };
     //Fill properties
@@ -132,29 +159,29 @@ function requestData() {
   //Complete SPARQL query
   /// Empty inputs
   if (per.length > 0 && act.length == 0 && spat.length == 0) {
-    compquery = "FILTER ( contains(lcase(?person),'" + per + "'@fr)) . }"
+    compquery = "FILTER ( regex(?person,'" + per + "')) . }"
   } else if (per.length == 0 && act.length > 0 && spat.length == 0) {
-    compquery = "FILTER ( contains(lcase(?activity),'" + act + "'@fr)) . }"
+    compquery = "FILTER ( regex(?activity,'" + act + "')) . }"
   } else if (per.length == 0 && act.length == 0 && spat.length > 0) {
-    compquery = "FILTER ( contains(lcase(?address),'" + spat + "'@fr)) . }"
+    compquery = "FILTER ( regex(?address,'" + spat + "')) . }"
     // Two
   } else if (per.length > 0 && act.length > 0 && spat.length == 0) {
-    compquery = "FILTER ( contains(lcase(?person),'" + per + "'@fr) && " + 
-    "contains(lcase(?activity),'" + act + "'@fr)" +
+    compquery = "FILTER ( regex(?person,'" + per + "') && " + 
+    "regex(?activity,'" + act + "')" +
     ") .}"
   } else if (per.length == 0 && act.length > 0 && spat.length > 0) {
-    compquery = "FILTER ( contains(lcase(?activity),'" + act + "'@fr) && " + 
-    "contains(lcase(?address),'" + spat + "'@fr)" +
+    compquery = "FILTER ( regex(?activity,'" + act + "') && " + 
+    "regex(?address,'" + spat + "')" +
     ") .}"
   } else if (per.length > 0 && act.length == 0 && spat.length > 0) {
-    compquery = "FILTER ( contains(lcase(?person),'" + per + "'@fr) && " + 
-    "contains(lcase(?address),'" + spat + "'@fr)" +
+    compquery = "FILTER ( regex(?person,'" + per + "') && " + 
+    "regex(?address,'" + spat + "')" +
     ") .}"
     // ALL
   } else if (per.length > 0 && act.length > 0 && spat.length > 0) {
-    compquery = "FILTER ( contains(lcase(?person),'" + per + "'@fr) && " + 
-    "contains(lcase(?activity),'" + act + "'@fr) && " +
-    "contains(lcase(?address),'" + spat + "'@fr)" +
+    compquery = "FILTER ( regex(?person,'" + per + "') && " + 
+    "regex(?activity,'" + act + "') && " +
+    "regex(?address,'" + spat + "')" +
     ") .}"
   } else if (per.length === 0 && act.length === 0 && spat.length === 0) {
     compquery = '} order by ASC(?directoryDate)'
@@ -164,7 +191,10 @@ function requestData() {
 
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
+  console.log(finalquery)
+  console.log(queryURL)
 
+  https://rdf.geohistoricaldata.org/sparql/?query=PREFIX%20adb%3A%20%3Chttp%3A%2F%2Fdata.soduco.fr%2Fdef%2Fannuaire%23%3E%20PREFIX%20ont%3A%20%3Chttp%3A%2F%2Frdf.geohistoricaldata.org%2Fdef%2Fdirectory%23%3E%20PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20PREFIX%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20PREFIX%20fn%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%23%3E%20PREFIX%20prov%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%20PREFIX%20xsd%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%20PREFIX%20pav%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%20PREFIX%20locn%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flocn%23%3E%20PREFIX%20gsp%3A%20%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%20select%20%3Furi%20%3Fperson%20%3Factivity%20%3Faddress%20%3Fgeom_wkt%20%3FdirectoryName%20%3FdirectoryDate%20where%20%7B%20%3Furi%20a%20ont%3AEntry.%3Furi%20rdfs%3Alabel%20%3Fperson.%3Furi%20prov%3AwasDerivedFrom%20%3Fdirectory.%3Fdirectory%20rdfs%3Alabel%20%3FdirectoryName.%3Fdirectory%20pav%3AcreatedOn%20%3FdirectoryDate.%3Furi%20locn%3Aaddress%20%3Fadd.%3Fadd%20locn%3AfullAddress%20%3Faddress.%3Fadd%20gsp%3AhasGeometry%20%3Fgeom.%3Fgeom%20gsp%3AasWKT%20%3Fgeom_wkt.OPTIONAL%7B%3Furi%20%3Chttp%3A%2F%2Frdaregistry.info%2FElements%2Fa%2FP50104%3E%20%3Factivity.%7DFILTER%20(%20contains(lcase(%3Fperson)%2C'nadar'%40fr))%20.%20%7D&?application/json
 
 /*******************
  ***** MAIN ********
@@ -180,7 +210,7 @@ $.ajax({
 }).done((promise) => {
   // Create GeoJSON with Graph DB data
   myVar = createGeoJson(promise)
-  
+  console.log(myVar)
   // Create Geojson layer for Leaflet
   extract = L.geoJSON(myVar,{
     onEachFeature: onEachFeature,
