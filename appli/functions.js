@@ -103,7 +103,7 @@ function createlinkDataSoduco(uri){
       window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
     } else {
       console.log("No timeline")
-      divtimeline.innerHTML = '<p class="noentry">Pas d\'entrées liées à ' + uri + '.</p>';
+      divtimeline.innerHTML = '<p class="noentry">Aucune d\'entrée liée à ' + uri + '.</p>';
     }
    
 }); // AJAX END
