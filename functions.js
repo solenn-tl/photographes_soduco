@@ -1,5 +1,5 @@
 function createlinkDataSoduco(uri){
-
+    /*
     var query2 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
       "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
       "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
@@ -13,7 +13,31 @@ function createlinkDataSoduco(uri){
       " adb:directoryDate ?directoryDate ;" +
       " adb:directoryName ?directoryName ." +
       "} group by ?s ?index ?person ?activity ?address ?directoryDate ?directoryName order by ?directoryDate"
-  
+    */
+      var query2 = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
+      "PREFIX ont: <http://rdf.geohistoricaldata.org/def/directory#> "+
+      "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+      "PREFIX owl: <http://www.w3.org/2002/07/owl#> "+
+      "PREFIX fn: <http://www.w3.org/2005/xpath-functions#> "+
+      "PREFIX prov: <http://www.w3.org/ns/prov#> "+
+      "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "+
+      "PREFIX pav: <http://purl.org/pav/> "+
+      "PREFIX locn: <http://www.w3.org/ns/locn#> "+
+      "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
+      "select distinct * where { <http://data.soduco.fr/id/entry/" + uri + "> owl:sameAs ?s."+
+      "where { "+
+      "?s a ont:Entry."+
+      "?uri rdfs:label ?person."+
+      "?uri prov:wasDerivedFrom ?directory."+
+      "?directory rdfs:label ?directoryName."+
+      "?directory pav:createdOn ?directoryDate."+
+      "?uri locn:address ?add."+
+      "?add locn:fullAddress ?address."+
+      "?add gsp:hasGeometry ?geom."+
+      "?geom gsp:asWKT ?geom_wkt."+
+      "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity."+
+      "} group by ?s ?index ?person ?activity ?address ?directoryDate ?directoryName order by ?directoryDate"
+
     var queryURL2 = repertoireGraphDB + "?query="+encodeURIComponent(query2)+"&?application/json";
     
     $.ajax({

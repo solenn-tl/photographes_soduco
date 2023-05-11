@@ -194,8 +194,6 @@ function requestData() {
   console.log(finalquery)
   console.log(queryURL)
 
-  https://rdf.geohistoricaldata.org/sparql/?query=PREFIX%20adb%3A%20%3Chttp%3A%2F%2Fdata.soduco.fr%2Fdef%2Fannuaire%23%3E%20PREFIX%20ont%3A%20%3Chttp%3A%2F%2Frdf.geohistoricaldata.org%2Fdef%2Fdirectory%23%3E%20PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20PREFIX%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20PREFIX%20fn%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%23%3E%20PREFIX%20prov%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%20PREFIX%20xsd%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%20PREFIX%20pav%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%20PREFIX%20locn%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flocn%23%3E%20PREFIX%20gsp%3A%20%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%20select%20%3Furi%20%3Fperson%20%3Factivity%20%3Faddress%20%3Fgeom_wkt%20%3FdirectoryName%20%3FdirectoryDate%20where%20%7B%20%3Furi%20a%20ont%3AEntry.%3Furi%20rdfs%3Alabel%20%3Fperson.%3Furi%20prov%3AwasDerivedFrom%20%3Fdirectory.%3Fdirectory%20rdfs%3Alabel%20%3FdirectoryName.%3Fdirectory%20pav%3AcreatedOn%20%3FdirectoryDate.%3Furi%20locn%3Aaddress%20%3Fadd.%3Fadd%20locn%3AfullAddress%20%3Faddress.%3Fadd%20gsp%3AhasGeometry%20%3Fgeom.%3Fgeom%20gsp%3AasWKT%20%3Fgeom_wkt.OPTIONAL%7B%3Furi%20%3Chttp%3A%2F%2Frdaregistry.info%2FElements%2Fa%2FP50104%3E%20%3Factivity.%7DFILTER%20(%20contains(lcase(%3Fperson)%2C'nadar'%40fr))%20.%20%7D&?application/json
-
 /*******************
  ***** MAIN ********
  ******************/
