@@ -92,6 +92,11 @@
   margin-right: 20px;
 }
 
+.noentry{
+  font-size: large;
+  text-align: center;
+}
+
 /*Button style*/
 .button {
   background-color: #1c244b; /* SODUCO color */

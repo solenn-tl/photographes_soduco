@@ -1,4 +1,5 @@
 function createlinkDataSoduco(uri){
+   console.log(uri)
     /*
     var query2 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
       "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
@@ -24,22 +25,35 @@ function createlinkDataSoduco(uri){
       "PREFIX pav: <http://purl.org/pav/> "+
       "PREFIX locn: <http://www.w3.org/ns/locn#> "+
       "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
-      "select distinct * where { <http://data.soduco.fr/id/entry/" + uri + "> owl:sameAs ?s."+
-      "where { "+
-      "?s a ont:Entry."+
+      "SELECT distinct *"+
+      "WHERE { <http://rdf.geohistoricaldata.org/id/directories/entry/" + uri + "> owl:sameAs ?uri."+
+      "?uri ont:numEntry ?index."+
       "?uri rdfs:label ?person."+
       "?uri prov:wasDerivedFrom ?directory."+
       "?directory rdfs:label ?directoryName."+
       "?directory pav:createdOn ?directoryDate."+
-      "?uri locn:address ?add."+
-      "?add locn:fullAddress ?address."+
-      "?add gsp:hasGeometry ?geom."+
-      "?geom gsp:asWKT ?geom_wkt."+
-      "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity."+
-      "} group by ?s ?index ?person ?activity ?address ?directoryDate ?directoryName order by ?directoryDate"
+      "OPTIONAL{?uri locn:address ?add.}"+
+      "OPTIONAL{?add locn:fullAddress ?address.}"+
+      "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity.}"+
+      "} group by ?uri ?index ?person ?activity ?address ?directoryDate ?directoryName ?directory ?add"+
+      " order by ASC(?index)"
+      
+    console.log(query2)
+    var queryURL2 = repertoireGraphDB + "?query="+encodeURIComponent(query2)+"&?outputFormat=rawResponse";
 
-    var queryURL2 = repertoireGraphDB + "?query="+encodeURIComponent(query2)+"&?application/json";
-    
+    console.log(queryURL2)
+    var timelinejson = {"title": {"text":{"headline":'Données liées'}}, "events": []}
+
+    var options = {
+      scale_factor:1,
+      language:'fr',
+      start_at_slide:1,
+      hash_bookmark: false,
+      initial_zoom: 0
+      }
+
+    var divtimeline = document.getElementById('timeline-embed')
+
     $.ajax({
       url: queryURL2,
       Accept: "application/sparql-results+json",
@@ -49,9 +63,9 @@ function createlinkDataSoduco(uri){
     }).done((promise) => {
       //Create Timeline JS JSON
       //Init geojson
-      var timelinejson = {"title": {"text":{"headline":'Données liées'}}, "events": []}
+      console.log(promise)
       //INIT TimelineJson END
-  
+      divtimeline.innerHTML = "<p>Chargement...</p>";
       //Iter on features
       $.each(promise.results.bindings, function(i,bindings){
     
@@ -81,22 +95,26 @@ function createlinkDataSoduco(uri){
         timelinejson.events.push(feature);
         });
 
-    var options = {
-        scale_factor:1,
-        language:'fr',
-        start_at_slide:1,
-        hash_bookmark: false,
-        initial_zoom: 0
-        }
-
-    window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
-
-  }); // AJAX END
+      console.log(timelinejson)
+        
+  }).done((promise) => {
+    console.log("####");
+    console.log(timelinejson.events.length);
+    if (timelinejson.events.length > 1){
+      window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
+    } else {
+      console.log("No timeline")
+      divtimeline.innerHTML = '<p class="noentry">Pas d\'entrées liées.</p>';
+    }
+   
+}); // AJAX END
   
+
   };//FUNCTION END
 
 /////////// Search link with BNF data //////
 
+/*
 async function searchLinkedDataWithBNF(uri) {
 
   var query3 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
@@ -131,7 +149,7 @@ async function searchLinkedDataWithBNF(uri) {
   });
 
 };
-
+*/
 /*******************
  * Style functions *
  *******************/
@@ -196,8 +214,8 @@ function onEachFeature(feature, layer) {
       //Search link data with BNF ressources
       layer.on('click', function(e) {
         $('#bnfdata').empty();
-        searchLinkedDataWithBNF(feature.properties.uri.substring(31, feature.properties.uri.length))
-        createlinkDataSoduco(feature.properties.uri.substring(31, feature.properties.uri.length))
+        /*searchLinkedDataWithBNF(feature.properties.uri.substring(31, feature.properties.uri.length))*/
+        createlinkDataSoduco(feature.properties.index)
       });
         
     } else if (feature.properties.secteur) {
@@ -256,31 +274,3 @@ function createGeoJson(JSobject){
       return geojson
     }
   };
-
-
-function createHeatMapArray(JSobject,MinYear,MaxYear) {
-
-    var heatMapArray = []
-
-    //Iter on features
-    $.each(JSobject.results.bindings, function(i,bindings){
-  
-        //Init feature
-        if (bindings.geom_wkt.length != 0) {
-            if (bindings.directoryDate.value >= MinYear && bindings.directoryDate.value <= MaxYear) {
-                var coords = $.geo.WKT.parse(bindings.geom_wkt.value)
-                var feature = [coords.coordinates[1],coords.coordinates[0],1.0]
-                heatMapArray.push(feature);
-            }
-        }
-    })
-    //console.log(heatMapArray)
-      //Test if the query return some points
-      //if (heatMapArray.length == 0) {
-      // alert('Pas de données correspondant à cette recherche.')
-      //} else {
-      //  console.log(heatMapArray)
-      //return heatMapArray
-      //}
-    return heatMapArray
-}

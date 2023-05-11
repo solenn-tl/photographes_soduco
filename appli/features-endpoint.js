@@ -29,9 +29,10 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
 "PREFIX pav: <http://purl.org/pav/> "+
 "PREFIX locn: <http://www.w3.org/ns/locn#> "+
 "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
-"select ?uri ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
+"select ?uri ?index ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
 "where { "+
 "?uri a ont:Entry."+
+"?uri ont:numEntry ?index."+
 "?uri rdfs:label ?person."+
 "?uri prov:wasDerivedFrom ?directory."+
 "?directory rdfs:label ?directoryName."+
@@ -139,18 +140,6 @@ function createGeoJson(JSobject){
 function requestData() {
   var extract;
   var extractgroup = L.featureGroup();
-  //Clear Data BNF links
-  /*var clustergroup = L.markerClusterGroup({
-    maxClusterRadius:0,
-    showCoverageOnHover: false,
-    zoomToBoundsOnClick: false,
-    chunkedLoading:true,
-    iconCreateFunction: function (cluster) {
-      var markers = cluster.getAllChildMarkers();
-      var html = '<div class="circle">' + markers.length + '</div>';
-      return L.divIcon({ html: html, className: 'cluster', iconSize: L.point(8, 8) });
-  },
-  });*/
 
   //Get value in form fields
   per = document.getElementById("per").value;
@@ -191,8 +180,6 @@ function requestData() {
 
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
-  console.log(finalquery)
-  console.log(queryURL)
 
 /*******************
  ***** MAIN ********
