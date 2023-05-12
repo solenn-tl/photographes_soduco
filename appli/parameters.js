@@ -5,7 +5,7 @@
 /* Remplacer la valeur actuelle par l'adresse de votre répertoire */
 /*var repertoireGraphDB = "http://HPE2101P101:7200/repositories/photographes-final"*/
 
-var repertoireGraphDB = "https://rdf.geohistoricaldata.org/sparql/"
+var repertoireGraphDB = "https://rdf.geohistoricaldata.org/"
 
 /***********************************************************************
  * **************** Affichage d'une couche de référence ****************
