@@ -29,23 +29,25 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
 "PREFIX pav: <http://purl.org/pav/> "+
 "PREFIX locn: <http://www.w3.org/ns/locn#> "+
 "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
-"select ?uri ?index ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
-"where { "+
+'SELECT distinct ?uri ?index ?person (GROUP_CONCAT(DISTINCT ?activity ; SEPARATOR=" |||et||| ") as ?activities) (GROUP_CONCAT(DISTINCT ?address ; SEPARATOR=" |||et||| ") as ?addresses) (GROUP_CONCAT(DISTINCT ?address_geocoding ; SEPARATOR=" |||et||| ") as ?addresses_geocoding) ?geom_wkt ?directoryName ?directoryDate '+
+"WHERE { "+
 "?uri a ont:Entry."+
 "?uri ont:numEntry ?index."+
 "?uri rdfs:label ?person."+
 "?uri prov:wasDerivedFrom ?directory."+
 "?directory rdfs:label ?directoryName."+
 "?directory pav:createdOn ?directoryDate."+
-"?uri locn:address ?add."+
-"?add locn:fullAddress ?address."+
-"?add gsp:hasGeometry ?geom."+
-"?geom gsp:asWKT ?geom_wkt."+
+"?uri locn:address ?add1."+
+" ?add1 locn:fullAddress ?address_geocoding."+
+" ?add1 prov:wasGeneratedBy <http://rdf.geohistoricaldata.org/id/directories/activity/0002>."+
+" ?add1 gsp:hasGeometry ?geom."+
+" ?geom gsp:asWKT ?geom_wkt."+
+"?uri locn:address ?add2."+
+" ?add2 locn:fullAddress ?address."+
+" ?add2 prov:wasGeneratedBy <http://rdf.geohistoricaldata.org/id/directories/activity/0001>."+
 "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity.}"
 
 var queryURL = repertoireGraphDB + "?query="+encodeURIComponent(query+'}')+"&?outputFormat=rawResponse";
-
-var queryURL = "https://rdf.geohistoricaldata.org/#query=PREFIX+adb%3A+%3Chttp%3A%2F%2Fdata.soduco.fr%2Fdef%2Fannuaire%23%3E%0APREFIX+ont%3A+%3Chttp%3A%2F%2Frdf.geohistoricaldata.org%2Fdef%2Fdirectory%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0APREFIX+fn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%23%3E%0APREFIX+prov%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0APREFIX+pav%3A+%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%0APREFIX+locn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flocn%23%3E%0APREFIX+gsp%3A+%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%0A%0Aselect+%3Furi+%3Fperson+%3Factivity+%3Faddress+%3Fgeom_wkt+%3FdirectoryName+%3FdirectoryDate+%0Awhere+%7B+%0A++++%3Furi+a+ont%3AEntry.%0A++++%3Furi+rdfs%3Alabel+%3Fperson.%0A++++%3Furi+prov%3AwasDerivedFrom+%3Fdirectory.%0A++++%3Fdirectory+rdfs%3Alabel+%3FdirectoryName.%0A++++%3Fdirectory+pav%3AcreatedOn+%3FdirectoryDate.%0A++++%3Furi+locn%3Aaddress+%3Fadd.%0A++++%3Fadd+locn%3AfullAddress+%3Faddress.%0A++++%3Fadd+gsp%3AhasGeometry+%3Fgeom.%0A++++%3Fgeom+gsp%3AasWKT+%3Fgeom_wkt.%0A++OPTIONAL%7B%3Furi+%3Chttp%3A%2F%2Frdaregistry.info%2FElements%2Fa%2FP50104%3E+%3Factivity.%7D%0A++Filter+((%3FdirectoryDate+%3E+1860)+%26%26+(%3FdirectoryDate+%3C+1870)).%0A%7D+%0AORDER+BY+ASC(%3FdirectoryDate)&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=https%3A%2F%2Frdf.geohistoricaldata.org%2Fsparql&requestMethod=POST&tabTitle=Query&headers=%7B%7D&outputFormat=rawResponse"
 
 let compquery = ''
 let finalquery = query + '}'
@@ -83,14 +85,10 @@ noUiSlider.create(slidervar, {
     }
 });
 
-//Event on input number
-var inputNumberMin = document.getElementById('input-number-min');
-var inputNumberMax = document.getElementById('input-number-max');
-
 //CONNECT SLIDER WITH DATA
 //Set default value on input number
-document.getElementById('input-number-min').setAttribute("value", 1860);
-document.getElementById('input-number-max').setAttribute("value", 1880);
+inputNumberMin.setAttribute("value", 1860);
+inputNumberMax.setAttribute("value", 1880);
 
 /**FORM */
 
@@ -112,7 +110,6 @@ function createGeoJson(JSobject){
 
   //Init geojson
   var geojson = {"type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } }, "features": []}
-
   //Iter on features
   $.each(JSobject.results.bindings, function(i,bindings){
 
@@ -138,6 +135,7 @@ function createGeoJson(JSobject){
 
 
 function requestData() {
+  divtimeline.innerHTML = '<p class="noentry">Chargement <img src="./img/loading_cut.gif">.</p>';
   var extract;
   var extractgroup = L.featureGroup();
 
@@ -148,36 +146,36 @@ function requestData() {
   //Complete SPARQL query
   /// Empty inputs
   if (per.length > 0 && act.length == 0 && spat.length == 0) {
-    compquery = "FILTER ( regex(?person,'" + per + "')) . }"
+    compquery = "FILTER ( regex(?person,'" + per + "')). "
   } else if (per.length == 0 && act.length > 0 && spat.length == 0) {
-    compquery = "FILTER ( regex(?activity,'" + act + "')) . }"
+    compquery = "FILTER ( regex(?activity,'" + act + "')). "
   } else if (per.length == 0 && act.length == 0 && spat.length > 0) {
-    compquery = "FILTER ( regex(?address,'" + spat + "')) . }"
+    compquery = "FILTER ( regex(?address,'" + spat + "')). "
     // Two
   } else if (per.length > 0 && act.length > 0 && spat.length == 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
     "regex(?activity,'" + act + "')" +
-    ") .}"
+    ")."
   } else if (per.length == 0 && act.length > 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?activity,'" + act + "') && " + 
     "regex(?address,'" + spat + "')" +
-    ") .}"
+    ")."
   } else if (per.length > 0 && act.length == 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
     "regex(?address,'" + spat + "')" +
-    ") .}"
+    ")."
     // ALL
   } else if (per.length > 0 && act.length > 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
     "regex(?activity,'" + act + "') && " +
     "regex(?address,'" + spat + "')" +
-    ") .}"
+    ")."
   } else if (per.length === 0 && act.length === 0 && spat.length === 0) {
-    compquery = '} order by ASC(?directoryDate)'
+    compquery = ''
   };
+  periodfilter = 'FILTER ((?directoryDate > '+ inputNumberMin.value +') && (?directoryDate < ' + inputNumberMax.value + ')). '
   //Create the final query
-  finalquery = query + compquery;
-
+  finalquery = query + compquery + periodfilter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY ASC(?directoryDate)';
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
 
@@ -195,7 +193,7 @@ $.ajax({
 }).done((promise) => {
   // Create GeoJSON with Graph DB data
   myVar = createGeoJson(promise)
-  console.log(myVar)
+  //console.log(myVar)
   // Create Geojson layer for Leaflet
   extract = L.geoJSON(myVar,{
     onEachFeature: onEachFeature,
@@ -209,9 +207,13 @@ $.ajax({
   extractgroup.removeLayer(extract);
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
+
+  divtimeline.innerHTML = ''
+
   extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
   extract.addTo(map);
-  
+
+
   inputNumberMin.addEventListener('change', function(){
       slidervar.noUiSlider.set([this.value, null]);
   });
