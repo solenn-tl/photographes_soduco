@@ -1,5 +1,9 @@
 var divtimeline = document.getElementById('timeline-embed')
 
+//Event on input number
+var inputNumberMin = document.getElementById('input-number-min');
+var inputNumberMax = document.getElementById('input-number-max');
+
 function createlinkDataSoduco(uri){
    console.log(uri)
     /*
@@ -27,18 +31,21 @@ function createlinkDataSoduco(uri){
       "PREFIX pav: <http://purl.org/pav/> "+
       "PREFIX locn: <http://www.w3.org/ns/locn#> "+
       "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
-      "SELECT distinct *"+
+      'SELECT distinct ?uri ?index ?person (GROUP_CONCAT(DISTINCT ?activity ; SEPARATOR=" |||et||| ") as ?activities) ?address ?directoryName ?directoryDate '+
       "WHERE { <http://rdf.geohistoricaldata.org/id/directories/entry/" + uri + "> owl:sameAs ?uri."+
+      "?uri a ont:Entry."+
       "?uri ont:numEntry ?index."+
       "?uri rdfs:label ?person."+
       "?uri prov:wasDerivedFrom ?directory."+
       "?directory rdfs:label ?directoryName."+
       "?directory pav:createdOn ?directoryDate."+
-      "OPTIONAL{?uri locn:address ?add.}"+
-      "OPTIONAL{?add locn:fullAddress ?address.}"+
+      "?uri locn:address ?add2."+
+      "?add2 locn:fullAddress ?address."+
+      "?add2 prov:wasGeneratedBy <http://rdf.geohistoricaldata.org/id/directories/activity/0001>."+
       "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity.}"+
-      "} group by ?uri ?index ?person ?activity ?address ?directoryDate ?directoryName ?directory ?add"+
-      " order by ASC(?index)"
+      //"FILTER ((?directoryDate > "+ inputNumberMin.value +") && (?directoryDate < " + inputNumberMax.value + ")). "+
+      "} GROUP BY ?uri ?index ?person ?address ?directoryName ?directoryDate"+
+      " ORDER BY ASC(?index) ASC(?directoryDate)"
       
     console.log(query2)
     var queryURL2 = repertoireGraphDB + "?query="+encodeURIComponent(query2)+"&?outputFormat=rawResponse";
@@ -62,8 +69,6 @@ function createlinkDataSoduco(uri){
       data:''
     }).done((promise) => {
       //Create Timeline JS JSON
-      //Init geojson
-      console.log(promise)
       //INIT TimelineJson END
       //Iter on features
       $.each(promise.results.bindings, function(i,bindings){
@@ -84,7 +89,7 @@ function createlinkDataSoduco(uri){
             },
           "text": {
             "headline": bindings.person.value,
-            "text": '<p>' + bindings.activity.value + '</br>' + bindings.address.value + '<br/>Source : ' + bindings.directoryName.value + ' - ' + bindings.index.value + "<br/>Nombre d'entités liées : " + promise.results.bindings.length.toString() + '</p>'
+            "text": '<p>' + bindings.activities.value + '</br>' + bindings.address.value + '<br/>Source : ' + bindings.directoryName.value + ' - ' + bindings.index.value + "<br/>Nombre d'entités liées : " + promise.results.bindings.length.toString() + '</p>'
           },
           "group":bindings.address.value,
           "background":{"color":"#1c244b"},
@@ -97,12 +102,14 @@ function createlinkDataSoduco(uri){
       console.log(timelinejson)
         
   }).done((promise) => {
-    console.log("####");
-    console.log(timelinejson.events.length);
+    //console.log("####");
+    //console.log(timelinejson.events.length);
     if (timelinejson.events.length > 1){
+      divtimeline.setAttribute('style', 'height:800px;');
       window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
     } else {
-      console.log("No timeline")
+      //console.log("No timeline")
+      divtimeline.setAttribute('style', 'height:80px;');
       divtimeline.innerHTML = '<p class="noentry">Aucune d\'entrée liée à ' + uri + '.</p>';
     }
    
@@ -199,10 +206,10 @@ function onEachFeature(feature, layer) {
     if (feature.properties.uri) {
       // Pop-up content for directories data in extraction layer
         texte = '<h4>'+ feature.properties.person +'</h4>'+
-        '<p><b>Adresse (annuaire)</b> : ' + feature.properties.address + '<br>'+ 
-        '<b>Adresse (géocodeur)</b> : ' + feature.properties.address_geocoding + '<br>';
+        '<p><b>Adresse (annuaire)</b> : ' + feature.properties.addresses + '<br>'+ 
+        '<b>Adresse (géocodeur)</b> : ' + feature.properties.addresses_geocoding + '<br>';
         if (feature.properties.activity){
-            texte += '<b>Activité</b> : ' + feature.properties.activity + '<br>';
+            texte += '<b>Activité</b> : ' + feature.properties.activities + '<br>';
         };
         texte += '<b>Année de publication</b> : ' + feature.properties.directoryDate + '<br>'+
         '<b>Annuaire</b> : ' + feature.properties.directoryName + '</br>'+
@@ -237,40 +244,3 @@ function onEachFeature(feature, layer) {
     };
 
 };
-
-
-
-/********* Data functions **********/
-
-function createGeoJson(JSobject){
-    /**
-     * Input : SPARQL request application/json result (js object)
-     * Output : Geojson
-     * Source : https://github.com/dhlab-epfl/leaflet-sparql/blob/master/index.html
-     */
-    
-    //Init geojson
-    var geojson = {"type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } }, "features": []}
-  
-    //Iter on features
-    $.each(JSobject.results.bindings, function(i,bindings){
-  
-      //Init feature
-      feature = {
-        type:"Feature",
-        geometry: $.geo.WKT.parse(bindings.geom_wkt.value),
-        properties: {}
-      };
-      //Fill properties
-      $.each(JSobject.head.vars, function(j, property){
-        feature.properties[property] = bindings[property].value;
-      });
-      geojson.features.push(feature);
-    });
-    if (geojson['features'].length == 0) {
-      alert('Pas de données correspondant à cette recherche.')
-    } else {
-      //console.log(geojson['features'].length)
-      return geojson
-    }
-  };
