@@ -20,44 +20,6 @@
     <!--Control Panel-->
     <link rel="stylesheet" href="./libs/leaflet-panel-layers/src/leaflet-panel-layers.css">
     <script src="./libs/leaflet-panel-layers/src/leaflet-panel-layers.js"></script>
-    <!--Leaflet.draw-->
-    <script src="./libs/leaflet_draw/src/Leaflet.draw.js"></script>
-    <script src="./libs/leaflet_draw/src/Leaflet.Draw.Event.js"></script>
-    <link rel="stylesheet" href="./libs/leaflet_draw/src/leaflet.draw.css"/>
-
-    <script src="./libs/leaflet_draw/src/Toolbar.js"></script>
-    <script src="./libs/leaflet_draw/src/Tooltip.js"></script>
-
-    <script src="./libs/leaflet_draw/src/ext/GeometryUtil.js"></script>
-    <script src="./libs/leaflet_draw/src/ext/LatLngUtil.js"></script>
-    <script src="./libs/leaflet_draw/src/ext/LineUtil.Intersect.js"></script>
-    <script src="./libs/leaflet_draw/src/ext/Polygon.Intersect.js"></script>
-    <script src="./libs/leaflet_draw/src/ext/Polyline.Intersect.js"></script>
-    <script src="./libs/leaflet_draw/src/ext/TouchEvents.js"></script>
-
-    <script src="./libs/leaflet_draw/src/draw/DrawToolbar.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Feature.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.SimpleShape.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Polyline.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Marker.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Circle.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.CircleMarker.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Polygon.js"></script>
-    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Rectangle.js"></script>
-
-
-    <script src="./libs/leaflet_draw/src/edit/EditToolbar.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/EditToolbar.Edit.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/EditToolbar.Delete.js"></script>
-
-    <script src="./libs/leaflet_draw/src/Control.Draw.js"></script>
-
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Poly.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.SimpleShape.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Rectangle.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Marker.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.CircleMarker.js"></script>
-    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Circle.js"></script>
     <!--Timeline JS-->
     <!--<link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>-->
@@ -86,11 +48,8 @@
         <div id="av">
           <div class="searchtool">
             <fieldset>
-              <legend>Recherche</legend>
-              <ul>
-                <li><small>Pour faire une recherche par période uniquement : laissez les champs vides puis cliquez sur "Valider".</small></li>
-                <li><small>Pour chercher les objets situés dans une emprise : dessinez l'emprise sur la carte, remplissez les champs attributaires si nécessaire puis cliquez sur "Valider".</small></li>
-                </ul>
+              <legend>Paramètres de recherche</legend>
+              <p><small>Laissez les champs vides puis cliquez sur "Valider" pour faire une recherche sur l'intégralité du jeu de données.</small></p>
               <form id="frm1">
                 Raison sociale <br/>
                 <input type="text" name="per" id="per" placeholder="Nom"><br>
@@ -131,9 +90,8 @@
   <script src="parameters.js"></script>
   <script src="anim.js"></script>
   <script src="tile.js"></script>
-  <script src="map.js"></script>
   <script src="functions.js"></script>
   <script src="features-endpoint.js"></script>
   <script src="features-ref.js"></script>
-  <script src="controls.js"></script>
+  <script src="map.js"></script>
 </html>
