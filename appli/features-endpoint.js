@@ -29,9 +29,8 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
 "PREFIX pav: <http://purl.org/pav/> "+
 "PREFIX locn: <http://www.w3.org/ns/locn#> "+
 "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
-"PREFIX geof: <http://www.opengis.net/def/function/geosparql/>"+
-"SELECT ?uri ?index ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
-"WHERE { "+
+"select ?uri ?index ?person ?activity ?address ?geom_wkt ?directoryName ?directoryDate "+
+"where { "+
 "?uri a ont:Entry."+
 "?uri ont:numEntry ?index."+
 "?uri rdfs:label ?person."+
@@ -44,7 +43,7 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
 "?geom gsp:asWKT ?geom_wkt."+
 "OPTIONAL{?uri <http://rdaregistry.info/Elements/a/P50104> ?activity.}"
 
-var queryURL = repertoireGraphDB + "#query="+encodeURIComponent(query+'}')+"&?outputFormat=rawResponse";
+var queryURL = repertoireGraphDB + "?query="+encodeURIComponent(query+'}')+"&?outputFormat=rawResponse";
 
 var queryURL = "https://rdf.geohistoricaldata.org/#query=PREFIX+adb%3A+%3Chttp%3A%2F%2Fdata.soduco.fr%2Fdef%2Fannuaire%23%3E%0APREFIX+ont%3A+%3Chttp%3A%2F%2Frdf.geohistoricaldata.org%2Fdef%2Fdirectory%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0APREFIX+fn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%23%3E%0APREFIX+prov%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0APREFIX+pav%3A+%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%0APREFIX+locn%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flocn%23%3E%0APREFIX+gsp%3A+%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%0A%0Aselect+%3Furi+%3Fperson+%3Factivity+%3Faddress+%3Fgeom_wkt+%3FdirectoryName+%3FdirectoryDate+%0Awhere+%7B+%0A++++%3Furi+a+ont%3AEntry.%0A++++%3Furi+rdfs%3Alabel+%3Fperson.%0A++++%3Furi+prov%3AwasDerivedFrom+%3Fdirectory.%0A++++%3Fdirectory+rdfs%3Alabel+%3FdirectoryName.%0A++++%3Fdirectory+pav%3AcreatedOn+%3FdirectoryDate.%0A++++%3Furi+locn%3Aaddress+%3Fadd.%0A++++%3Fadd+locn%3AfullAddress+%3Faddress.%0A++++%3Fadd+gsp%3AhasGeometry+%3Fgeom.%0A++++%3Fgeom+gsp%3AasWKT+%3Fgeom_wkt.%0A++OPTIONAL%7B%3Furi+%3Chttp%3A%2F%2Frdaregistry.info%2FElements%2Fa%2FP50104%3E+%3Factivity.%7D%0A++Filter+((%3FdirectoryDate+%3E+1860)+%26%26+(%3FdirectoryDate+%3C+1870)).%0A%7D+%0AORDER+BY+ASC(%3FdirectoryDate)&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=https%3A%2F%2Frdf.geohistoricaldata.org%2Fsparql&requestMethod=POST&tabTitle=Query&headers=%7B%7D&outputFormat=rawResponse"
 
@@ -137,36 +136,10 @@ function createGeoJson(JSobject){
   }
 };
 
+
 function requestData() {
   var extract;
   var extractgroup = L.featureGroup();
-
-  var bb_filter
-  // Deal with bbox on the map
-  var tempJson = drawnItems.toGeoJSON();
-  
-  if (drawnItems.getLayers().length > 0) {
-    console.log(tempJson)
-    console.log(tempJson.features[0].geometry.coordinates)
-    console.log("Une emprise est dessinée sur la carte")
-    console.log("Coordonnées:");
-    
-    var objects = tempJson.features[0].geometry.coordinates[0];
-    var coords_str = ""
-    for (var i = 0; i < objects.length; i++){
-      if (i < objects.length-1) {
-        coords_str += objects[i][0] + ' ' + objects[i][1] + ','
-      } else {
-        coords_str += objects[i][0] + ' ' + objects[i][1]
-      }
-    }
-    console.log(coords_str)
-    bb_filter = 'FILTER (geof:sfIntersects(?geom_wkt, "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon((' + coords_str + '))"^^gsp:wktLiteral)).'
-    console.log(bb_filter)
-  } else {
-    console.log("Pas d'emprise dessinée sur la carte")
-    bb_filter = ''
-  }
 
   //Get value in form fields
   per = document.getElementById("per").value;
@@ -175,105 +148,106 @@ function requestData() {
   //Complete SPARQL query
   /// Empty inputs
   if (per.length > 0 && act.length == 0 && spat.length == 0) {
-    compquery = "FILTER ( regex(?person,'" + per + "')). "
+    compquery = "FILTER ( regex(?person,'" + per + "')) . }"
   } else if (per.length == 0 && act.length > 0 && spat.length == 0) {
-    compquery = "FILTER ( regex(?activity,'" + act + "')). "
+    compquery = "FILTER ( regex(?activity,'" + act + "')) . }"
   } else if (per.length == 0 && act.length == 0 && spat.length > 0) {
-    compquery = "FILTER ( regex(?address,'" + spat + "')). "
+    compquery = "FILTER ( regex(?address,'" + spat + "')) . }"
     // Two
   } else if (per.length > 0 && act.length > 0 && spat.length == 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
-    "regex(?activity,'" + act + "')). "
+    "regex(?activity,'" + act + "')" +
+    ") .}"
   } else if (per.length == 0 && act.length > 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?activity,'" + act + "') && " + 
-    "regex(?address,'" + spat + "')). "
+    "regex(?address,'" + spat + "')" +
+    ") .}"
   } else if (per.length > 0 && act.length == 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
-    "regex(?address,'" + spat + "')). "
+    "regex(?address,'" + spat + "')" +
+    ") .}"
     // ALL
   } else if (per.length > 0 && act.length > 0 && spat.length > 0) {
     compquery = "FILTER ( regex(?person,'" + per + "') && " + 
     "regex(?activity,'" + act + "') && " +
     "regex(?address,'" + spat + "')" +
-    ")). "
+    ") .}"
   } else if (per.length === 0 && act.length === 0 && spat.length === 0) {
-    compquery = ''
+    compquery = '} order by ASC(?directoryDate)'
   };
-  //Deal with bbox
-  compquery = compquery + bb_filter
   //Create the final query
-  finalquery = query + compquery +  '} ORDER BY DESC(?directoryDate)';
-  console.log(finalquery)
+  finalquery = query + compquery;
+
   //Create the query URL				
-  queryURL = repertoireGraphDB + "#query="+encodeURIComponent(finalquery)+"&?application/json";
+  queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
 
-  /*******************
-   ***** MAIN ********
-  ******************/
+/*******************
+ ***** MAIN ********
+ ******************/
 
-  //Initial ajax request
-  $.ajax({
-    url: queryURL,
-    Accept: "application/sparql-results+json",
-    contentType:"application/sparql-results+json",
-    dataType:"json",
-    data:''
-  }).done((promise) => {
-    // Create GeoJSON with Graph DB data
-    myVar = createGeoJson(promise)
-    console.log(myVar)
-    // Create Geojson layer for Leaflet
-    extract = L.geoJSON(myVar,{
-      onEachFeature: onEachFeature,
-      pointToLayer:pointToLayerExtract,
-      filter: function(feature, layer) {
-          return (feature.properties.directoryDate <= 1860) && (feature.properties.directoryDate >= 1880);
-          }
-    });
-
-    //Create Feature group
-    extractgroup.removeLayer(extract);
-    extract.addTo(extractgroup);
-    extractgroup.addTo(map);
-    extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-    extract.addTo(map);
-    
-    inputNumberMin.addEventListener('change', function(){
-        slidervar.noUiSlider.set([this.value, null]);
-    });
-    inputNumberMax.addEventListener('change', function(){
-        slidervar.noUiSlider.set([null, this.value]);
-    });
-    
-    //Update values on change
-    slidervar.noUiSlider.on('update', function( values, handle ) {
-        /**** Slider update */
-        //console.log(handle);
-        if (handle==0){
-            document.getElementById('input-number-min').value = values[0];
-        } else {
-            document.getElementById('input-number-max').value =  values[1];
+//Initial ajax request
+$.ajax({
+  url: queryURL,
+  Accept: "application/sparql-results+json",
+  contentType:"application/sparql-results+json",
+  dataType:"json",
+  data:''
+}).done((promise) => {
+  // Create GeoJSON with Graph DB data
+  myVar = createGeoJson(promise)
+  console.log(myVar)
+  // Create Geojson layer for Leaflet
+  extract = L.geoJSON(myVar,{
+    onEachFeature: onEachFeature,
+    pointToLayer:pointToLayerExtract,
+    filter: function(feature, layer) {
+        return (feature.properties.directoryDate <= 1860) && (feature.properties.directoryDate >= 1880);
         }
-        rangeMin = document.getElementById('input-number-min').value;
-        rangeMax = document.getElementById('input-number-max').value;
+  });
 
-        /**** Extraction layer */
-        extractgroup.removeLayer(extract);
-        //Repopulate it with filtered features
-        extract = new L.geoJson(myVar,{
-            onEachFeature: onEachFeature,
-            filter:
-                function(feature, layer) {
-                  return ((feature.properties.directoryDate <= rangeMax) && (feature.properties.directoryDate >= rangeMin))
-                },
-            pointToLayer: pointToLayerExtract
-        })
-        //and back again into the cluster group
-        extract.addTo(extractgroup);
-        extractgroup.addTo(map);
-        extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-        extract.addTo(map);
-        
+  //Create Feature group
+  extractgroup.removeLayer(extract);
+  extract.addTo(extractgroup);
+  extractgroup.addTo(map);
+  extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
+  extract.addTo(map);
+  
+  inputNumberMin.addEventListener('change', function(){
+      slidervar.noUiSlider.set([this.value, null]);
   });
+  inputNumberMax.addEventListener('change', function(){
+      slidervar.noUiSlider.set([null, this.value]);
   });
+  
+  //Update values on change
+  slidervar.noUiSlider.on('update', function( values, handle ) {
+      /**** Slider update */
+      //console.log(handle);
+      if (handle==0){
+          document.getElementById('input-number-min').value = values[0];
+      } else {
+          document.getElementById('input-number-max').value =  values[1];
+      }
+      rangeMin = document.getElementById('input-number-min').value;
+      rangeMax = document.getElementById('input-number-max').value;
+
+      /**** Extraction layer */
+      extractgroup.removeLayer(extract);
+      //Repopulate it with filtered features
+      extract = new L.geoJson(myVar,{
+          onEachFeature: onEachFeature,
+          filter:
+              function(feature, layer) {
+                return ((feature.properties.directoryDate <= rangeMax) && (feature.properties.directoryDate >= rangeMin))
+              },
+          pointToLayer: pointToLayerExtract
+      })
+      //and back again into the cluster group
+      extract.addTo(extractgroup);
+      extractgroup.addTo(map);
+      extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
+      extract.addTo(map);
+      
+});
+});
 }; 
