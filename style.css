@@ -160,6 +160,13 @@
 	background: url('images/icons/tile.png');
 }
 
+/*Leaflet draw */
+ul.leaflet-draw-actions.leaflet-draw-actions-bottom li a[title="Save changes"],
+ul.leaflet-draw-actions.leaflet-draw-actions-bottom li a[title="Cancel editing, discards all changes"] {
+    display: none;
+}
+
+
 /* Leaflet Panel Layer*/
 
 .leaflet-panel-layers-icon {
