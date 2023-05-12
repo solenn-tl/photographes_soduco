@@ -100,7 +100,7 @@ adb:numEntry a owl:DatatypeProperty;
 	rdfs:label "Entry number"@en;
 	rdfs:label "Numéro de l'entrée"@fr;
 	rdfs:range xsd:integer.
-	
+
 	
 # --- Classes copyied here to avoir imports ---
 locn:Address a owl:Class;
