@@ -27,7 +27,7 @@ if (afficherRef === true) {
     var overLayers = {
         //"Extraction - Popup":extractgroup,
         //"Extraction - Heatmap":heat,
-        "Référence":refgroup
+        "Référence (Durand et al. 2015)":refgroup
     }
     var layerControl = L.control.layers(baseLayers, overLayers).addTo(map);
 } else {
