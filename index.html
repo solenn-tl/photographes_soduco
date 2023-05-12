@@ -42,29 +42,28 @@
 
         <!--START : Controls-->
         <div id="controls">
+          <h2>Entrées extraites d'annuaires du commerce de Paris (XIXème siècle) relatives aux photographes et aux professions associées</h2>
           <h3 id="titrecontrols">Filtres</h3> 
           
         <!--#START : Advanced research panel-->
         <div id="av">
           <div class="searchtool">
             <fieldset>
-              <legend>Filtrer par propriété</legend>
-              <p><small>❓ Laissez les champs vides puis cliquez sur "Valider" pour faire une recherche sur l'intégralité du jeu de données.</small></p>
+              <legend>Propriétés</legend>
               <form id="frm1">
-                Raison sociale <br/>
-                <input type="text" name="per" id="per" placeholder="Nom"><br>
-                Activité <br/>
-                <input type="text" name="act" id="act" placeholder="Mot-clé"><br>
-                Adresse <br/>
-                <input type="text" name="spat" id="spat" placeholder="Adresse"><br>
+                <label for="per">Raison sociale</label><br>
+                <input type="text" name="per" id="per" placeholder="Ex : nadar" title="Tout ou partie d'un nom"><br>
+                <label for="act">Description</label><br>
+                <input type="text" name="act" id="act" placeholder="Ex : photo" title="Tout ou partie d'un mot-clé"><br>
+                <label for="spat">Adresse</label><br>
+                <input type="text" name="spat" id="spat" placeholder="Ex : rivoli" title="Tout ou partie d'une adresse"><br>
               </form>
             </fieldset>
           </div>
 
-          <div class="time">
+          <div id="time">
             <fieldset>
-              <legend>Filtrer par période</legend>
-              <p><small>⚠️ Pour <b>élargir</b> votre période de recherche après un chargement des données, modifiez les bornes temporelles ci-dessous et cliquez sur "Valider".</small></p>
+              <legend>Période</legend>
               <div style="margin-right: auto; margin-left: auto; width: 90%; margin-bottom: 10px; text-align: center; height:150px;">
               <input type="number" min='1857' max='1908' id="input-number-min">
               <input type="number" min='1857' max='1908' id="input-number-max">
@@ -72,8 +71,9 @@
             </fieldset>
           </div>
           
-          <div class="search">
-            <center><input type="button" onclick="requestData()" value="Valider" class="button"></center>
+          <div id="search">
+            <center><input type="button" onclick="requestData()" value="Lancer la recherche" class="button"></center>
+            <div id="loadedperiod"></div>
             <div id="message"></div>
           </div>
         <!--END : Advanced research tabber-->

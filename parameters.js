@@ -15,4 +15,4 @@ var repertoireGraphDB = "https://rdf.geohistoricaldata.org/sparql/"
 
 /* Y-a-t'il une couche de référence à afficher sur la carte ?*/
 /*Valeur de la variable afficherRef (en minuscules) : true OU false */
-var afficherRef = false
+var afficherRef = true
