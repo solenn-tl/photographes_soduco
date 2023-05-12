@@ -1,4 +1,5 @@
 var divtimeline = document.getElementById('timeline-embed')
+var divmessage = document.getElementById('message')
 
 //Event on input number
 var inputNumberMin = document.getElementById('input-number-min');
@@ -107,10 +108,12 @@ function createlinkDataSoduco(uri){
     if (timelinejson.events.length > 1){
       divtimeline.setAttribute('style', 'height:800px;');
       window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
+      message.innerHTML = '';
+      window.location.href="#ancretimeline"
     } else {
       //console.log("No timeline")
-      divtimeline.setAttribute('style', 'height:80px;');
-      divtimeline.innerHTML = '<p class="noentry">Aucune d\'entrée liée à ' + uri + '.</p>';
+      divtimeline.setAttribute('style', 'height:0px;');
+      message.innerHTML = '<p class="noentry">Aucune d\'entrée liée à ' + uri + '.</p>';
     }
    
 }); // AJAX END
@@ -221,7 +224,7 @@ function onEachFeature(feature, layer) {
       layer.on('click', function(e) {
         $('#bnfdata').empty();
         /*searchLinkedDataWithBNF(feature.properties.uri.substring(31, feature.properties.uri.length))*/
-        divtimeline.innerHTML = '<p class="noentry">Requête en cours d\'exécution : entrées liées à ' + feature.properties.person + ' (ID ' + feature.properties.index + ') <img src="./img/loading_cut.gif">.</p>';
+        message.innerHTML = '<p class="noentry">Requête en cours d\'exécution : entrées liées à ' + feature.properties.person + ' (ID ' + feature.properties.index + ') <img src="./img/loading_cut.gif">.</p>';
         createlinkDataSoduco(feature.properties.index)
       });
         

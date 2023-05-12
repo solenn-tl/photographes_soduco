@@ -40,7 +40,8 @@
   #av {
     grid-template-areas:
       "searchtool"
-      "time";
+      "time"
+      "search";
     grid-area: av;
   }
 
@@ -51,6 +52,11 @@
   
   .time { 
     grid-area: time; 
+  }
+
+  #message{
+    grid-area: message; 
+    height: fit-content;
   }
 
   .logo{
