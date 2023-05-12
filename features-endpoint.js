@@ -135,6 +135,7 @@ function createGeoJson(JSobject){
 
 
 function requestData() {
+  divtimeline.setAttribute('style', 'height:80px;');
   divtimeline.innerHTML = '<p class="noentry">Chargement <img src="./img/loading_cut.gif">.</p>';
   var extract;
   var extractgroup = L.featureGroup();
