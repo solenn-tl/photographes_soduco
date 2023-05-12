@@ -181,73 +181,73 @@ function requestData() {
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
 
-/*******************
- ***** MAIN ********
- ******************/
+  /*******************
+   ***** MAIN ********
+  ******************/
 
-//Initial ajax request
-$.ajax({
-  url: queryURL,
-  Accept: "application/sparql-results+json",
-  contentType:"application/sparql-results+json",
-  dataType:"json",
-  data:''
-}).done((promise) => {
-  // Create GeoJSON with Graph DB data
-  myVar = createGeoJson(promise)
-  console.log(myVar)
-  // Create Geojson layer for Leaflet
-  extract = L.geoJSON(myVar,{
-    onEachFeature: onEachFeature,
-    pointToLayer:pointToLayerExtract,
-    filter: function(feature, layer) {
-        return (feature.properties.directoryDate <= 1860) && (feature.properties.directoryDate >= 1880);
+  //Initial ajax request
+  $.ajax({
+    url: queryURL,
+    Accept: "application/sparql-results+json",
+    contentType:"application/sparql-results+json",
+    dataType:"json",
+    data:''
+  }).done((promise) => {
+    // Create GeoJSON with Graph DB data
+    myVar = createGeoJson(promise)
+    console.log(myVar)
+    // Create Geojson layer for Leaflet
+    extract = L.geoJSON(myVar,{
+      onEachFeature: onEachFeature,
+      pointToLayer:pointToLayerExtract,
+      filter: function(feature, layer) {
+          return (feature.properties.directoryDate <= 1860) && (feature.properties.directoryDate >= 1880);
+          }
+    });
+
+    //Create Feature group
+    extractgroup.removeLayer(extract);
+    extract.addTo(extractgroup);
+    extractgroup.addTo(map);
+    extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
+    extract.addTo(map);
+    
+    inputNumberMin.addEventListener('change', function(){
+        slidervar.noUiSlider.set([this.value, null]);
+    });
+    inputNumberMax.addEventListener('change', function(){
+        slidervar.noUiSlider.set([null, this.value]);
+    });
+    
+    //Update values on change
+    slidervar.noUiSlider.on('update', function( values, handle ) {
+        /**** Slider update */
+        //console.log(handle);
+        if (handle==0){
+            document.getElementById('input-number-min').value = values[0];
+        } else {
+            document.getElementById('input-number-max').value =  values[1];
         }
-  });
+        rangeMin = document.getElementById('input-number-min').value;
+        rangeMax = document.getElementById('input-number-max').value;
 
-  //Create Feature group
-  extractgroup.removeLayer(extract);
-  extract.addTo(extractgroup);
-  extractgroup.addTo(map);
-  extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-  extract.addTo(map);
-  
-  inputNumberMin.addEventListener('change', function(){
-      slidervar.noUiSlider.set([this.value, null]);
+        /**** Extraction layer */
+        extractgroup.removeLayer(extract);
+        //Repopulate it with filtered features
+        extract = new L.geoJson(myVar,{
+            onEachFeature: onEachFeature,
+            filter:
+                function(feature, layer) {
+                  return ((feature.properties.directoryDate <= rangeMax) && (feature.properties.directoryDate >= rangeMin))
+                },
+            pointToLayer: pointToLayerExtract
+        })
+        //and back again into the cluster group
+        extract.addTo(extractgroup);
+        extractgroup.addTo(map);
+        extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
+        extract.addTo(map);
+        
   });
-  inputNumberMax.addEventListener('change', function(){
-      slidervar.noUiSlider.set([null, this.value]);
   });
-  
-  //Update values on change
-  slidervar.noUiSlider.on('update', function( values, handle ) {
-      /**** Slider update */
-      //console.log(handle);
-      if (handle==0){
-          document.getElementById('input-number-min').value = values[0];
-      } else {
-          document.getElementById('input-number-max').value =  values[1];
-      }
-      rangeMin = document.getElementById('input-number-min').value;
-      rangeMax = document.getElementById('input-number-max').value;
-
-      /**** Extraction layer */
-      extractgroup.removeLayer(extract);
-      //Repopulate it with filtered features
-      extract = new L.geoJson(myVar,{
-          onEachFeature: onEachFeature,
-          filter:
-              function(feature, layer) {
-                return ((feature.properties.directoryDate <= rangeMax) && (feature.properties.directoryDate >= rangeMin))
-              },
-          pointToLayer: pointToLayerExtract
-      })
-      //and back again into the cluster group
-      extract.addTo(extractgroup);
-      extractgroup.addTo(map);
-      extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-      extract.addTo(map);
-      
-});
-});
 }; 
