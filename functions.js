@@ -1,3 +1,5 @@
+var divtimeline = document.getElementById('timeline-embed')
+
 function createlinkDataSoduco(uri){
    console.log(uri)
     /*
@@ -52,8 +54,6 @@ function createlinkDataSoduco(uri){
       initial_zoom: 0
       }
 
-    var divtimeline = document.getElementById('timeline-embed')
-
     $.ajax({
       url: queryURL2,
       Accept: "application/sparql-results+json",
@@ -65,7 +65,6 @@ function createlinkDataSoduco(uri){
       //Init geojson
       console.log(promise)
       //INIT TimelineJson END
-      divtimeline.innerHTML = "<p>Chargement...</p>";
       //Iter on features
       $.each(promise.results.bindings, function(i,bindings){
     
@@ -104,7 +103,7 @@ function createlinkDataSoduco(uri){
       window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
     } else {
       console.log("No timeline")
-      divtimeline.innerHTML = '<p class="noentry">Pas d\'entrées liées.</p>';
+      divtimeline.innerHTML = '<p class="noentry">Aucune d\'entrée liée à ' + uri + '.</p>';
     }
    
 }); // AJAX END
@@ -215,6 +214,7 @@ function onEachFeature(feature, layer) {
       layer.on('click', function(e) {
         $('#bnfdata').empty();
         /*searchLinkedDataWithBNF(feature.properties.uri.substring(31, feature.properties.uri.length))*/
+        divtimeline.innerHTML = '<p class="noentry">Requête en cours d\'exécution : entrées liées à ' + feature.properties.person + ' (ID ' + feature.properties.index + ') <img src="./img/loading_cut.gif">.</p>';
         createlinkDataSoduco(feature.properties.index)
       });
         
