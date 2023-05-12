@@ -136,6 +136,7 @@ function createGeoJson(JSobject){
 
 function requestData() {
   divtimeline.setAttribute('style', 'height:0px;');
+  
   message.innerHTML = '<p class="noentry">Chargement <img src="./img/loading_cut.gif"></p>';
   var extract;
   var extractgroup = L.featureGroup();
@@ -209,8 +210,8 @@ $.ajax({
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
 
+  document.getElementById('loadedperiod').innerHTML = '<p>Données chargées pour la période ' + inputNumberMin.value + '-' + inputNumberMax.value + '.</p>'
   message.innerHTML = ''
-
   extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
   extract.addTo(map);
 
