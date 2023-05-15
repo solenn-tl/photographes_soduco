@@ -61,6 +61,11 @@ h3{
   
   #time { 
     grid-area: time; 
+    height: fit-content;
+  }
+
+  #loadedperiod {
+    height: fit-content;
   }
 
   #message{
