@@ -7,12 +7,4 @@
 
 var repertoireGraphDB = "https://rdf.geohistoricaldata.org/sparql/"
 
-/***********************************************************************
- * **************** Affichage d'une couche de référence ****************
- * *********************************************************************/
-
-/*Le fichier de référence proposé dans features-ref.js concerne uniquement les photographes. Le geojson associé se trouve dans data.*/
-
-/* Y-a-t'il une couche de référence à afficher sur la carte ?*/
-/*Valeur de la variable afficherRef (en minuscules) : true OU false */
-var afficherRef = true
+var createclusters = true

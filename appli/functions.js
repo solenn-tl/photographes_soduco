@@ -100,7 +100,7 @@ function createlinkDataSoduco(uri){
         timelinejson.events.push(feature);
         });
 
-      console.log(timelinejson)
+      //console.log(timelinejson)
         
   }).done((promise) => {
     //console.log("####");
@@ -109,7 +109,7 @@ function createlinkDataSoduco(uri){
       divtimeline.setAttribute('style', 'height:800px;');
       window.timeline = new TL.Timeline('timeline-embed', timelinejson, options);
       message.innerHTML = '';
-      window.location.href="#ancretimeline"
+      //window.location.href="#ancretimeline"
     } else {
       //console.log("No timeline")
       divtimeline.setAttribute('style', 'height:0px;');
@@ -123,7 +123,7 @@ function createlinkDataSoduco(uri){
 
 /////////// Search link with BNF data //////
 
-/*
+
 async function searchLinkedDataWithBNF(uri) {
 
   var query3 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
@@ -132,11 +132,9 @@ async function searchLinkedDataWithBNF(uri) {
       "PREFIX gsp: <http://www.opengis.net/ont/geosparql#>"+
       "PREFIX foaf: <http://xmlns.com/foaf/0.1/>"+
       "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"+
-      "select distinct * where { <http://data.soduco.fr/id/entry/" + uri + "> owl:sameAs ?bnf." +
-      " ?bnf a foaf:Person;" +
-      " skos:prefLabel ?name ." +
-      " FILTER (contains(STR(?bnf),'bnf'))" +
-      "} group by ?bnf ?name order by ?name";
+      "SELECT DISTINCT * where { <http://rdf.geohistoricaldata.org/id/directories/entry/" + uri + "> owl:sameAs ?bnf." +
+      " FILTER (regex(STR(?uri),'bnf'))" +
+      "} group by ?uri";
 
   var queryURL3 = repertoireGraphDB + "?query="+encodeURIComponent(query3)+"&?application/json"
   var html = document.getElementById('bnfdata')
@@ -158,7 +156,7 @@ async function searchLinkedDataWithBNF(uri) {
   });
 
 };
-*/
+
 /*******************
  * Style functions *
  *******************/
@@ -167,15 +165,21 @@ async function searchLinkedDataWithBNF(uri) {
 
 function pointToLayerExtract(feature,latlng) {
     //Create markers of the 'extractions' layer
-    return L.circleMarker(latlng, {
-        radius:6,
+    return L.marker(latlng, 
+      {icon: L.divIcon({ html: '', 
+                        className:'clusters', 
+                        iconSize: new L.point(12.5,12.5)})
+  });
+
+    /*return L.circleMarker(latlng, {
+        radius:5,
         //fillColor: getColor(feature.properties.has_photo,feature.properties.has_daguer,feature.properties.has_opti),
         fillColor:' #0351f9',
         color: "#ffffff",
         weight: 1,
         opacity: 1,
         fillOpacity: 1
-    });
+    });*/
 }
 
 /// Reference layer

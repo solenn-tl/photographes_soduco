@@ -17,6 +17,49 @@
     <!--Leaflet Full Screen-->
     <link rel="stylesheet" href="./libs/leaflet.fullscreen-master/Control.FullScreen.css"/>
     <script src="./libs/leaflet.fullscreen-master/Control.FullScreen.js"></script>
+    <!--Leaflet.draw-->
+    <script src="./libs/leaflet_draw/src/Leaflet.draw.js"></script>
+    <script src="./libs/leaflet_draw/src/Leaflet.Draw.Event.js"></script>
+    <link rel="stylesheet" href="./libs/leaflet_draw/src/leaflet.draw.css"/>
+
+    <script src="./libs/leaflet_draw/src/Toolbar.js"></script>
+    <script src="./libs/leaflet_draw/src/Tooltip.js"></script>
+
+    <script src="./libs/leaflet_draw/src/ext/GeometryUtil.js"></script>
+    <script src="./libs/leaflet_draw/src/ext/LatLngUtil.js"></script>
+    <script src="./libs/leaflet_draw/src/ext/LineUtil.Intersect.js"></script>
+    <script src="./libs/leaflet_draw/src/ext/Polygon.Intersect.js"></script>
+    <script src="./libs/leaflet_draw/src/ext/Polyline.Intersect.js"></script>
+    <script src="./libs/leaflet_draw/src/ext/TouchEvents.js"></script>
+
+    <script src="./libs/leaflet_draw/src/draw/DrawToolbar.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Feature.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.SimpleShape.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Polyline.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Marker.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Circle.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.CircleMarker.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Polygon.js"></script>
+    <script src="./libs/leaflet_draw/src/draw/handler/Draw.Rectangle.js"></script>
+
+
+    <script src="./libs/leaflet_draw/src/edit/EditToolbar.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/EditToolbar.Edit.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/EditToolbar.Delete.js"></script>
+
+    <script src="./libs/leaflet_draw/src/Control.Draw.js"></script>
+
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Poly.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.SimpleShape.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Rectangle.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Marker.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.CircleMarker.js"></script>
+    <script src="./libs/leaflet_draw/src/edit/handler/Edit.Circle.js"></script>
+    <!--Leaflet clusters-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/MarkerCluster.Default.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
     <!--Control Panel-->
     <link rel="stylesheet" href="./libs/leaflet-panel-layers/src/leaflet-panel-layers.css">
     <script src="./libs/leaflet-panel-layers/src/leaflet-panel-layers.js"></script>
@@ -64,28 +107,35 @@
           <div id="time">
             <fieldset>
               <legend>Période</legend>
-              <div style="margin-right: auto; margin-left: auto; width: 90%; margin-bottom: 10px; text-align: center; height:150px;">
+              <div style="margin-right: auto; margin-left: auto; width: 95%; margin-bottom: 10px; text-align: center; height:220px;">
               <input type="number" min='1857' max='1908' id="input-number-min">
               <input type="number" min='1857' max='1908' id="input-number-max">
-              <div id="slider" style="top: 0px; right: 1px; margin: 10px 25px;"></div>
+              <div id="slider" style="top: 0px; right: 1px; margin: 10px 20px;"></div><br>
+              <p id="loadedperiod" style="text-align: justify;"><small>❓ Le filtre temporel permet de faire varier l'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</small></p>
             </fieldset>
           </div>
-          
+
+          <div id="spatialfilter">
+            <fieldset>
+              <legend>Localisation</legend>
+              <p><small>Dessinez l'emprise de votre zone de recherche avec l'outil de dessin disponible sur la carte.</small></p>
+            </fieldset>
+          </div>
+    
           <div id="search">
             <center><input type="button" onclick="requestData()" value="Lancer la recherche" class="button"></center>
-            <div id="loadedperiod"></div>
             <div id="message"></div>
           </div>
         <!--END : Advanced research tabber-->
       </div>
     </div>
   </div>
-  <!--
+  
   <div id="linkeddata">
     <p>Ressources associées sur Data BNF</p>
     <div id="bnfdata"></div>
   </div>
-  -->
+  
   <div id='timeline-embed' style="height:0px"></div>
   <div id="ancretimeline"></div>
 
@@ -93,6 +143,7 @@
   </article>
   </body>
   <script src="parameters.js"></script>
+  <script src="draw.js"></script>
   <script src="anim.js"></script>
   <script src="tile.js"></script>
   <script src="functions.js"></script>
