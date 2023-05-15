@@ -163,10 +163,10 @@ function requestData() {
     //console.log("Pas d'emprise dessinée sur la carte")
     bb_filter = ''
   }
-  
+  var extractgroup;
   var extract;
   if (createclusters == true){
-    var extractgroup = L.markerClusterGroup({
+    extractgroup = L.markerClusterGroup({
       showCoverageOnHover: false,
       removeOutsideVisibleBounds:false,
       maxClusterRadius:1,
@@ -177,7 +177,7 @@ function requestData() {
       spiderLegPolylineOptions:{ weight: 2, color: '#222', opacity: 0.9 }
     });
   } else {
-    var extractgroup = L.featureGroup();
+    extractgroup = L.featureGroup();
   }
   
   //Get value in form fields
@@ -237,6 +237,7 @@ $.ajax({
   myVar = createGeoJson(promise)
   //console.log(myVar)
   // Create Geojson layer for Leaflet
+  extract = '';
   extract = L.geoJSON(myVar,{
     onEachFeature: onEachFeature,
     pointToLayer:pointToLayerExtract,
@@ -250,7 +251,7 @@ $.ajax({
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
 
-  document.getElementById('loadedperiod').innerHTML = '<p style="text-align: justify; height: fit-content;"><small>❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</small><br><small>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</small>'
+  document.getElementById('loadedperiod').innerHTML = '<p style="text-align: right; height: fit-content;">❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</br>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</p>'
   message.innerHTML = ''
 
   inputNumberMin.addEventListener('change', function(){

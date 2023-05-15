@@ -6,7 +6,7 @@ var inputNumberMin = document.getElementById('input-number-min');
 var inputNumberMax = document.getElementById('input-number-max');
 
 function createlinkDataSoduco(uri){
-   console.log(uri)
+   //console.log(uri)
     /*
     var query2 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
       "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
@@ -48,10 +48,10 @@ function createlinkDataSoduco(uri){
       "} GROUP BY ?uri ?index ?person ?address ?directoryName ?directoryDate"+
       " ORDER BY ASC(?index) ASC(?directoryDate)"
       
-    console.log(query2)
+    //console.log(query2)
     var queryURL2 = repertoireGraphDB + "?query="+encodeURIComponent(query2)+"&?outputFormat=rawResponse";
 
-    console.log(queryURL2)
+    //console.log(queryURL2)
     var timelinejson = {"title": {"text":{"headline":'Données liées'}}, "events": []}
 
     var options = {
@@ -124,7 +124,7 @@ function createlinkDataSoduco(uri){
 /////////// Search link with BNF data //////
 
 
-async function searchLinkedDataWithBNF(uri) {
+async function searchLinkedDataWithBNF(id) {
 
   var query3 = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
       "PREFIX adb: <http://data.soduco.fr/def/annuaire#>"+
@@ -132,7 +132,7 @@ async function searchLinkedDataWithBNF(uri) {
       "PREFIX gsp: <http://www.opengis.net/ont/geosparql#>"+
       "PREFIX foaf: <http://xmlns.com/foaf/0.1/>"+
       "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"+
-      "SELECT DISTINCT * where { <http://rdf.geohistoricaldata.org/id/directories/entry/" + uri + "> owl:sameAs ?bnf." +
+      "SELECT DISTINCT * where { <http://rdf.geohistoricaldata.org/id/directories/entry/" + id + "> owl:sameAs ?uri." +
       " FILTER (regex(?uri,'bnf'))" +
       "}";
   console.log(query3)
@@ -148,10 +148,12 @@ async function searchLinkedDataWithBNF(uri) {
     if (promise.results.bindings.length > 0){
       $.each(promise.results.bindings, function(i,bindings){
         //console.log(uri,bindings.bnf.value,bindings.name.value)
-        html.innerHTML = '<p><a href="' + bindings.bnf.value + '" target="_blank">' + bindings.name.value + '</a></p>'
+        html.innerHTML = '<p id="bnfdata" style="height:fit-content;"><a href="' + bindings.uri.value + '" target="_blank">Voir les ressources associées sur data.bnf.fr</a></p>'
+        console.log("Données liées : ")
       });
     } else {
-      html.innerHTML = '<p><i>Pas de ressources identifiées.</i></p>'
+      html.innerHTML = '<p id="bnfdata" style="height:fit-content;"></p>'
+      console.log('Pas de ressources externes associées.')
     }
   });
 
@@ -215,7 +217,7 @@ function onEachFeature(feature, layer) {
         texte = '<h4>'+ feature.properties.person +'</h4>'+
         '<p><b>Adresse (annuaire)</b> : ' + feature.properties.addresses + '<br>'+ 
         '<b>Adresse (géocodeur)</b> : ' + feature.properties.addresses_geocoding + '<br>';
-        if (feature.properties.activity){
+        if (feature.properties.activities){
             texte += '<b>Activité</b> : ' + feature.properties.activities + '<br>';
         };
         texte += '<b>Année de publication</b> : ' + feature.properties.directoryDate + '<br>'+
@@ -226,9 +228,11 @@ function onEachFeature(feature, layer) {
 
       //Search link data with BNF ressources
       layer.on('click', function(e) {
+        //Search external resources
         $('#bnfdata').empty();
-        searchLinkedDataWithBNF(feature.properties.uri)
+        searchLinkedDataWithBNF(feature.properties.index)
         message.innerHTML = '<p class="noentry">Requête en cours d\'exécution : entrées liées à ' + feature.properties.person + ' (ID ' + feature.properties.index + ') <img src="./img/loading_cut.gif">.</p>';
+        //Create timeline
         createlinkDataSoduco(feature.properties.index)
       });
         
