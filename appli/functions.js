@@ -133,9 +133,9 @@ async function searchLinkedDataWithBNF(uri) {
       "PREFIX foaf: <http://xmlns.com/foaf/0.1/>"+
       "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"+
       "SELECT DISTINCT * where { <http://rdf.geohistoricaldata.org/id/directories/entry/" + uri + "> owl:sameAs ?bnf." +
-      " FILTER (regex(STR(?uri),'bnf'))" +
-      "} group by ?uri";
-
+      " FILTER (regex(?uri,'bnf'))" +
+      "}";
+  console.log(query3)
   var queryURL3 = repertoireGraphDB + "?query="+encodeURIComponent(query3)+"&?application/json"
   var html = document.getElementById('bnfdata')
  $.ajax({
@@ -227,7 +227,7 @@ function onEachFeature(feature, layer) {
       //Search link data with BNF ressources
       layer.on('click', function(e) {
         $('#bnfdata').empty();
-        /*searchLinkedDataWithBNF(feature.properties.uri.substring(31, feature.properties.uri.length))*/
+        searchLinkedDataWithBNF(feature.properties.uri)
         message.innerHTML = '<p class="noentry">Requête en cours d\'exécution : entrées liées à ' + feature.properties.person + ' (ID ' + feature.properties.index + ') <img src="./img/loading_cut.gif">.</p>';
         createlinkDataSoduco(feature.properties.index)
       });

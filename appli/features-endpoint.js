@@ -129,7 +129,7 @@ function createGeoJson(JSobject){
   if (geojson['features'].length == 0) {
     alert('Pas de données correspondant à cette recherche.')
   } else {
-    console.log(geojson['features'].length)
+    //console.log(geojson['features'].length)
     return geojson
   }
 };
@@ -145,10 +145,9 @@ function requestData() {
   var tempJson = drawnItems.toGeoJSON();
   
   if (drawnItems.getLayers().length > 0) {
-    console.log(tempJson)
-    console.log(tempJson.features[0].geometry.coordinates)
-    console.log("Une emprise est dessinée sur la carte")
-    console.log("Coordonnées:");
+    //console.log(tempJson)
+    //console.log(tempJson.features[0].geometry.coordinates)
+    //console.log("Une emprise est dessinée sur la carte")
     
     var objects = tempJson.features[0].geometry.coordinates[0];
     var coords_str = ""
@@ -161,7 +160,7 @@ function requestData() {
     }
     bb_filter = 'FILTER (geof:sfIntersects(?geom_wkt, "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon((' + coords_str + '))"^^gsp:wktLiteral)).'
   } else {
-    console.log("Pas d'emprise dessinée sur la carte")
+    //console.log("Pas d'emprise dessinée sur la carte")
     bb_filter = ''
   }
   
@@ -218,7 +217,7 @@ function requestData() {
   periodfilter = 'FILTER ((?directoryDate > '+ inputNumberMin.value +') && (?directoryDate < ' + inputNumberMax.value + ')). '
   //Create the final query
   finalquery = query + compquery + periodfilter + bb_filter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY DESC(?directoryDate)';
-  console.log(finalquery)
+  //console.log(finalquery)
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
 
@@ -251,7 +250,7 @@ $.ajax({
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
 
-  document.getElementById('loadedperiod').innerHTML = '<p><small>❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</small><br><small>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</small>'
+  document.getElementById('loadedperiod').innerHTML = '<p style="text-align: justify; height: fit-content;"><small>❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</small><br><small>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</small>'
   message.innerHTML = ''
 
   inputNumberMin.addEventListener('change', function(){
