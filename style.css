@@ -91,9 +91,9 @@ h3{
     grid-area:bnfdata;
     background-color: antiquewhite;
     width: 100%;
-    height: 120px;
+    height: 30px;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
   }
