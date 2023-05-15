@@ -251,7 +251,7 @@ $.ajax({
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
 
-  document.getElementById('loadedperiod').innerHTML = '<p style="text-align: right; height: fit-content;">❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</br>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</p>'
+  document.getElementById('loadedperiod').innerHTML = '<p style="text-align: center; height: fit-content;">❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</br>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</p>'
   message.innerHTML = ''
 
   inputNumberMin.addEventListener('change', function(){
