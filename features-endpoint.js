@@ -29,6 +29,7 @@ var query = "PREFIX adb: <http://data.soduco.fr/def/annuaire#> "+
 "PREFIX pav: <http://purl.org/pav/> "+
 "PREFIX locn: <http://www.w3.org/ns/locn#> "+
 "PREFIX gsp: <http://www.opengis.net/ont/geosparql#> "+
+"PREFIX geof: <http://www.opengis.net/def/function/geosparql/>"+
 'SELECT distinct ?uri ?index ?person (GROUP_CONCAT(DISTINCT ?activity ; SEPARATOR=" |||et||| ") as ?activities) (GROUP_CONCAT(DISTINCT ?address ; SEPARATOR=" |||et||| ") as ?addresses) (GROUP_CONCAT(DISTINCT ?address_geocoding ; SEPARATOR=" |||et||| ") as ?addresses_geocoding) ?geom_wkt ?directoryName ?directoryDate '+
 "WHERE { "+
 "?uri a ont:Entry."+
@@ -58,7 +59,7 @@ let finalquery = query + '}'
 
 var myVar;
 var extract;
-var extractgroup = L.featureGroup();
+var extractgroup;
 
 /*****************************************
 **************** Slider  *****************
@@ -135,12 +136,51 @@ function createGeoJson(JSobject){
 
 
 function requestData() {
-  divtimeline.setAttribute('style', 'height:0px;');
-  
-  message.innerHTML = '<p class="noentry">Chargement <img src="./img/loading_cut.gif"></p>';
-  var extract;
-  var extractgroup = L.featureGroup();
 
+  divtimeline.setAttribute('style', 'height:0px;');
+  message.innerHTML = '<p class="noentry">Chargement <img src="./img/loading_cut.gif"></p>';
+  
+  var bb_filter
+  // Deal with bbox on the map
+  var tempJson = drawnItems.toGeoJSON();
+  
+  if (drawnItems.getLayers().length > 0) {
+    console.log(tempJson)
+    console.log(tempJson.features[0].geometry.coordinates)
+    console.log("Une emprise est dessinée sur la carte")
+    console.log("Coordonnées:");
+    
+    var objects = tempJson.features[0].geometry.coordinates[0];
+    var coords_str = ""
+    for (var i = 0; i < objects.length; i++){
+      if (i < objects.length-1) {
+        coords_str += objects[i][0] + ' ' + objects[i][1] + ','
+      } else {
+        coords_str += objects[i][0] + ' ' + objects[i][1]
+      }
+    }
+    bb_filter = 'FILTER (geof:sfIntersects(?geom_wkt, "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon((' + coords_str + '))"^^gsp:wktLiteral)).'
+  } else {
+    console.log("Pas d'emprise dessinée sur la carte")
+    bb_filter = ''
+  }
+  
+  var extract;
+  if (createclusters == true){
+    var extractgroup = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      removeOutsideVisibleBounds:false,
+      maxClusterRadius:1,
+      chunkedLoading:true,
+      iconCreateFunction: function(cluster) {
+        return L.divIcon({ html: '', className:'clusters', iconSize: L.point(12.5,12.5)}) //L.featureGroup();
+        },
+      spiderLegPolylineOptions:{ weight: 2, color: '#222', opacity: 0.9 }
+    });
+  } else {
+    var extractgroup = L.featureGroup();
+  }
+  
   //Get value in form fields
   per = document.getElementById("per").value;
   act = document.getElementById("act").value;
@@ -177,7 +217,8 @@ function requestData() {
   };
   periodfilter = 'FILTER ((?directoryDate > '+ inputNumberMin.value +') && (?directoryDate < ' + inputNumberMax.value + ')). '
   //Create the final query
-  finalquery = query + compquery + periodfilter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY ASC(?directoryDate)';
+  finalquery = query + compquery + periodfilter + bb_filter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY DESC(?directoryDate)';
+  console.log(finalquery)
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
 
@@ -210,11 +251,8 @@ $.ajax({
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
 
-  document.getElementById('loadedperiod').innerHTML = '<p>Données chargées pour la période ' + inputNumberMin.value + '-' + inputNumberMax.value + '.</p>'
+  document.getElementById('loadedperiod').innerHTML = '<p><small>❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</small><br><small>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</small>'
   message.innerHTML = ''
-  extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-  extract.addTo(map);
-
 
   inputNumberMin.addEventListener('change', function(){
       slidervar.noUiSlider.set([this.value, null]);
@@ -248,9 +286,6 @@ $.ajax({
       })
       //and back again into the cluster group
       extract.addTo(extractgroup);
-      extractgroup.addTo(map);
-      extract.getAttribution = function() { return "Dataset <i>Photographes</i>' SoDUCo"; };
-      extract.addTo(map);
       
 });
 });

@@ -12,10 +12,65 @@ var map = L.map('map',{
 
 L.control.scale().addTo(map);
 
+ /************************************
+ ************* Draw layer ************
+ * https://github.com/Leaflet/Leaflet.draw/issues/315
+ *************************************/
+
+// FeatureGroup is to store editable layers
+// Initialise the FeatureGroup to store editable layers
+map.addLayer(drawnItems);
+
+self.drawControlFull = new L.Control.Draw({
+    draw: {
+        marker: false,
+        polyline: false,
+        circlemarker:false,
+        circle:false
+    },
+});
+
+self.drawControlEdit = new L.Control.Draw({
+  edit: {
+    featureGroup: drawnItems,
+    edit: false,
+    save:false
+  },
+  draw: false
+});
+map.addControl(drawControlFull);
+
+map.on('draw:created', function(e) {
+  var type = e.layerType,
+    layer = e.layer;
+  
+	self.drawControlFull.remove();
+	self.drawControlEdit.addTo(map);
+  
+  drawnItems.addLayer(layer);
+  map.fitBounds(drawnItems.getBounds());
+});
+
+map.on('draw:deleted', function (e) {
+	self.drawControlEdit.remove();
+	self.drawControlFull.addTo(map);
+});
+
+map.on(L.Draw.Event.CREATED, function (e) {
+    //console.clear();
+    var type = e.layerType
+    var layer = e.layer;
+    
+    // Do whatever else you need to. (save to db, add to map etc)
+    
+    drawnItems.addLayer(layer);
+    
+  });
+
 /**************************************
  *********** Layer control ************
  *************************************/
- 
+
  var baseLayers = {
     "Jacoubet (1836)":wmsJacoubet,
     "Andriveau (1849)":wmsAndriveau,
@@ -23,16 +78,14 @@ L.control.scale().addTo(map);
     "Plan IGN (2022)":GeoportailFrance_plan
 }
 
-if (afficherRef === true) {
-    var overLayers = {
-        //"Extraction - Popup":extractgroup,
-        //"Extraction - Heatmap":heat,
-        "Référence":refgroup
-    }
-    var layerControl = L.control.layers(baseLayers, overLayers).addTo(map);
-} else {
-    var layerControl = L.control.layers(baseLayers).addTo(map);
+var overLayers = {
+    "Sélection spatiale":drawnItems,
+    "Référence - Durand et Al. (2015)":refgroup,
 }
+
+var layerControl = L.control.layers(baseLayers, overLayers,{
+        collapsed:true,
+    }).addTo(map);
 
 /**************************************
  **************** Logo ****************

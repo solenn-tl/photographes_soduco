@@ -51,6 +51,7 @@ h3{
       "time"
       "search";
     grid-area: av;
+    margin-bottom: 15px;
   }
 
   #content {
@@ -107,8 +108,19 @@ h3{
 }
 
 .noentry{
-  font-size: large;
   text-align: center;
+}
+
+.clusters{
+  display: block;
+  padding: 1px;
+  text-align: center;
+  background-color: #0351f9;
+  font-size: smaller;
+  font-weight: bold;
+  color:#fff;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
 }
 
 /*Button style*/
@@ -197,6 +209,12 @@ h3{
   /* outline radius for mozilla/firefox only */
   -moz-box-shadow:0 0 10px #000;
   -webkit-box-shadow:0 0 10px #000;
+}
+
+/*Leaflet draw */
+ul.leaflet-draw-actions.leaflet-draw-actions-bottom li a[title="Save changes"],
+ul.leaflet-draw-actions.leaflet-draw-actions-bottom li a[title="Cancel editing, discards all changes"] {
+    display: none;
 }
 
 /******************************** SMALL SCREEN CSS **********************************/
