@@ -211,21 +211,24 @@ function iconByName(name) {
  *** Pop Up *****
  ****************/
 
+ function popUpDirectories(feature, layer) {
+  texte = '<h4>'+ feature.properties.person +'</h4>'+
+  '<p><b>Adresse (annuaire)</b> : ' + feature.properties.addresses + '<br>'+ 
+  '<b>Adresse (géocodeur)</b> : ' + feature.properties.addresses_geocoding + '<br>';
+  if (feature.properties.activities){
+      texte += '<b>Activité</b> : ' + feature.properties.activities + '<br>';
+  };
+  texte += '<b>Année de publication</b> : ' + feature.properties.directoryDate + '<br>'+
+  '<b>Annuaire</b> : ' + feature.properties.directoryName + '</br>'+
+  "<b>Identifiant de l'entrée </b> : " + feature.properties.index + '</br></p>';
+  layer.bindPopup(texte);
+  //createlinkDataSoduco(feature.properties.index);
+}
+
 function onEachFeature(feature, layer) {
     if (feature.properties.uri) {
       // Pop-up content for directories data in extraction layer
-        texte = '<h4>'+ feature.properties.person +'</h4>'+
-        '<p><b>Adresse (annuaire)</b> : ' + feature.properties.addresses + '<br>'+ 
-        '<b>Adresse (géocodeur)</b> : ' + feature.properties.addresses_geocoding + '<br>';
-        if (feature.properties.activities){
-            texte += '<b>Activité</b> : ' + feature.properties.activities + '<br>';
-        };
-        texte += '<b>Année de publication</b> : ' + feature.properties.directoryDate + '<br>'+
-        '<b>Annuaire</b> : ' + feature.properties.directoryName + '</br>'+
-        "<b>Identifiant de l'entrée </b> : " + feature.properties.index + '</br></p>';
-        //Affichage de la pop-up
-        layer.bindPopup(texte);
-
+        popUpDirectories(feature, layer)
       //Search link data with BNF ressources
       layer.on('click', function(e) {
         //Search external resources
@@ -255,3 +258,54 @@ function onEachFeature(feature, layer) {
     };
 
 };
+
+function openPopUp(id, clusterId){
+  map.closePopup(); //which will close all popups
+  map.eachLayer(function(layer){     //iterate over map layer
+      if (layer._leaflet_id == clusterId){         // if layer is markerCluster
+          layer.spiderfy(); //spiederfies our cluster
+      }
+  });
+  map.eachLayer(function(layer){     //iterate over map rather than clusters
+      if (layer._leaflet_id == id){         // if layer is marker
+          layer.openPopup();
+      }
+  });
+}
+
+function sortTable() {
+  //src : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_table_number
+
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("popuptable");
+  switching = true;
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[0];
+      y = rows[i + 1].getElementsByTagName("TD")[0];
+      //check if the two rows should switch place:
+      if (Number(x.innerHTML) > Number(y.innerHTML)) {
+        //if so, mark as a switch and break the loop:
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
