@@ -165,10 +165,13 @@ function requestData() {
   }
   var extractgroup;
   var extract;
+  
   if (createclusters == true){
     extractgroup = L.markerClusterGroup({
+      spiderfyOnMaxZoom: false,
       showCoverageOnHover: false,
       removeOutsideVisibleBounds:false,
+      zoomToBoundsOnClick: true,
       maxClusterRadius:1,
       chunkedLoading:true,
       iconCreateFunction: function(cluster) {
@@ -216,7 +219,7 @@ function requestData() {
   };
   periodfilter = 'FILTER ((?directoryDate > '+ inputNumberMin.value +') && (?directoryDate < ' + inputNumberMax.value + ')). '
   //Create the final query
-  finalquery = query + compquery + periodfilter + bb_filter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY DESC(?directoryDate)';
+  finalquery = query + compquery + periodfilter + bb_filter + '} GROUP BY ?uri ?index ?person ?geom_wkt ?directoryName ?directoryDate ORDER BY ASC(?directoryDate)';
   //console.log(finalquery)
   //Create the query URL				
   queryURL = repertoireGraphDB + "?query="+encodeURIComponent(finalquery)+"&?application/json";
@@ -250,6 +253,28 @@ $.ajax({
   extractgroup.removeLayer(extract);
   extract.addTo(extractgroup);
   extractgroup.addTo(map);
+
+  extractgroup.on('clusterclick', function(a){
+    if(a.layer._zoom == 18){
+    popUpText = '<table id="popuptable">'+
+                  '<tr>'+
+                    '<th>Raison sociale</th>'+
+                    '<th>Source</th>'+
+                    '<th>Année</th>'
+                  '</tr>';
+    //there are many markers inside "a". to be exact: a.layer._childCount much ;-)
+    //let's work with the data:
+    for (feat in a.layer._markers){
+        var line = '<u onclick=openPopUp(' + a.layer._markers[feat]._leaflet_id + ','+ a.layer._leaflet_id +');createlinkDataSoduco('+ a.layer._markers[feat].feature.properties['index'] +')>' + a.layer._markers[feat].feature.properties['person'] + '</u>';
+        popUpText+= "<tr><td>"+line+"</td>"+
+                    "<td>"+a.layer._markers[feat].feature.properties['directoryName']+"</td>"+
+                    "<td>"+a.layer._markers[feat].feature.properties['directoryDate']+"</td></tr>"
+      }
+    popUpText +='</table>';
+    //as we have the content, we should add the popup to the map add the coordinate that is inherent in the cluster:
+    var popup = L.popup().setLatLng([a.layer._cLatLng.lat, a.layer._cLatLng.lng]).setContent(popUpText).openOn(map); 
+  }
+  })
 
   document.getElementById('loadedperiod').innerHTML = '<p style="text-align: center; height: fit-content;">❓ Le filtre temporel permet de faire varier l\'affichage des points préalablement chargés sur la carte sans lancer une nouvelle recherche.</br>Données chargées pour la période <b>' + inputNumberMin.value + '</b>-<b>' + inputNumberMax.value + '</b>.</p>'
   message.innerHTML = ''
