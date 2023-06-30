@@ -1,5 +1,7 @@
 # Construction d'un graphe géohistorique à partir des annuaires du commerce parisien du 19e siècle : application aux photographes
 
+**Ce dépôt est un dépôt de travail, la [version finalisée, présentée lors de la conférence IC 2023, se trouve ICI](https://github.com/soduco/ic_2023_photographes_parisiens)**
+
 La chaîne de traitement proposée dans le projet SoDuCo pour construire un graphe de connaissances géohistorique à partir des annuaires du commerces parisien du 19e siècle débute par l'extraction du texte des annuaires (4.2) et la reconnaissance des entités nommées (4.3) au sein des entrées. Les approches proposées pour réaliser ces deux étapes sont décrites en détails dans ([Abadie et Al (2022)](https://github.com/soduco/paper-ner-bench-das22)).
 
 La figure ci-dessous décrit les étapes de sélection et représentation des entrées en RDF (4.4), de liage des entrées (4.5) de géocodage (4.6) et de visualisation (5.2), mise en oeuvre à partir de la base de données des entrées d'annuaires.
